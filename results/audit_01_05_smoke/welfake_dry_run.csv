@@ -1,0 +1,4 @@
+removal_scenario,original_welfake,removed,remaining_welfake
+WELFake minus ISOT,2914,170,2744
+WELFake minus McIntire,2914,206,2708
+WELFake minus ISOT and McIntire union,2914,376,2538

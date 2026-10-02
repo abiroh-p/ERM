@@ -1,0 +1,4 @@
+dataset,n_raw,dropped_short_or_empty,exact_dup_groups_with_label_conflict,dropped_docs_in_conflicting_groups,dropped_exact_duplicates,near_pairs_primary,near_pairs_sensitivity_only,near_dup_clusters_size_ge2,docs_in_near_dup_clusters,largest_cluster,near_dup_clusters_with_label_conflict,n_clean
+ISOT,44898,1106,0,0,5762,348,1524,245,553,5,6,38030
+McIntire,6335,211,0,0,119,177,120,117,262,6,1,6005
+WELFake,72134,1799,0,0,8601,1829,2474,903,2187,15,30,61734

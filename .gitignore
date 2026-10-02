@@ -1,0 +1,8 @@
+Fake.csv
+True.csv
+WELFake_Dataset.csv
+analysis_set.csv
+results/audit_01_05/cleaned_all.parquet
+results/audit_01_05_smoke/cleaned_all.parquet
+spans_cache.pkl
+spans_cache_smoke.pkl

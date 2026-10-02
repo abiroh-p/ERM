@@ -1,0 +1,22 @@
+{
+  "seed": 13,
+  "shingle_k": 5,
+  "num_perm": 128,
+  "bands": 32,
+  "rows": 4,
+  "jacc_primary": 0.8,
+  "jacc_sens": 0.5,
+  "contain_thr": 0.9,
+  "head_words": 100,
+  "prefix_chars": 300,
+  "min_words": 20,
+  "prereg": {
+    "min_docs_per_class": 3000,
+    "min_class_share": 0.4,
+    "trim_dataset": "WELFake"
+  },
+  "python": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+  "numpy": "2.3.2",
+  "pandas": "2.3.3",
+  "platform": "Windows-11-10.0.26200-SP0"
+}
