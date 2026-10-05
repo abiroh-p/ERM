@@ -1,0 +1,13 @@
+contrast,outcome,change
+T alone vs C0,auc,"-0.014 [-0.018, -0.009] (8/8)"
+T alone vs C0,f1,"-0.005 [-0.009, -0.002] (7/8)"
+T alone vs C0,gap_auc,"+0.011 [+0.005, +0.016] (8/8)"
+T alone vs C0,gap_f1,"-0.003 [-0.010, +0.004] (6/8)"
+T vs random words of the same size,auc,"-0.012 [-0.019, -0.004] (7/8)"
+T vs random words of the same size,f1,"-0.003 [-0.009, +0.002] (6/8)"
+T vs random words of the same size,gap_auc,"+0.010 [+0.003, +0.017] (7/8)"
+T vs random words of the same size,gap_f1,"-0.001 [-0.008, +0.005] (3/8)"
+T on top of S+L+E,auc,"-0.013 [-0.019, -0.007] (8/8)"
+T on top of S+L+E,f1,"-0.007 [-0.013, -0.001] (6/8)"
+T on top of S+L+E,gap_auc,"+0.008 [+0.000, +0.015] (6/8)"
+T on top of S+L+E,gap_f1,"-0.003 [-0.012, +0.005] (4/8)"

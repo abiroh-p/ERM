@@ -1,0 +1,9 @@
+,auc,auc,f1,f1,gap_auc,gap_auc,gap_f1,gap_f1
+cond,C0,SLE,C0,SLE,C0,SLE,C0,SLE
+pair,,,,,,,,
+ISOT->McIntire,0.606,0.715,0.669,0.662,0.394,0.283,0.328,0.323
+ISOT->WELFake_residual,0.788,0.785,0.702,0.713,0.212,0.214,0.295,0.272
+McIntire->ISOT,0.731,0.849,0.671,0.726,0.263,0.134,0.288,0.2
+McIntire->WELFake_residual,0.931,0.896,0.848,0.807,0.063,0.087,0.111,0.118
+WELFake_residual->ISOT,0.891,0.885,0.709,0.729,0.107,0.111,0.286,0.244
+WELFake_residual->McIntire,0.878,0.867,0.677,0.727,0.12,0.129,0.318,0.246

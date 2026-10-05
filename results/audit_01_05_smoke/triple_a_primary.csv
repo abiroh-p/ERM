@@ -1,4 +1,0 @@
-dataset,real,fake,min_class_share,PASS,scenario
-ISOT,1437,1455,0.497,False,primary
-McIntire,1396,1468,0.487,False,primary
-WELFake,1206,1339,0.474,False,primary

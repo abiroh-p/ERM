@@ -1,4 +1,0 @@
-dataset,n_raw,dropped_short_or_empty,exact_dup_groups_with_label_conflict,dropped_docs_in_conflicting_groups,dropped_exact_duplicates,near_pairs_primary,near_pairs_sensitivity_only,near_dup_clusters_size_ge2,docs_in_near_dup_clusters,largest_cluster,near_dup_clusters_with_label_conflict,n_clean
-ISOT,3000,70,0,0,38,2,15,2,4,2,0,2892
-McIntire,3000,97,0,0,39,40,44,30,65,4,0,2864
-WELFake,3000,69,0,0,17,8,13,6,13,3,0,2914

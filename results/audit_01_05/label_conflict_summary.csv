@@ -1,4 +1,0 @@
-pair,evidence,n
-ISOT <-> McIntire,exact_or_near,20
-ISOT <-> WELFake,exact_or_near,66
-McIntire <-> WELFake,exact_or_near,37

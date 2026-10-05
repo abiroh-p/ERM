@@ -1,0 +1,69 @@
+{
+  "inputs": [
+    "D:\\ERM\\results\\sensitivity\\tfidf\\results_tfidf_smoke.csv"
+  ],
+  "rows": 324,
+  "datasets": [
+    "ISOT",
+    "McIntire",
+    "WELFake_residual"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "transfer_pairs": [
+    "ISOT->McIntire",
+    "ISOT->WELFake_residual",
+    "McIntire->ISOT",
+    "McIntire->WELFake_residual",
+    "WELFake_residual->ISOT",
+    "WELFake_residual->McIntire"
+  ],
+  "conditions_present": [
+    "C0",
+    "E",
+    "L",
+    "LE",
+    "R_B",
+    "R_E",
+    "R_S",
+    "R_SE",
+    "R_T",
+    "R_W",
+    "S",
+    "SE",
+    "SL",
+    "SLE",
+    "SLET",
+    "S_B",
+    "S_W",
+    "T"
+  ],
+  "factorial_conditions": [
+    "C0",
+    "S",
+    "L",
+    "E",
+    "SL",
+    "SE",
+    "LE",
+    "SLE"
+  ],
+  "factorial_terms": [
+    "S",
+    "L",
+    "E",
+    "SL",
+    "SE",
+    "LE",
+    "SLE"
+  ],
+  "statistical_unit": "seed",
+  "pooled_transfer_estimand": "equal-weight mean over six ordered transfer directions within seed",
+  "ci": "two-sided 95% t interval over seed means",
+  "primary_outcome": "cross-domain AUC",
+  "factorial_multiple_comparison": "Holm adjustment across 7 factorial terms within each outcome family",
+  "random_control_multiple_comparison": "Holm adjustment across 3 real-vs-random contrasts within each outcome family",
+  "exact_signflip_note": "with five non-zero seeds, the smallest attainable two-sided exact sign-flip p-value is 0.0625"
+}

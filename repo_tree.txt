@@ -1,0 +1,375 @@
+D:\ERM
++---.git
+|   +---hooks
+|   |   +---applypatch-msg.sample
+|   |   +---commit-msg.sample
+|   |   +---fsmonitor-watchman.sample
+|   |   +---post-update.sample
+|   |   +---pre-applypatch.sample
+|   |   +---pre-commit.sample
+|   |   +---pre-merge-commit.sample
+|   |   +---prepare-commit-msg.sample
+|   |   +---pre-push.sample
+|   |   +---pre-rebase.sample
+|   |   +---pre-receive.sample
+|   |   +---push-to-checkout.sample
+|   |   +---sendemail-validate.sample
+|   |   \---update.sample
+|   +---info
+|   |   +---exclude
+|   |   \---refs
+|   +---logs
+|   |   +---refs
+|   |   |   +---heads
+|   |   |   \---remotes
+|   |   \---HEAD
+|   +---objects
+|   |   +---09
+|   |   |   \---b08f9ad4a13c831d91c24216cd09fb46beb0a2
+|   |   +---0b
+|   |   |   \---55da0594a01325a342e6b196b8d5e21b67163b
+|   |   +---35
+|   |   |   \---c63f5f12e1e05258ece865a256e48b1177f1bb
+|   |   +---37
+|   |   |   \---6f6e2e9ff78c24543a921f993827b8479af54a
+|   |   +---49
+|   |   |   \---f3add71dc9bf5c598b960324f8c721b69f5989
+|   |   +---4e
+|   |   |   \---862f36709c3b9d4ac046ec7a28951fac77da3d
+|   |   +---5f
+|   |   |   \---323e27e8474904f9e60ca4829ef1c13c0d99a2
+|   |   +---82
+|   |   |   \---8911456c9883eb679cd34b5af213e46023aa60
+|   |   +---a2
+|   |   |   \---0468b057685af0498d7337e7219ba186ba0d64
+|   |   +---a3
+|   |   |   \---0a1db728d2aef0b05de2079f1142ae274d9db5
+|   |   +---a4
+|   |   |   \---53ac4b73a292218a792661794fb33f0acf0533
+|   |   +---aa
+|   |   |   +---tmp_obj_MVvkDH
+|   |   |   \---tmp_obj_nMVxBX
+|   |   +---af
+|   |   |   \---2d4a3f32377b07eed7a1ea36b7df0c1e543478
+|   |   +---bf
+|   |   |   \---91f7a076fbc5345285bc37cd8c547ea9d57272
+|   |   +---d0
+|   |   |   +---5b3991a00fd8e6eb8598991eff7f661e8f57cb
+|   |   |   \---tmp_obj_TfRSQq
+|   |   +---e6
+|   |   |   \---9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+|   |   +---f6
+|   |   |   \---a5eb714010310127960fa7ee32ef7158ed07ca
+|   |   +---info
+|   |   |   \---packs
+|   |   \---pack
+|   |       +---multi-pack-index
+|   |       +---pack-03d17f95408d734e63535e09621e83d8a51f4eae.idx
+|   |       +---pack-03d17f95408d734e63535e09621e83d8a51f4eae.mtimes
+|   |       +---pack-03d17f95408d734e63535e09621e83d8a51f4eae.pack
+|   |       +---pack-03d17f95408d734e63535e09621e83d8a51f4eae.rev
+|   |       +---pack-c348098d5b8e6603abb43fb5d5169e8aa81dac89.idx
+|   |       +---pack-c348098d5b8e6603abb43fb5d5169e8aa81dac89.pack
+|   |       \---pack-c348098d5b8e6603abb43fb5d5169e8aa81dac89.rev
+|   +---refs
+|   |   +---agents
+|   |   |   +---54578221-24d7-47f6-8005-b01065812c48
+|   |   |   \---685fa4d3-7e11-4f40-bd20-3d64321535fb
+|   |   +---codex
+|   |   |   \---turn-diffs
+|   |   +---heads
+|   |   |   \---main
+|   |   +---remotes
+|   |   |   \---origin
+|   |   \---tags
+|   +---COMMIT_EDITMSG
+|   +---config
+|   +---description
+|   +---FETCH_HEAD
+|   +---HEAD
+|   \---index
++---.venv
+|   +---Include
+|   +---Lib
+|   |   \---site-packages
+|   |       +---pip
+|   |       \---pip-24.0.dist-info
+|   +---Scripts
+|   |   +---activate
+|   |   +---activate.bat
+|   |   +---Activate.ps1
+|   |   +---deactivate.bat
+|   |   +---pip.exe
+|   |   +---pip3.12.exe
+|   |   +---pip3.exe
+|   |   +---python.exe
+|   |   \---pythonw.exe
+|   +---.gitignore
+|   \---pyvenv.cfg
++---archive
+|   +---freeze_validation_intermediate
+|   |   +---inputs
+|   |   |   +---distilbert
+|   |   |   +---extra
+|   |   |   +---sensitivity
+|   |   |   \---tfidf
+|   |   +---outputs
+|   |   |   +---distilbert
+|   |   |   +---model_comparison
+|   |   |   +---sensitivity
+|   |   |   \---tfidf
+|   |   \---MANIFEST.json
+|   +---old_results
+|   |   \---__MACOSX
+|   |       \---._fake_or_real_news.csv
+|   +---old_scripts
+|   \---old_versions
+|       +---analyze.py
+|       +---analyze_v2_fixed.py
+|       \---analyze_v2_fixed2.py
++---cache
+|   +---spans_cache.pkl
+|   \---spans_cache_smoke.pkl
++---configs
+|   \---tfidf
+|       +---results_tfidf_a_config.json
+|       +---results_tfidf_a_methods.json
+|       +---results_tfidf_b_config.json
+|       +---results_tfidf_b_methods.json
+|       +---results_tfidf_c_config.json
+|       +---results_tfidf_c_methods.json
+|       +---results_tfidf_d1_config.json
+|       +---results_tfidf_d1_methods.json
+|       +---results_tfidf_d2_config.json
+|       +---results_tfidf_d2_methods.json
+|       +---results_tfidf_d3_config.json
+|       +---results_tfidf_d3_methods.json
+|       +---results_tfidf_smoke_config.json
+|       +---results_tfidf_smoke_methods.json
+|       +---results_tfidf_x1_config.json
+|       +---results_tfidf_x1_methods.json
+|       +---results_tfidf_x2_config.json
+|       +---results_tfidf_x2_methods.json
+|       +---results_tfidf_x3_config.json
+|       \---results_tfidf_x3_methods.json
++---data
+|   +---audit
+|   |   \---flagged_doc_ids.txt
+|   +---processed
+|   |   +---analysis_clean.csv
+|   |   \---analysis_set.csv
+|   \---raw
+|       +---ISOT
+|       |   +---Fake.csv
+|       |   \---True.csv
+|       +---McIntire
+|       |   \---fake_or_real_news.csv
+|       \---WELFake
+|           \---WELFake_Dataset.csv
++---docs
+|   +---experiment_notes
+|   +---methodology
+|   \---reports
+|       +---erm_tfidf_diagnostic_report.md
+|       \---inspect_out.txt
++---freeze
+|   +---inputs
+|   |   +---distilbert
+|   |   |   \---results_distilbert.csv
+|   |   +---extra
+|   |   |   +---analysis_set.csv
+|   |   |   \---flagged_doc_ids.txt
+|   |   +---sensitivity
+|   |   \---tfidf
+|   |       +---results_tfidf_a.csv
+|   |       +---results_tfidf_b.csv
+|   |       +---results_tfidf_c.csv
+|   |       +---results_tfidf_d1.csv
+|   |       +---results_tfidf_d2.csv
+|   |       \---results_tfidf_d3.csv
+|   +---outputs
+|   |   +---distilbert
+|   |   |   +---analysis_log.txt
+|   |   |   +---analysis_metadata.json
+|   |   |   +---fig_gap_by_condition.png
+|   |   |   +---table_conditions.csv
+|   |   |   +---table_conditions_pretty.csv
+|   |   |   +---table_effects.csv
+|   |   |   +---table_factorial_effects.csv
+|   |   |   +---table_factorial_per_seed.csv
+|   |   |   +---table_gap_change_by_pair.csv
+|   |   |   +---table_gap_share.csv
+|   |   |   +---table_pairs.csv
+|   |   |   +---table_pairwise_auc_change.csv
+|   |   |   +---table_primary_results.csv
+|   |   |   +---table_specific_effects.csv
+|   |   |   \---table_vs_C0_contrasts.csv
+|   |   +---model_comparison
+|   |   |   +---analysis_log.txt
+|   |   |   +---table_model_comparison.csv
+|   |   |   +---table_model_comparison_by_pair.csv
+|   |   |   \---table_per_seed_effects.csv
+|   |   \---tfidf
+|   |       +---analysis_log.txt
+|   |       +---analysis_metadata.json
+|   |       +---fig_gap_by_condition.png
+|   |       +---table_conditions.csv
+|   |       +---table_conditions_pretty.csv
+|   |       +---table_effects.csv
+|   |       +---table_factorial_effects.csv
+|   |       +---table_factorial_per_seed.csv
+|   |       +---table_gap_change_by_pair.csv
+|   |       +---table_gap_share.csv
+|   |       +---table_pairs.csv
+|   |       +---table_pairwise_auc_change.csv
+|   |       +---table_primary_results.csv
+|   |       +---table_source_split.csv
+|   |       +---table_specific_effects.csv
+|   |       +---table_temporal_extension.csv
+|   |       \---table_vs_C0_contrasts.csv
+|   \---MANIFEST.json
++---paper
+|   +---figures
+|   +---manuscript
+|   |   \---How_Much_of_the_Cross_Dataset_Gap_Do_Dataset_Artifacts_Explain__A_Controlled_Study_of_Fake_News_Detectors.pdf
+|   +---references
+|   |   \---paper.zip
+|   \---tables
++---results
+|   +---audit
+|   |   +---primary
+|   |   |   +---basic_stats.csv
+|   |   |   +---borderline_to_inspect.csv
+|   |   |   +---cleaned_all.parquet
+|   |   |   +---config.json
+|   |   |   +---deviation_note.txt
+|   |   |   +---domain_auc.csv
+|   |   |   +---label_check_ISOT.txt
+|   |   |   +---label_check_McIntire.txt
+|   |   |   +---label_check_WELFake.txt
+|   |   |   +---label_conflict_summary.csv
+|   |   |   +---label_conflicts.csv
+|   |   |   +---overlap_flags_per_doc.csv
+|   |   |   +---overlap_pairs.csv
+|   |   |   +---overlap_report.csv
+|   |   |   +---triple_a_primary.csv
+|   |   |   +---triple_a_primary+sensitivity.csv
+|   |   |   +---welfake_dry_run.csv
+|   |   |   \---within_dedup_report.csv
+|   |   \---smoke
+|   |       +---basic_stats.csv
+|   |       +---borderline_to_inspect.csv
+|   |       +---cleaned_all.parquet
+|   |       +---config.json
+|   |       +---domain_auc.csv
+|   |       +---label_check_ISOT.txt
+|   |       +---label_check_McIntire.txt
+|   |       +---label_check_WELFake.txt
+|   |       +---label_conflict_summary.csv
+|   |       +---label_conflicts.csv
+|   |       +---overlap_flags_per_doc.csv
+|   |       +---overlap_pairs.csv
+|   |       +---overlap_report.csv
+|   |       +---triple_a_primary.csv
+|   |       +---triple_a_primary+sensitivity.csv
+|   |       +---welfake_dry_run.csv
+|   |       \---within_dedup_report.csv
+|   +---audit_01_05
+|   +---audit_01_05_smoke
+|   +---final
+|   |   +---distilbert
+|   |   |   +---fig_gap_by_condition.png
+|   |   |   +---table_conditions.csv
+|   |   |   +---table_effects.csv
+|   |   |   +---table_gap_change_by_pair.csv
+|   |   |   +---table_gap_share.csv
+|   |   |   +---table_pairs.csv
+|   |   |   +---table_pairwise_auc_change.csv
+|   |   |   \---table_specific_effects.csv
+|   |   +---figures
+|   |   |   +---fig_gap_by_condition.png
+|   |   |   \---fig_gap_by_condition_tfidf.png
+|   |   +---model_comparison
+|   |   |   +---analysis_metadata.json
+|   |   |   +---fig_gap_by_condition.png
+|   |   |   +---table_conditions.csv
+|   |   |   +---table_conditions_pretty.csv
+|   |   |   +---table_effects.csv
+|   |   |   +---table_factorial_effects.csv
+|   |   |   +---table_factorial_per_seed.csv
+|   |   |   +---table_gap_change_by_pair.csv
+|   |   |   +---table_gap_reduction.csv
+|   |   |   +---table_gap_share.csv
+|   |   |   +---table_model_comparison.csv
+|   |   |   +---table_model_comparison_by_pair.csv
+|   |   |   +---table_pairs.csv
+|   |   |   +---table_pairwise_auc_change.csv
+|   |   |   +---table_per_seed_effects.csv
+|   |   |   +---table_primary_results.csv
+|   |   |   +---table_source_split.csv
+|   |   |   +---table_specific_effects.csv
+|   |   |   +---table_temporal_extension.csv
+|   |   |   \---table_vs_C0_contrasts.csv
+|   |   \---tfidf
+|   |       +---analysis_metadata.json
+|   |       +---table_conditions.csv
+|   |       +---table_conditions_pretty.csv
+|   |       +---table_effects.csv
+|   |       +---table_factorial_effects.csv
+|   |       +---table_factorial_per_seed.csv
+|   |       +---table_gap_change_by_pair.csv
+|   |       +---table_gap_share.csv
+|   |       +---table_pairs.csv
+|   |       +---table_pairwise_auc_change.csv
+|   |       +---table_primary_results.csv
+|   |       +---table_source_split.csv
+|   |       +---table_specific_effects.csv
+|   |       +---table_temporal_extension.csv
+|   |       \---table_vs_C0_contrasts.csv
+|   +---raw
+|   |   +---distilbert
+|   |   |   \---results_distilbert.csv
+|   |   \---tfidf
+|   |       +---results_tfidf_a.csv
+|   |       +---results_tfidf_b.csv
+|   |       +---results_tfidf_c.csv
+|   |       +---results_tfidf_d1.csv
+|   |       +---results_tfidf_d2.csv
+|   |       \---results_tfidf_d3.csv
+|   \---sensitivity
+|       +---distilbert
+|       |   +---analysis
+|       |   \---raw
+|       \---tfidf
+|           +---analysis
+|           +---raw
+|           \---smoke
++---src
+|   +---analysis
+|   |   +---__pycache__
+|   |   |   +---analyze.cpython-312.pyc
+|   |   |   \---compare_models.cpython-312.pyc
+|   |   +---analyze.py
+|   |   \---compare_models.py
+|   +---audit
+|   |   +---__pycache__
+|   |   |   +---audit_01_05.cpython-312.pyc
+|   |   |   \---drop_flagged.cpython-312.pyc
+|   |   +---00_inspect_schema.py
+|   |   +---audit_01_05.py
+|   |   +---build_analysis_set.py
+|   |   +---contamination_check.py
+|   |   +---contamination_clean.py
+|   |   +---drop_flagged.py
+|   |   \---kwic.py
+|   \---experiments
+|       +---__pycache__
+|       |   +---exp_distilbert.cpython-312.pyc
+|       |   \---exp_tfidf.cpython-312.pyc
+|       +---exp_distilbert.py
+|       \---exp_tfidf.py
++---.gitignore
++---freeze_and_analyze.py
++---README.md
++---repo_tree.txt
+\---requirements.txt

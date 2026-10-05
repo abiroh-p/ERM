@@ -1,7 +1,0 @@
-tier,removal_scenario,original_welfake,removed,remaining_welfake
-primary,WELFake minus ISOT,61734,38112,23622
-primary,WELFake minus McIntire,61734,6532,55202
-primary,WELFake minus ISOT and McIntire union,61734,44573,17161
-primary+sensitivity,WELFake minus ISOT,61734,38147,23587
-primary+sensitivity,WELFake minus McIntire,61734,6696,55038
-primary+sensitivity,WELFake minus ISOT and McIntire union,61734,44744,16990
