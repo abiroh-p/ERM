@@ -1,0 +1,68 @@
+{
+  "inputs": [
+    "D:\\ERM\\results\\raw\\distilbert\\results_distilbert.csv"
+  ],
+  "rows": 792,
+  "datasets": [
+    "ISOT",
+    "McIntire",
+    "WELFake_residual"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "transfer_pairs": [
+    "ISOT->McIntire",
+    "ISOT->WELFake_residual",
+    "McIntire->ISOT",
+    "McIntire->WELFake_residual",
+    "WELFake_residual->ISOT",
+    "WELFake_residual->McIntire"
+  ],
+  "conditions_present": [
+    "C0",
+    "E",
+    "L",
+    "LE",
+    "R_E",
+    "R_S",
+    "R_SE",
+    "S",
+    "SE",
+    "SL",
+    "SLE"
+  ],
+  "factorial_conditions": [
+    "C0",
+    "S",
+    "L",
+    "E",
+    "SL",
+    "SE",
+    "LE",
+    "SLE"
+  ],
+  "factorial_terms": [
+    "S",
+    "L",
+    "E",
+    "SL",
+    "SE",
+    "LE",
+    "SLE"
+  ],
+  "statistical_unit": "seed",
+  "pooled_transfer_estimand": "equal-weight mean over six ordered transfer directions within seed",
+  "ci": "two-sided 95% t interval over seed means",
+  "primary_outcome": "cross-domain AUC",
+  "factorial_multiple_comparison": "Holm adjustment across 7 factorial terms within each outcome family",
+  "random_control_multiple_comparison": "Holm adjustment across 3 real-vs-random contrasts within each outcome family",
+  "exact_signflip_note": "with eight non-zero seeds, the smallest attainable two-sided exact sign-flip p-value is 0.0078125"
+}

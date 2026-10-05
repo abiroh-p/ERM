@@ -1,0 +1,29 @@
+{
+  "entity_method": "spacy:en_core_web_sm",
+  "source_patterns": [
+    "url",
+    "twitter_pic",
+    "dateline",
+    "agency_tag",
+    "outlet_names",
+    "featured_image",
+    "image_credit",
+    "boilerplate_cta",
+    "social_share_strip",
+    "follow_social",
+    "boilerplate_line",
+    "credit_line",
+    "share_prompts",
+    "print_prompt",
+    "ad_markers",
+    "posted_stamp",
+    "sf_source",
+    "source_credit",
+    "email_address",
+    "broken_urls",
+    "tweet_attribution",
+    "bare_domains",
+    "click_prompts",
+    "handles_hashtags"
+  ]
+}

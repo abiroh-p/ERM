@@ -1,0 +1,29 @@
+{
+  "analysis_csv": "analysis_set.csv",
+  "spans_cache": "spans_cache.pkl",
+  "out_csv": "results_tfidf_a.csv",
+  "universe_per_class": 4000,
+  "n_train": 1500,
+  "n_test_in": 500,
+  "n_test_x": 800,
+  "test_frac": 0.2,
+  "length_bins": 10,
+  "seeds": [
+    0,
+    1
+  ],
+  "entity_labels": [
+    "PERSON",
+    "ORG",
+    "GPE",
+    "NORP",
+    "LOC",
+    "FAC",
+    "EVENT",
+    "PRODUCT",
+    "WORK_OF_ART",
+    "LAW",
+    "LANGUAGE"
+  ],
+  "spacy_model": "en_core_web_sm"
+}

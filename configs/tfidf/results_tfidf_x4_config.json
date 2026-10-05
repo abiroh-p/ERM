@@ -1,0 +1,29 @@
+{
+  "analysis_csv": "D:\\ERM\\data\\processed\\analysis_set.csv",
+  "spans_cache": "D:\\ERM\\cache\\spans_cache.pkl",
+  "out_csv": "D:\\ERM\\results\\sensitivity\\tfidf\\raw\\results_tfidf_x4.csv",
+  "universe_per_class": 4000,
+  "n_train": 1500,
+  "n_test_in": 500,
+  "n_test_x": 800,
+  "test_frac": 0.2,
+  "length_bins": 10,
+  "seeds": [
+    5
+  ],
+  "entity_labels": [
+    "PERSON",
+    "ORG",
+    "GPE",
+    "NORP",
+    "LOC",
+    "FAC",
+    "EVENT",
+    "PRODUCT",
+    "WORK_OF_ART",
+    "LAW",
+    "LANGUAGE"
+  ],
+  "spacy_model": "en_core_web_sm",
+  "exclude_file": "freeze\\inputs\\extra\\flagged_doc_ids.txt"
+}

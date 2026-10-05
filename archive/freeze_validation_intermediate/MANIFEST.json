@@ -1,0 +1,214 @@
+{
+  "created_utc": "2026-10-03T11:26:24.250040+00:00",
+  "python": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "files": {
+    "tfidf/results_tfidf_a.csv": {
+      "sha256": "ededcf04030e0cd5a559066ec1229e77a680bb50f59aef9eb82b7343b1c15f47",
+      "bytes": 34162,
+      "rows": 252,
+      "seeds": [
+        0,
+        1
+      ],
+      "conditions": [
+        "C0",
+        "E",
+        "L",
+        "LE",
+        "R_E",
+        "R_S",
+        "R_SE",
+        "R_T",
+        "S",
+        "SE",
+        "SL",
+        "SLE",
+        "SLET",
+        "T"
+      ]
+    },
+    "tfidf/results_tfidf_b.csv": {
+      "sha256": "30a5492876cf773b4e73d1f4184e6660d1234705db925a9f4da1c3196b58df61",
+      "bytes": 34145,
+      "rows": 252,
+      "seeds": [
+        2,
+        3
+      ],
+      "conditions": [
+        "C0",
+        "E",
+        "L",
+        "LE",
+        "R_E",
+        "R_S",
+        "R_SE",
+        "R_T",
+        "S",
+        "SE",
+        "SL",
+        "SLE",
+        "SLET",
+        "T"
+      ]
+    },
+    "tfidf/results_tfidf_c.csv": {
+      "sha256": "c16de1495776df006a7ecd77f007bfa1ff2332476b4fd772ddf39b625ed77351",
+      "bytes": 17137,
+      "rows": 126,
+      "seeds": [
+        4
+      ],
+      "conditions": [
+        "C0",
+        "E",
+        "L",
+        "LE",
+        "R_E",
+        "R_S",
+        "R_SE",
+        "R_T",
+        "S",
+        "SE",
+        "SL",
+        "SLE",
+        "SLET",
+        "T"
+      ]
+    },
+    "tfidf/results_tfidf_d1.csv": {
+      "sha256": "17737175bbda96ce761bf39b918fb6dc7baca6bdb26adab011fa1ef8f73cda07",
+      "bytes": 9867,
+      "rows": 72,
+      "seeds": [
+        0,
+        1
+      ],
+      "conditions": [
+        "R_B",
+        "R_W",
+        "S_B",
+        "S_W"
+      ]
+    },
+    "tfidf/results_tfidf_d2.csv": {
+      "sha256": "9b7d3cf75ffea3099b40c2acd34ce0f98d6681464d0ec139e887201e6a6fe3d8",
+      "bytes": 9900,
+      "rows": 72,
+      "seeds": [
+        2,
+        3
+      ],
+      "conditions": [
+        "R_B",
+        "R_W",
+        "S_B",
+        "S_W"
+      ]
+    },
+    "tfidf/results_tfidf_d3.csv": {
+      "sha256": "065ec05c1f53e90a896b6c9533bdf803d7dbe0862a08b2dfb227f15a5250237b",
+      "bytes": 4986,
+      "rows": 36,
+      "seeds": [
+        4
+      ],
+      "conditions": [
+        "R_B",
+        "R_W",
+        "S_B",
+        "S_W"
+      ]
+    },
+    "distilbert/results_distilbert.csv": {
+      "sha256": "ca3caf262862763ec53fe4d5de6ef99e2e308837b663c32a2225b22c797c958c",
+      "bytes": 67179,
+      "rows": 495,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "conditions": [
+        "C0",
+        "E",
+        "L",
+        "LE",
+        "R_E",
+        "R_S",
+        "R_SE",
+        "S",
+        "SE",
+        "SL",
+        "SLE"
+      ]
+    },
+    "sensitivity/results_tfidf_x1.csv": {
+      "sha256": "1156527e1c93ce9cada5109335b9a83ad347674b6f13e48d6b33f2b5a54d2654",
+      "bytes": 14670,
+      "rows": 108,
+      "seeds": [
+        0,
+        1
+      ],
+      "conditions": [
+        "C0",
+        "E",
+        "L",
+        "LE",
+        "R_E",
+        "R_SE"
+      ]
+    },
+    "sensitivity/results_tfidf_x2.csv": {
+      "sha256": "75fe6e0aa18fc59c92ca1063bb139d15b7e2d1a06708bee23c175b1b4f5e110c",
+      "bytes": 14709,
+      "rows": 108,
+      "seeds": [
+        2,
+        3
+      ],
+      "conditions": [
+        "C0",
+        "E",
+        "L",
+        "LE",
+        "R_E",
+        "R_SE"
+      ]
+    },
+    "sensitivity/results_tfidf_x3.csv": {
+      "sha256": "9615a35d9e1c8a59cf2bc1ca8fc08171826a366cadd50e2d4ffcd9b9b88322ee",
+      "bytes": 7372,
+      "rows": 54,
+      "seeds": [
+        4
+      ],
+      "conditions": [
+        "C0",
+        "E",
+        "L",
+        "LE",
+        "R_E",
+        "R_SE"
+      ]
+    },
+    "extra/analysis_set.csv": {
+      "sha256": "29e96d7b7fe60a94a2652c704f2bd4be9b5bb7e45f540eabeb19320276788ab5",
+      "bytes": 213921911,
+      "rows": 61197
+    },
+    "extra/flagged_doc_ids.txt": {
+      "sha256": "31e27533da4f4891caf9ee9d97a7a1c97020b00d85559191931284c91d0b384f",
+      "bytes": 2879
+    }
+  },
+  "numpy": "2.3.2",
+  "pandas": "2.3.3",
+  "scipy": "1.16.3",
+  "sklearn": "1.8.0",
+  "matplotlib": "3.10.0"
+}

@@ -1,0 +1,7 @@
+pair,E,L,LE
+ISOT->McIntire,-0.024,-0.056,-0.081
+ISOT->WELFake_residual,0.008,-0.027,-0.053
+McIntire->ISOT,-0.061,-0.064,-0.145
+McIntire->WELFake_residual,-0.008,0.004,0.013
+WELFake_residual->ISOT,-0.028,-0.068,-0.1
+WELFake_residual->McIntire,-0.012,0.021,0.011
