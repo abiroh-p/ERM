@@ -12,3 +12,7 @@ __pycache__/
 
 # Runtime caches
 cache/
+
+# Large generated artifacts kept locally, not in Git
+data/processed/analysis_clean.csv
+results/audit/primary/cleaned_all.parquet
