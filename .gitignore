@@ -16,3 +16,7 @@ cache/
 # Large generated artifacts kept locally, not in Git
 data/processed/analysis_clean.csv
 results/audit/primary/cleaned_all.parquet
+# Multi-GPU runner scratch space
+*_work/
+shard*.csv
+*.csv.tmp

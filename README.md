@@ -53,3 +53,16 @@ result CSVs. It copies and hashes the inputs before regenerating outputs under
 - The project resolves key files relative to the repository root so it remains operational after the repo restructuring.
 - `exp_tfidf.py` relies on the `en_core_web_sm` spaCy model for named-entity masking when available; otherwise it falls back to a regex-based entity finder.
 - Historical versions and superseded outputs remain archived under `archive/` for reproducibility and provenance.
+
+## Extension code (multi-GPU runs, 4th corpus, temporal test, confirmatory statistics)
+
+- `src/experiments/exp_transformer.py` - one runner for DistilBERT / RoBERTa / BERT / TF-IDF. Job-level parallelism over all
+  visible GPUs (one worker per GPU), resumable, same samples and seeds as the original runners (cells stay paired).
+  See `docs/KAGGLE_2xT4.md`.
+- `src/audit/add_dataset.py` - adds an independent corpus under the same audit (cleaning, near-duplicate clusters, overlap
+  rate against the existing corpora, size rule, blind label-check sheet).
+- `src/analysis/label_agreement.py` - Cohen's kappa for the manual label check.
+- `src/analysis/confirmatory.py` - seed-level paired contrasts, exact sign-flip p-values, Holm correction within the primary family.
+- `tests/` - `python -m pytest tests -q` checks sharded-run parity with the original runner, and resume, on synthetic data.
+- `requirements-lock.txt` - the exact software versions reported in the paper.
+- `src/audit/prepare_nela.py` - outlet-capped real/fake sample from a NELA-GT SQLite release (label-direction check, removes the `@` copyright markers); feed its CSV to `add_dataset.py`.
