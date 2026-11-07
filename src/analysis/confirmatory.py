@@ -95,9 +95,12 @@ def main():
     pd.set_option("display.width", 200, "display.max_columns", 20)
     print(res[res["left_out"] == ""].round(4).to_string(index=False))
     n = int(res["n_seeds"].max()); m = len(PRIMARY)
-    print(f"\nsmallest attainable sign-flip p with {n} seeds = {2 / 2 ** n:.4f}; Holm needs it <= 0.05/{m} = {0.05 / m:.4f} "
-          f"for the strongest primary contrast -> {'attainable' if 2 / 2 ** n <= 0.05 / m else 'NOT attainable: use more seeds for the primary family'}")
-
+    print(f"\nsmallest attainable sign-flip p with {n} seeds = {2 / 2 ** n:.4f}. Holm over the {m} primary contrasts needs the smallest "
+          f"observed p <= {0.05 / m:.4f} (next <= {0.05 / (m - 1):.4f}, ...).")
+    prim = res[(res["family"] == "primary") & (res["left_out"] == "")]
+    for model, g in prim.groupby("model"):
+        k = int((g["p_holm"] < 0.05).sum())
+        print(f"  {model}: {k} of {len(g)} primary contrasts survive Holm at 0.05 (smallest p_holm = {g['p_holm'].min():.4f})")
 
 if __name__ == "__main__":
     main()
