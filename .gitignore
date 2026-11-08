@@ -14,6 +14,7 @@ __pycache__/
 cache/
 
 # Large generated artifacts kept locally, not in Git
+analysis_set_and_spans_cache.zip
 data/processed/analysis_clean.csv
 results/audit/primary/cleaned_all.parquet
 # Multi-GPU runner scratch space
