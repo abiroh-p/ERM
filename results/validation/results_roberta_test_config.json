@@ -1,0 +1,72 @@
+{
+  "args": {
+    "cmd": "run",
+    "analysis_csv": "/kaggle/input/datasets/abi8389/erm-data/analysis_set.csv",
+    "spans_cache": "/kaggle/input/datasets/abi8389/erm-data/spans_cache.pkl",
+    "exclude": null,
+    "smoke": false,
+    "backend": "transformer",
+    "model": "roberta-base",
+    "gpus": [
+      0
+    ],
+    "workers": 2,
+    "allow_cpu": false,
+    "seeds": [
+      0
+    ],
+    "conds": [
+      "C0"
+    ],
+    "datasets": [
+      "ISOT"
+    ],
+    "out": "/kaggle/working/results_roberta_test.csv",
+    "max_len": 256,
+    "epochs": 2,
+    "bs": 16,
+    "lr": 3e-05,
+    "split": "cluster",
+    "date_col": "date",
+    "cutoff_quantile": 0.7
+  },
+  "cfg": {
+    "analysis_csv": "/kaggle/input/datasets/abi8389/erm-data/analysis_set.csv",
+    "spans_cache": "/kaggle/input/datasets/abi8389/erm-data/spans_cache.pkl",
+    "out_csv": "/kaggle/working/ERM/results/raw/tfidf/results_tfidf.csv",
+    "universe_per_class": 4000,
+    "n_train": 1500,
+    "n_test_in": 500,
+    "n_test_x": 800,
+    "test_frac": 0.2,
+    "length_bins": 10,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "entity_labels": [
+      "PERSON",
+      "ORG",
+      "GPE",
+      "NORP",
+      "LOC",
+      "FAC",
+      "EVENT",
+      "PRODUCT",
+      "WORK_OF_ART",
+      "LAW",
+      "LANGUAGE"
+    ],
+    "spacy_model": "en_core_web_sm"
+  },
+  "datasets": [
+    "ISOT"
+  ],
+  "python": "3.12.13",
+  "host": "00e6c12772e9",
+  "torch": "2.10.0+cu128",
+  "transformers": "5.0.0"
+}

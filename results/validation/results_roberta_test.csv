@@ -1,0 +1,2 @@
+seed,model,cond,S,L,E,T,rand_of,train,test,kind,n_train,n_test,f1,acc,ap,auc
+0,roberta,C0,0,0,0,0,,ISOT,ISOT,in,2990,992,1.0,1.0,1.0,1.0
