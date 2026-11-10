@@ -394,12 +394,16 @@ def step05_overlap(df_all, out_dir):
     prev = lambda idx: df_all.loc[idx, "text"].str.slice(0, 200).str.replace("\n", " ")
     pv = pairs.copy()
     pv["text_i"], pv["text_j"] = prev(pv["i"].values).values, prev(pv["j"].values).values
-    pv.to_csv(out_dir / "overlap_pairs.csv", index=False)
+    # text excerpts are written only to *_with_text.csv (git-ignored); the tracked tables carry no dataset text
+    pv.to_csv(out_dir / "overlap_pairs_with_text.csv", index=False)
+    pv.drop(columns=["text_i", "text_j"]).to_csv(out_dir / "overlap_pairs.csv", index=False)
     pv["prefix300_match"] = pv.apply(lambda r: df_all.iloc[int(r["i"])] ["prefix"] == df_all.iloc[int(r["j"])] ["prefix"], axis=1)
     border = pv[(pv["tier"] == "sensitivity") | ((pv["jaccard"] >= JACC_PRIMARY - 0.05) &
                                                       (pv["jaccard"] < JACC_PRIMARY))]
     parts = [g.sample(min(50, len(g)), random_state=SEED) for _, g in border.groupby(["ds_i", "ds_j"])]
-    (pd.concat(parts) if parts else border).to_csv(out_dir / "borderline_to_inspect.csv", index=False)
+    border_out = pd.concat(parts) if parts else border
+    border_out.to_csv(out_dir / "borderline_to_inspect_with_text.csv", index=False)
+    border_out.drop(columns=["text_i", "text_j"]).to_csv(out_dir / "borderline_to_inspect.csv", index=False)
     flags.insert(0, "doc_id", df_all["doc_id"].values)
     flags.to_csv(out_dir / "overlap_flags_per_doc.csv", index=False)
     pd.DataFrame(exact_rows, columns=["pair", "evidence", "doc_id_a", "doc_id_b", "is_fake_a", "is_fake_b", "jaccard", "containment"]
