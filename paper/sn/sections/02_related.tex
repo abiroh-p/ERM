@@ -1,0 +1,39 @@
+\section{Related work}
+\subsection{Cross-dataset generalization in fake-news detection}
+Surveys describe the field's methods and data~\cite{shu2017survey,zhou2020survey,lazer2018science}. Several studies report that detectors trained on one dataset transfer poorly: performance degraded by about 20\% across four English corpora for models built on stylometric and lexical features~\cite{janicka2019cross}, popular models trained on one political news dataset struggled on others~\cite{hoy2022generalisability}, and performance varied considerably with dataset, evaluation protocol and metric~\cite{bozarth2020toward}. A review of available datasets stresses balanced topic coverage and label quality~\cite{asr2019big}. A recent experimental comparison trains twelve approaches on ten datasets under in-domain, multi-domain and cross-domain protocols, and treats each dataset as a domain~\cite{delloglio2026comparison}. These studies document the gap; they do not intervene on the data to explain it.
+
+\subsection{Shortcut learning and dataset artifacts}
+Shortcut learning in deep networks is reviewed in~\cite{geirhos2020shortcut}; in computer vision, the dataset an image comes from is itself predictable~\cite{torralba2011unbiased}. In language tasks, annotation artifacts, hypothesis-only baselines and syntactic heuristics show that models can score well without solving the intended task~\cite{gururangan2018annotation,niven2019probing,poliak2018hypothesis,mccoy2019right}. For fake news, an audit of ISOT/Kaggle reports three leakage channels (metadata, a newswire tag, duplicates), a metadata-only classifier with F1 of 1.0, and near-chance transfer to a claim-level corpus~\cite{verma2026accuracy}. A zero-shot transfer study over six corpora traces collapse to a length confound in one Urdu corpus and to publisher cues in ISOT, with a single in-domain length cap as its only intervention~\cite{haroon2026benchmarks}. A shortcut benchmark reverses label--cue pairings (sentiment, style, topic, perplexity) between training and test, injects cues with an LLM, and mitigates them by LLM rewriting~\cite{wan2025truth}. Entity debiasing improves generalization to future data~\cite{zhu2022endef}, masking person names with Wikidata labels improves out-of-domain accuracy against an unmasked baseline~\cite{murayama2021diachronic}, and filtering opinion articles from the training data raised out-of-distribution F1 for Combined-Corpus-trained models but not for ISOT-trained ones, with no size-matched control~\cite{blackledge2021transforming}. A systematization of 248 papers with three replication studies, one of which finds near-chance accuracy for a CNN-RNN detector on 100 Reuters and 100 New York Times articles with edited facts~\cite{xiao2023sok}, and a guide to dataset quality, whose keyword-only and time-only probes flag ISOT for spurious correlations~\cite{thibault2024guide}, document data and evaluation problems more broadly.
+Stylometric detectors of machine-generated fake news likewise fail once provenance and veracity are decoupled~\cite{schuster2020limitations}. Table~\ref{tab:prior} compares nine closely related studies reviewed in detail.
+
+\subsection{Duplicates and label quality}
+Duplicated training data inflate scores and leak across splits~\cite{lee2022dedup}, leakage more generally is a recognised source of inflated results~\cite{kaufman2012leakage,kapoor2023leakage}, conclusions drawn from a single standard split can change under resampling~\cite{gorman2019standard}, and label errors destabilize benchmarks~\cite{northcutt2021labelerrors}. Resemblance and containment of documents can be estimated with MinHash-based sketches~\cite{broder1997resemblance}. We use these ideas to audit the corpora before any modelling.
+
+\subsection{Positioning}
+Our study differs from the above in combining, under one protocol, (a) cross-dataset gap as the outcome, (b) three artifact families as separately and jointly applied interventions, (c) random-deletion controls matched in size per document, (d) overlap- and duplicate-controlled datasets, and (e) per-pair reporting. In Table~\ref{tab:prior}, seven of the nine studies intervene on text or data in some way and seven evaluate transfer between datasets, but, to our knowledge, none reports a random-deletion control, none reports the share of the transfer gap removed by an intervention, and none matches documents across the datasets it pairs with normalization or near-duplicate detection (see Table~\ref{tab:prior}, column ``Overlap audit''; one checks exact strings~\cite{haroon2026benchmarks}, one audits duplicates within a single corpus~\cite{verma2026accuracy}). Per-pair results appear in four studies (in one only in a supplement), without intervention controls.
+
+\begin{table}[t]
+\caption{Closest prior work. S, L, E: source-marker masking, length matching, entity masking. ``Cross-data'': trains on one dataset and tests on another. ``Random control'': a matched random-deletion condition. ``Gap attribution'': reports how much of the transfer gap an intervention removes. n/r: not reported in the text.}
+\label{tab:prior}
+\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\adjustbox{max width=\linewidth}{\begin{tabular}{@{}L{0.9cm}L{2.3cm}L{2.2cm}L{3.3cm}L{1.9cm}L{2.3cm}L{1.8cm}L{1.3cm}@{}}
+\toprule
+Paper & Datasets & Cross-data & Artifact intervention & Random control & Gap attribution & Overlap audit & Per-pair\\
+\midrule
+\cite{verma2026accuracy} & ISOT (+LIAR as test) & ISOT$\rightarrow$LIAR; topic and time splits & remove metadata, source tag, duplicates; delete top-K words & no (label-permutation check only) & partial: in-corpus F1 cost per channel & duplicates within ISOT & no\\
+\cite{haroon2026benchmarks} & 6 (incl. WELFake, ISOT) & yes, zero-shot, both directions & one 50-word length cap (in-domain, Urdu) & no & no (qualitative diagnosis) & exact-string check & yes\\
+\cite{delloglio2026comparison} & 10 English (no WELFake, McIntire) & yes, plus mixed and leave-one-out & none & no & no (explicitly not causal) & n/r & supplement\\
+\cite{wan2025truth} & 16 benchmarks & limited (appendix) & LLM-injected sentiment, tone, word choice; LLM rewriting & size-matched random split only & no (accuracy under reversed pairing) & n/r & no\\
+\cite{zhu2022endef} & 2 (Weibo, GossipCop) & no (temporal split) & entity debiasing; random drop or mask as augmentation & no & no & n/r & no\\
+\cite{xiao2023sok} & 248 papers surveyed; 3 replications (ISOT, FA-KES, 100 + 100 Reuters and NYT articles) & yes, small new test sets & fact edits with style kept; ISOT ``scrubbed'' variant; feature-group ablation & no & no & no & no\\
+\cite{thibault2024guide} & 75 surveyed, 45 assessed & no (zero-shot LLM baselines per dataset) & none (keyword-only and time-only probes) & chance baseline only & no & no & no\\
+\cite{murayama2021diachronic} & 4 (MultiFC, Horne17, Celebrity, Constraint) & yes, 12 ordered pairs & mask or delete named entities, Wikidata labels & no (unmasked baseline only) & no (accuracy change) & n/r & yes\\
+\cite{blackledge2021transforming} & 2 (ISOT, Combined Corpus) & yes, both directions & filter opinion articles from training data & no (filtering also shrinks the data) & no (F1 change, mixed across models) & n/r & yes (2 directions)\\
+\midrule
+This work & 3 (overlap-audited) & yes, 6 ordered pairs & S, L, E, factorial & yes (S, E, SE, L+E, S+L+E; not L alone) & yes & yes & yes\\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+

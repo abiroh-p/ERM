@@ -1,0 +1,10 @@
+\section{Problem formulation}
+\emph{Terminology.} By \emph{artifact} we mean a dataset-associated cue that may correlate with the label in one collection without being a reliable indicator of veracity in another; the term is task-relative (a publisher marker is an artifact for judging content but a legitimate signal for judging publisher type). By ``explained'' or ``removed'' we mean, operationally, the share of the baseline gap eliminated by an intervention; this is not proof of exclusive causal attribution. By fake-news detection we mean classifying news articles as real or fake according to each dataset's labels.
+
+Let $s$ and $t$ be two datasets and $f_s$ a classifier trained on $s$. We write $\mathrm{AUC}_{\mathrm{in}}(s)$ for its ROC-AUC on held-out documents of $s$ and $\mathrm{AUC}_{\mathrm{x}}(s\!\rightarrow\!t)$ for its ROC-AUC on $t$. The cross-dataset gap is
+\begin{equation}
+G(s\!\rightarrow\!t)=\mathrm{AUC}_{\mathrm{in}}(s)-\mathrm{AUC}_{\mathrm{x}}(s\!\rightarrow\!t).
+\end{equation}
+An intervention $\phi$ transforms every document of every dataset (and is applied identically to training and test text); $G_\phi$ is the gap measured on the transformed data. The share of the gap removed is $1-\bar G_\phi/\bar G_0$, with $\bar G$ the mean over ordered pairs, computed within each seed and then averaged over seeds. The problem is to estimate how this share depends on $\phi\in\{$source markers, length, entities$\}$ and their combinations, \emph{above what deleting the same amount of text at random would do}, while avoiding four threats: (i) overlapping documents between datasets, (ii) incorrect or inconsistent labels, (iii) near-duplicates that leak between training and test splits, and (iv) differences in class prior and sample size across conditions.
+
+

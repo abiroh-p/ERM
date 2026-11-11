@@ -27,3 +27,12 @@ data/raw/
 results/audit/smoke/cleaned_all.parquet
 results/audit/*/label_check_*.txt
 results/audit/*/*_with_text.csv
+
+# LaTeX build files
+paper/sn/*.aux
+paper/sn/*.bbl
+paper/sn/*.blg
+paper/sn/*.log
+paper/sn/*.out
+paper/sn/*.pdf
+paper/sn/main_sn_flat.tex

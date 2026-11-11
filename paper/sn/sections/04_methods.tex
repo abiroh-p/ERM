@@ -1,0 +1,60 @@
+\section{Methodology}
+\subsection{Datasets}\label{sec:data}
+We use three English full-text news corpora: ISOT~\cite{ahmed2017isot} (real articles from Reuters, fake from sites flagged by fact-checkers; 2016--2017), the McIntire ``Fake or Real News'' set~\cite{mcintire2017fakeorreal}, and WELFake~\cite{verma2021welfake}, a collection merged from several sources. Each document is represented as title plus body. ISOT's \texttt{subject} and \texttt{date} fields are never used. LIAR~\cite{wang2017liar} and FakeNewsNet~\cite{shu2020fakenewsnet} were considered but excluded (short claims; crawling required).
+
+\subsection{Audit and cleaning}
+\emph{Normalization.} Two passes: lowercase, punctuation and whitespace collapse; and additionally removal of URLs, handles, a leading ``CITY (Reuters) --'' dateline, agency tags and the word ``Reuters'', so that the same story cleaned differently still matches (used for matching only).
+\emph{Matching.} Exact hashes (128-bit) of text and of title+text; a 300-character prefix match; and near-duplicates by MinHash (128 permutations, 32 bands $\times$ 4 rows) over word 5-shingles on the full text and on the first 100 words, with candidates re-checked by the true Jaccard similarity (threshold 0.8) or containment ($\geq 0.9$). A sensitivity tier uses 3-shingles with Jaccard $\geq 0.5$.
+\emph{Cleaning.} Documents with fewer than 20 words and exact duplicates are removed within each dataset; near-duplicate clusters (Jaccard $\geq 0.8$) are kept but recorded, and the later splits are group-aware on these clusters.
+\emph{Label direction.} Documentation of WELFake is contradictory, so we verified it on Reuters-tagged articles (21,266 under label 0, 16 under label 1): label 0 is real and label 1 is fake. After this correction, exact-text label conflicts between datasets fell to one per pair.
+
+\subsection{Analysis set and pre-specified thresholds}
+Because every cleaned ISOT and McIntire document has a normalized match in WELFake (Section~\ref{sec:audit}), we remove from WELFake every document that is an exact, prefix or near-duplicate match of an ISOT or McIntire document, leaving a \emph{WELFake residual} (hereafter, the residual). Before seeing the overlap results, we specified (without formal registration) the rule: keep a dataset if every class has at least 3,000 documents and the minority class is at least 40\% of the dataset. The rule narrowly failed (McIntire real: 2,964; residual minority share: 39.2\%). We proceeded and report this as a deviation; Section~\ref{sec:robust} shows a duplicate-removal rerun.
+
+\subsection{Interventions}
+Each intervention deletes spans from the text and is applied to training and test documents alike.
+\begin{itemize}
+\item \textbf{S (source-marker masking):} regular expressions for URLs and broken URLs, datelines and agency tags, outlet names, image credits, ``share/tweet/print'' prompts, advertisement markers, posted-at stamps, ``Source:'' credit lines, email addresses, embedded-tweet attributions, and @/\# handles. The patterns were written after inspecting label-predictive tokens, and S therefore removes \emph{overt} markers, not all source information. S is split post hoc into W (datelines, agency tags, outlet names) and B (all other web boilerplate).
+\item \textbf{L (length matching):} within each dataset, documents are binned into ten deciles of word count, and the same number of real and fake documents is sampled per bin, so length carries no class information within a dataset (approximately, at decile resolution).
+\item \textbf{E (entities):} spans labelled PERSON, ORG, GPE, NORP, LOC, FAC, EVENT, PRODUCT, WORK\_OF\_ART, LAW or LANGUAGE by spaCy's \texttt{en\_core\_web\_sm}~\cite{honnibal2020spacy} are deleted.
+\item \textbf{T (temporal expressions, exploratory):} weekdays, capitalized month names with optional day and year, four-digit years, numeric dates and clock times. T was added after inspecting residual cues.
+\item \textbf{Random controls} $R_S$, $R_E$, $R_{SE}$ ($R_W$, $R_B$, $R_T$ for the exploratory parts): for every document, delete the same number of whole words as the real intervention removed, at random positions.
+\item \textbf{Combined controls} $L{+}R_E$ and $L{+}R_{SE}$ (added after the first results): length matching followed by random deletion of as many words as E (respectively S+E) removes; they are the matched controls of L+E and S+L+E.
+\end{itemize}
+The primary analysis uses the $2^3$ factorial over S, L, E (eight cells) with the three random controls (for DistilBERT, $R_S$ and $R_{SE}$ were added after an initial three-seed run); T and the S split are exploratory; the combined controls $L{+}R_E$ and $L{+}R_{SE}$ and the RoBERTa arm were added after the TF-IDF and DistilBERT results had been inspected (Table~\ref{tab:status}).
+
+\subsection{Experimental protocol}
+\emph{Universe.} Up to 4,000 documents per dataset and class are drawn once (22,005 documents). \emph{Splits.} For each seed, 20\% of near-duplicate clusters of each dataset are held out as the in-domain test pool; the cross-dataset test sample is drawn from all documents of the target. \emph{Sampling.} For each dataset and seed, the training, in-domain and cross-dataset sample sizes are fixed (about 1,495 per class for training, 400--500 per class in-domain, about 795 per class cross-dataset) and \emph{identical across all conditions}, with exactly 50\% fake, so conditions differ only in the intervention. \emph{Seeds.} Eight seeds change the split and the sample. The initial analysis used five seeds. After inspecting the five-seed results we extended it to eight seeds to obtain more stable estimates. The extension was applied uniformly to all conditions and both models, and no condition was added or dropped, so the eight-seed results are an expanded-sample analysis, not a replication specified in advance. The TF-IDF conclusions were unchanged, but some DistilBERT estimates moved (the specific effect of entity masking went from $-0.022$ \ci{-0.028}{-0.015} at five seeds to $-0.010$ \ci{-0.025}{0.005} at eight), and only the eight-seed values are reported. The DistilBERT controls $R_S$ and $R_{SE}$ were added after an initial three-seed run showed that random deletion itself changes transfer. Every result in this paper uses the same eight seeds (0--7) for all three models; the duplicate-removal checks cover TF-IDF and DistilBERT only.
+
+\emph{Matched controls for length matching.} L alone is a resampling intervention: it changes which documents are drawn, not their text, and it is applied at the same sample sizes and 50\% class balance as every other condition. Its matched control is therefore C0, so that L versus C0 isolates the length-bin constraint; a word-deletion control would not be the matched comparison for it. When length matching is combined with masking, the matched comparison is length matching followed by random deletion of the same size ($L{+}R_E$, $L{+}R_{SE}$), which we added. We do not claim that L alone is as tightly controlled as S and E.
+
+\begin{table}[t]
+\caption{Status of each analysis component.}
+\label{tab:status}
+\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\adjustbox{max width=\linewidth}{\begin{tabular}{@{}L{2.5cm}L{1.5cm}L{3.8cm}@{}}
+\toprule
+Component & Status & Fixed before results?\\
+\midrule
+Dataset-selection thresholds & primary & yes, without formal registration\\
+S, L, E factorial (8 cells) & primary & design yes; S patterns written after inspecting label-predictive tokens\\
+Random controls $R_S$, $R_E$, $R_{SE}$ & primary & TF-IDF yes; DistilBERT $R_S$ and $R_{SE}$ added after an initial three-seed run\\
+Seeds & primary & extended from five to eight after inspecting five-seed results, for all conditions and both models\\
+S split (W, B) and T & exploratory & no; added after inspecting results\\
+Combined controls $L{+}R_E$, $L{+}R_{SE}$; RoBERTa arm & added & no; added after inspecting TF-IDF and DistilBERT results\\
+Six matched-control contrasts and Holm family (Appendix) & descriptive & no; defined after the exploratory results\\
+Duplicate-removal rerun (TF-IDF, DistilBERT) & robustness & after the audit\\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\subsection{Models and metrics}\label{sec:models}
+\emph{TF-IDF + LR:} word 1--2-grams, minimum document frequency 2, maximum 0.95, sublinear term frequency, at most 200,000 features, logistic regression ($C{=}1$, liblinear)~\cite{pedregosa2011sklearn}. \emph{DistilBERT}~\cite{sanh2019distilbert}, a distilled version of BERT~\cite{devlin2019bert}, with the Transformers library~\cite{wolf2020transformers}: \texttt{distilbert-base-uncased}, first 256 tokens, 2 epochs, batch 16, AdamW with learning rate $3\times10^{-5}$, weight decay 0.01, 6\% warm-up, mixed precision on an NVIDIA Tesla T4 GPU. \emph{RoBERTa}~\cite{liu2019roberta}: \texttt{roberta-base} with the same recipe. Both transformers reuse the exact samples of the TF-IDF arm. The archived TF-IDF cells were run on the first author's system and the archived DistilBERT cells on a Google Colab T4 GPU (library versions of the latter were not recorded). The added conditions, the RoBERTa arm and the checks were run on Kaggle with two T4 GPUs, using a runner that parallelises the independent training jobs over the GPUs and derives every random stream exactly as the original runners; a seed-0 re-run of conditions C0 and L reproduced the archived DistilBERT results exactly (AUC, F1, accuracy and AP, difference 0.0 in all 18 cells).
+
+\emph{Metrics.} ROC-AUC is the headline metric. F1 of the fake class is also reported but is less informative: with balanced classes, predicting ``fake'' for everything gives F1 of 0.667 and AUC of 0.5.
+
+\subsection{Statistics}\label{sec:stats}
+The unit of inference is the \emph{seed}. The six ordered pairs within a seed share training sets and are therefore not independent replicates, and the two models share the same documents seed by seed. For every comparison we compute a paired difference within each seed and ordered pair (for example, cross-dataset AUC under condition S minus under C0), average it with equal weight over the six pairs to obtain one value per seed, and summarize the eight seed values by their mean and a 95\% $t$-interval (seven degrees of freedom). We also report how many seeds agree in sign with the mean. These intervals describe resampling and training variability for these three datasets under this protocol; all seeds draw from one fixed document universe, so they say nothing about other datasets, and the pooled average is a summary of six pairs that differ, which is why every pooled result is accompanied by per-pair results. Intervals and seed agreement are the basis for claims. For the six matched-control contrasts we additionally report exact paired sign-flip $p$-values with Holm adjustment~\cite{holm1979simple} (Appendix); they describe stability under resampling within one fixed document universe, the family was defined after earlier exploratory results had been seen, and no other comparison is corrected for multiplicity. Factorial effects use $\pm1$ coding: an effect is the average change when a factor (or interaction) goes from $-1$ to $+1$.
+
+\emph{Comparing models.} To compare models we do not contrast ``significant'' with ``not significant''; we compute, for each seed, the difference between the effects of two models for the same intervention (for example $D_s=\text{effect}^{\text{TF-IDF}}_s-\text{effect}^{\text{DistilBERT}}_s$), which is paired because all arms use identical samples, and examine the eight values $D_s$. The conditions of the primary analysis are the eight factorial cells, the three random controls and the two combined controls; all other conditions and all per-pair breakdowns are exploratory.
