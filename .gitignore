@@ -21,3 +21,9 @@ results/audit/primary/cleaned_all.parquet
 *_work/
 shard*.csv
 *.csv.tmp
+
+# dataset text is not redistributed (see README, Data)
+data/raw/
+results/audit/smoke/cleaned_all.parquet
+results/audit/*/label_check_*.txt
+results/audit/*/*_with_text.csv
