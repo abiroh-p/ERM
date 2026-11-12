@@ -12,9 +12,25 @@ def ci(row,sign=True):
 def table(path,cols,head,rows):
  path.write_text('\\begin{tabular}{@{}'+cols+'@{}}\n\\toprule\n'+head+'\\\\\n\\midrule\n'+'\n'.join(' & '.join(row)+r'\\' for row in rows)+'\n\\bottomrule\n\\end{tabular}\n')
 rows=[]
-for c in contrasts:
- rows.append([cn[c]]+[ci(D.query('arm==@m and metric=="auc" and contrast==@c').iloc[0]) for m in models])
+all_contrasts=['S_vs_R_S','E_vs_R_E','SE_vs_R_SE','L_vs_C0','LE_vs_L_RE','SLE_vs_L_RSE']
+all_cn={**cn,'S_vs_R_S':r'S $-$ $R_S$','SE_vs_R_SE':r'S+E $-$ $R_{SE}$'}
+for c in all_contrasts:
+ row=[all_cn[c]]
+ for m in models:
+  selected=D.query('arm==@m and metric=="auc" and contrast==@c')
+  row.append(ci(selected.iloc[0]) if len(selected) else 'not run')
+ rows.append(row)
 table(T/'tab_paired_pooled.tex','lccc','Contrast & TF-IDF & DistilBERT & RoBERTa',rows)
+rows=[]
+for m in models:
+ for c in all_contrasts:
+  selected=D.query('arm==@m and metric=="auc" and contrast==@c')
+  if len(selected):
+   r=selected.iloc[0]
+   rows.append([labels[m],all_cn[c],f'{int(r.same_sign)}/8',f'{r.p_signflip:.4f}',f'{r.p_holm_six:.4f}'])
+  else:
+   rows.append([labels[m],all_cn[c],'not run','--','1.0000*'])
+table(T/'tab_paired_multiplicity.tex','llccc','Model & Contrast & Sign agreement & Exact $p$ & Holm $p$',rows)
 rows=[]
 for m in models:
  for c in ['C0','LE','SLE','L_RE','L_RSE']:

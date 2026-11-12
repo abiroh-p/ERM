@@ -13,10 +13,11 @@ We make four contributions.
 All claims are limited to three English news corpora from 2016--2017 and three models (a linear lexical model and two fine-tuned transformers).
 
 \subsection{Objectives}
+O1 establishes the audited analysis corpora. O2 addresses the first research question, O3 the second, and O4 the third.
 \begin{enumerate}
 \item[O1] Audit three public corpora for overlap, duplication and label direction, and construct a defensible set of datasets.
 \item[O2] Quantify, for a TF-IDF logistic-regression detector, how much of the cross-dataset gap is removed by source-marker masking, length matching and entity masking, alone and combined.
-\item[O3] Separate the specific effect of each intervention, alone and combined with length matching, from the effect of deleting an equal number of random words.
+\item[O3] Compare source-marker and entity masking, alone and combined with length matching, against deletion of an equal number of random words; compare length matching alone against unconstrained sampling.
 \item[O4] Report how the effects vary across ordered dataset pairs, and whether they carry over to fine-tuned transformers (DistilBERT and RoBERTa).
 \end{enumerate}
 

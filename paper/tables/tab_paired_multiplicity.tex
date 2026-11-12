@@ -1,0 +1,24 @@
+\begin{tabular}{@{}llccc@{}}
+\toprule
+Model & Contrast & Sign agreement & Exact $p$ & Holm $p$\\
+\midrule
+TF-IDF & S $-$ $R_S$ & 8/8 & 0.0078 & 0.0469\\
+TF-IDF & E $-$ $R_E$ & 8/8 & 0.0078 & 0.0469\\
+TF-IDF & S+E $-$ $R_{SE}$ & 8/8 & 0.0078 & 0.0469\\
+TF-IDF & L $-$ C0 & 8/8 & 0.0078 & 0.0469\\
+TF-IDF & L+E $-$ L+$R_E$ & 8/8 & 0.0078 & 0.0469\\
+TF-IDF & S+L+E $-$ L+$R_{SE}$ & 8/8 & 0.0078 & 0.0469\\
+DistilBERT & S $-$ $R_S$ & not run & -- & 1.0000*\\
+DistilBERT & E $-$ $R_E$ & 8/8 & 0.0078 & 0.0469\\
+DistilBERT & S+E $-$ $R_{SE}$ & not run & -- & 1.0000*\\
+DistilBERT & L $-$ C0 & 5/8 & 0.0938 & 0.3750\\
+DistilBERT & L+E $-$ L+$R_E$ & 7/8 & 0.0234 & 0.1172\\
+DistilBERT & S+L+E $-$ L+$R_{SE}$ & 6/8 & 0.1250 & 0.3750\\
+RoBERTa & S $-$ $R_S$ & not run & -- & 1.0000*\\
+RoBERTa & E $-$ $R_E$ & 6/8 & 0.1953 & 0.9766\\
+RoBERTa & S+E $-$ $R_{SE}$ & not run & -- & 1.0000*\\
+RoBERTa & L $-$ C0 & 5/8 & 0.5781 & 1.0000\\
+RoBERTa & L+E $-$ L+$R_E$ & 7/8 & 0.1016 & 0.6094\\
+RoBERTa & S+L+E $-$ L+$R_{SE}$ & 6/8 & 0.2812 & 1.0000\\
+\bottomrule
+\end{tabular}

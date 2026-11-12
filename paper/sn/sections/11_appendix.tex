@@ -1,7 +1,14 @@
 \FloatBarrier
 \appendix
 \section{Document-paired inference and seed results}
-For each seed, cross-dataset AUC contrasts are first computed within each ordered corpus pair and then averaged over the six pairs. The reported mean and 95\% $t$-interval use the resulting eight values. Seeds are the repeated unit; the six transfers within a seed are not independent samples. Exact sign-flip values enumerate the 256 sign assignments; with eight seeds the smallest two-sided value is 0.0078125. Holm correction retains the six planned contrasts per model and outcome, assigning $p=1$ to the two unrun transformer contrasts. This is a descriptive analysis of a fixed document universe, informed by earlier exploration. Failure to reject zero is not evidence of equivalence.
+For each seed, cross-dataset AUC contrasts are first computed within each ordered corpus pair and then averaged over the six pairs. The reported mean and 95\% $t$-interval use the resulting eight values. Seeds are the repeated unit; the six transfers within a seed are not independent samples. Exact sign-flip values enumerate the 256 sign assignments; with eight seeds the smallest two-sided value is 0.0078125. Holm correction retains the six contrasts in the descriptive family per model and outcome, assigning $p=1$ to the two unrun transformer contrasts. This is a descriptive analysis of a fixed document universe, informed by earlier exploration. Failure to reject zero is not evidence of equivalence.
+
+
+\begin{table}[htbp]
+\caption{Complete document-paired cross-dataset AUC multiplicity summary. Sign agreement counts seed-level differences with the same sign as their mean, after averaging the six ordered pairs within seed. Holm correction is applied separately within each model's six-contrast AUC family. Asterisk: an unrun contrast contributes $p=1$ to correction only; no effect or sign-flip test is estimated. These post-exploration summaries are descriptive.}\label{tab:paired_multiplicity}
+\centering\footnotesize
+\adjustbox{max width=\linewidth}{\input{../tables/tab_paired_multiplicity}}
+\end{table}
 
 \begin{table}[htbp]
 \caption{Document-paired model differences: TF-IDF minus DistilBERT in each pooled AUC contrast (mean, 95\% interval and sign agreement across eight seeds). Exploratory.}\label{tab:paired_model_diff}
