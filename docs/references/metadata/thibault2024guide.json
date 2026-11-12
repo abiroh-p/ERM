@@ -1,0 +1,495 @@
+{
+  "entry": {
+    "key": "thibault2024guide",
+    "type": "misc",
+    "title": "A Guide to Misinformation Detection Data and Evaluation",
+    "doi": null,
+    "author": "Thibault, Camille and Tian, Jacob-Junqi and Peloquin-Skulski, Gabrielle and Curtis, Taylor Lynn and Zhou, James and Laflamme, Florence and Guan, Luke Yuxiang and Rabbany, Reihaneh and Godbout, Jean-Fran{\\c{c}}ois and Pelrine, Kellin",
+    "year": "2025"
+  },
+  "url": "https://api.crossref.org/works?query.title=A+Guide+to+Misinformation+Detection+Data+and+Evaluation&rows=1",
+  "title_similarity": 1.0,
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2026-11-03T14:01:32Z",
+      "timestamp": 1793714492025,
+      "version": "4.6.1"
+    },
+    "publisher-location": "New York, NY, USA",
+    "reference-count": 30,
+    "publisher": "ACM",
+    "content-domain": {
+      "domain": [
+        "dl.acm.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1145/3711896.3737437",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          3
+        ]
+      ],
+      "date-time": "2025-08-03T21:04:26Z",
+      "timestamp": 1754255066000
+    },
+    "page": "5801-5809",
+    "update-policy": "https://doi.org/10.1145/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "A Guide to Misinformation Detection Data and Evaluation"
+    ],
+    "prefix": "10.1145",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0007-6597-4569",
+        "authenticated-orcid": false,
+        "given": "Camille",
+        "family": "Thibault",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Mila, Universit\u00e9 de Montr\u00e9al, Montreal, QC, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2922-8063",
+        "authenticated-orcid": false,
+        "given": "Jacob-Junqi",
+        "family": "Tian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Mila, Montreal, QC, Canada and Vector Institute, Toronto, ON, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1504-0286",
+        "authenticated-orcid": false,
+        "given": "Gabrielle",
+        "family": "P\u00e9loquin-Skulski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Massachusetts Institute of Technology, Cambridge, MA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-6408-2009",
+        "authenticated-orcid": false,
+        "given": "Taylor Lynn",
+        "family": "Curtis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Mila, Montreal, QC, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0006-2156-9791",
+        "authenticated-orcid": false,
+        "given": "James",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UC Berkeley, Berkeley, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-0336-407X",
+        "authenticated-orcid": false,
+        "given": "Florence",
+        "family": "Laflamme",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Mila, Universit\u00e9 de Montr\u00e9al, Montr\u00e9al, QC, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-8647-4222",
+        "authenticated-orcid": false,
+        "given": "Luke Yuxiang",
+        "family": "Guan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "McMaster University, Hamilton, ON, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2348-0353",
+        "authenticated-orcid": false,
+        "given": "Reihaneh",
+        "family": "Rabbany",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Mila, Montreal, QC, Canada and McGill University, Montreal, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0008-1886-4890",
+        "authenticated-orcid": false,
+        "given": "Jean-Fran\u00e7ois",
+        "family": "Godbout",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Mila, Montreal, QC, Canada and Universit\u00e9 de Montr\u00e9al, Montreal, QC, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-4671-5554",
+        "authenticated-orcid": false,
+        "given": "Kellin",
+        "family": "Pelrine",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Mila, Montreal, QC, Canada and McGill University, Montreal, QC, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "320",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_2_2_1_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sara Abdali. 2024. Multi-modal misinformation detection: Approaches challenges and opportunities. arXiv preprint arXiv:2203.13883(2024).",
+        "DOI": "10.1145/3697349"
+      },
+      {
+        "key": "e_1_3_2_2_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2023.emnlp-main.258"
+      },
+      {
+        "key": "e_1_3_2_2_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2022/6072084"
+      },
+      {
+        "key": "e_1_3_2_2_4_1",
+        "unstructured": "Yuntao Bai Saurav Kadavath Sandipan Kundu Amanda Askell Jackson Kernion Andy Jones Anna Chen Anna Goldie Azalia Mirhoseini Cameron McKinnon et al. 2022. Constitutional ai: Harmlessness from ai feedback. arXiv preprint arXiv:2212.08073(2022)."
+      },
+      {
+        "key": "e_1_3_2_2_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCG.2024.3362168"
+      },
+      {
+        "key": "e_1_3_2_2_6_1",
+        "volume-title": "A survey on fake news and rumour detection techniques. Information sciences",
+        "author": "Bondielli Alessandro",
+        "year": "2019",
+        "unstructured": "Alessandro Bondielli and Francesco Marcelloni. 2019. A survey on fake news and rumour detection techniques. Information sciences, Vol. 497 (2019), 38-55."
+      },
+      {
+        "key": "e_1_3_2_2_7_1",
+        "unstructured": "Canyu Chen and Kai Shu. 2023. Combating misinformation in the age of llms: Opportunities and challenges. arXiv preprint arXiv:2311.05656(2023)."
+      },
+      {
+        "key": "e_1_3_2_2_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7717/peerj-cs.518"
+      },
+      {
+        "key": "e_1_3_2_2_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3458723"
+      },
+      {
+        "key": "e_1_3_2_2_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-020-00257-z"
+      },
+      {
+        "key": "e_1_3_2_2_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eswa.2019.03.036"
+      },
+      {
+        "key": "e_1_3_2_2_12_1",
+        "volume-title": "Mohd Juzaiddin Ab Aziz, and Mohd Ridzwan Yaakub",
+        "author": "Hamed Suhaib Kh",
+        "year": "2023",
+        "unstructured": "Suhaib Kh Hamed, Mohd Juzaiddin Ab Aziz, and Mohd Ridzwan Yaakub. 2023. A review of fake news detection approaches: A critical analysis of relevant studies and highlighting key challenges associated with the dataset, feature representation, and data fusion. Heliyon(2023)."
+      },
+      {
+        "key": "e_1_3_2_2_13_1",
+        "first-page": "1094",
+        "volume-title": "Science",
+        "volume": "359",
+        "author": "Lazer David MJ",
+        "year": "2018",
+        "unstructured": "David MJ Lazer, Matthew A Baum, Yochai Benkler, Adam J Berinsky, Kelly M Greenhill, Filippo Menczer, Miriam J Metzger, Brendan Nyhan, Gordon Pennycook, David Rothschild, et al., 2018. The science of fake news. Science, Vol. 359, 6380 (2018), 1094-1096."
+      },
+      {
+        "key": "e_1_3_2_2_14_1",
+        "unstructured": "Timothy R McIntosh Teo Susnjak Tong Liu Paul Watters and Malka N Halgamuge. 2024. Inadequacies of large language model benchmarks in the era of generative artificial intelligence. arXiv preprint arXiv:2402.09880(2024)."
+      },
+      {
+        "key": "e_1_3_2_2_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/educsci13090856"
+      },
+      {
+        "key": "e_1_3_2_2_16_1",
+        "unstructured": "Ray Oshikawa Jing Qian and William Yang Wang. 2018. A survey on natural language processing for fake news detection. arXiv preprint arXiv:1811.00770(2018)."
+      },
+      {
+        "key": "e_1_3_2_2_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-22485-0_21"
+      },
+      {
+        "key": "e_1_3_2_2_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3442381.3450111"
+      },
+      {
+        "key": "e_1_3_2_2_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2023.emnlp-main.395"
+      },
+      {
+        "key": "e_1_3_2_2_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3305260"
+      },
+      {
+        "key": "e_1_3_2_2_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3137597.3137600"
+      },
+      {
+        "key": "e_1_3_2_2_22_1",
+        "volume-title": "SALMON: Self-Alignment with Principle-Following Reward Models. arxiv:2310.05910 [cs.LG]",
+        "author": "Sun Zhiqing",
+        "year": "2023",
+        "unstructured": "Zhiqing Sun, Yikang Shen, Hongxin Zhang, Qinhong Zhou, Zhenfang Chen, David Cox, Yiming Yang, and Chuang Gan. 2023a. SALMON: Self-Alignment with Principle-Following Reward Models. arxiv:2310.05910 [cs.LG]"
+      },
+      {
+        "key": "e_1_3_2_2_23_1",
+        "volume-title": "Thirty-seventh Conference on Neural Information Processing Systems. https://openreview.net/forum?id=p40XRfBX96",
+        "author": "Sun Zhiqing",
+        "year": "2023",
+        "unstructured": "Zhiqing Sun, Yikang Shen, Qinhong Zhou, Hongxin Zhang, Zhenfang Chen, David Cox, Yiming Yang, and Chuang Gan. 2023b. Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision. In Thirty-seventh Conference on Neural Information Processing Systems. https://openreview.net/forum?id=p40XRfBX96"
+      },
+      {
+        "key": "e_1_3_2_2_24_1",
+        "volume-title": "Web Retrieval Agents for Evidence-Based Misinformation Detection. In First Conference on Language Modeling.",
+        "author": "Tian Jacob-Junqi",
+        "year": "2024",
+        "unstructured": "Jacob-Junqi Tian, Hao Yu, Yury Orlovskiy, Tyler Vergho, Mauricio Rivera, Mayank Goel, Zachary Yang, Jean-Fran\u00e7ois Godbout, Reihaneh Rabbany, and Kellin Pelrine. 2024. Web Retrieval Agents for Evidence-Based Misinformation Detection. In First Conference on Language Modeling."
+      },
+      {
+        "key": "e_1_3_2_2_25_1",
+        "unstructured": "Simon Torkington. 2024. AI-driven disinformation and global risks. World Economic Forum Agenda(2024). https://www.weforum.org/agenda/2024/01/ai-disinformation-global-risks/ Accessed: 2024-09-20."
+      },
+      {
+        "key": "e_1_3_2_2_26_1",
+        "unstructured": "Jerry Wei Chengrun Yang Xinying Song Yifeng Lu Nathan Hu Dustin Tran Daiyi Peng Ruibo Liu Da Huang Cosmo Du et al. 2024. Long-form factuality in large language models. arXiv preprint arXiv:2403.18802(2024)."
+      },
+      {
+        "key": "e_1_3_2_2_27_1",
+        "volume-title": "Joint European Conference on Machine Learning and Knowledge Discovery in Databases. Springer, 274-290",
+        "author": "Wu Jiaying",
+        "year": "2022",
+        "unstructured": "Jiaying Wu and Bryan Hooi. 2022. Probing spurious correlations in popular event-based rumor detection benchmarks. In Joint European Conference on Machine Learning and Knowledge Discovery in Databases. Springer, 274-290."
+      },
+      {
+        "key": "e_1_3_2_2_28_1",
+        "volume-title": "Jean Francois Godbout, and Reihaneh Rabbany",
+        "author": "Yu Hao",
+        "year": "2023",
+        "unstructured": "Hao Yu, Zachary Yang, Kellin Pelrine, Jean Francois Godbout, and Reihaneh Rabbany. 2023. Open, Closed, or Small Language Models for Text Classification? arXiv preprint arXiv:2308.10092(2023)."
+      },
+      {
+        "key": "e_1_3_2_2_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3395046"
+      },
+      {
+        "key": "e_1_3_2_2_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.6084/m9.figshare.4010619.v1"
+      }
+    ],
+    "event": {
+      "name": "KDD '25: The 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "location": "Toronto ON Canada",
+      "acronym": "KDD '25",
+      "sponsor": [
+        "SIGKDD ACM Special Interest Group on Knowledge Discovery in Data",
+        "SIGMOD ACM Special Interest Group on Management of Data"
+      ]
+    },
+    "container-title": [
+      "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2"
+    ],
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/3711896.3737437",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          30
+        ]
+      ],
+      "date-time": "2026-04-30T18:18:51Z",
+      "timestamp": 1777573131000
+    },
+    "score": 34.116814,
+    "resource": {
+      "primary": {
+        "URL": "https://dl.acm.org/doi/10.1145/3711896.3737437"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          3
+        ]
+      ]
+    },
+    "references-count": 30,
+    "alternative-id": [
+      "10.1145/3711896.3737437",
+      "10.1145/3711896"
+    ],
+    "URL": "https://doi.org/10.1145/3711896.3737437",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-08-03",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

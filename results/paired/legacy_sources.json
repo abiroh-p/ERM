@@ -1,0 +1,16 @@
+{
+  "tfidf": [
+    "results/raw/tfidf/results_tfidf_a.csv",
+    "results/raw/tfidf/results_tfidf_b.csv",
+    "results/raw/tfidf/results_tfidf_c.csv",
+    "results/raw/tfidf/results_tfidf_e.csv",
+    "results/raw/tfidf/results_tfidf_newconds.csv"
+  ],
+  "distilbert": [
+    "results/raw/distilbert/results_distilbert.csv",
+    "results/raw/distilbert/results_distilbert_newconds.csv"
+  ],
+  "roberta": [
+    "results/raw/roberta/results_roberta.csv"
+  ]
+}

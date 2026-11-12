@@ -1,0 +1,106 @@
+{
+  "args": {
+    "cmd": "run",
+    "analysis_csv": "/kaggle/input/datasets/abishek11prasad/erm-data/analysis_set.csv",
+    "spans_cache": "/kaggle/input/datasets/abishek11prasad/erm-data/spans_cache.pkl",
+    "exclude": null,
+    "smoke": false,
+    "backend": "tfidf",
+    "sampling": "paired",
+    "allow_regex_ner": false,
+    "model": "distilbert-base-uncased",
+    "gpus": null,
+    "workers": 2,
+    "allow_cpu": false,
+    "seeds": [
+      6,
+      7
+    ],
+    "conds": [
+      "C0",
+      "S",
+      "L",
+      "E",
+      "SL",
+      "SE",
+      "LE",
+      "SLE",
+      "R_S",
+      "R_E",
+      "R_SE",
+      "L_RE",
+      "L_RSE"
+    ],
+    "datasets": [
+      "ISOT",
+      "McIntire",
+      "WELFake_residual"
+    ],
+    "out": "/kaggle/working/erm_paired_account_C/tfidf/results_tfidf.csv",
+    "max_len": 256,
+    "epochs": 2,
+    "bs": 16,
+    "lr": 3e-05,
+    "split": "cluster",
+    "date_col": "date",
+    "cutoff_quantile": 0.7
+  },
+  "cfg": {
+    "analysis_csv": "/kaggle/input/datasets/abishek11prasad/erm-data/analysis_set.csv",
+    "spans_cache": "/kaggle/input/datasets/abishek11prasad/erm-data/spans_cache.pkl",
+    "out_csv": "/kaggle/working/ERM_Publication_Fixes_v1/results/raw/tfidf/results_tfidf.csv",
+    "universe_per_class": 4000,
+    "n_train": 1500,
+    "n_test_in": 500,
+    "n_test_x": 800,
+    "test_frac": 0.2,
+    "length_bins": 10,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "entity_labels": [
+      "PERSON",
+      "ORG",
+      "GPE",
+      "NORP",
+      "LOC",
+      "FAC",
+      "EVENT",
+      "PRODUCT",
+      "WORK_OF_ART",
+      "LAW",
+      "LANGUAGE"
+    ],
+    "spacy_model": "en_core_web_sm"
+  },
+  "datasets": [
+    "ISOT",
+    "McIntire",
+    "WELFake_residual"
+  ],
+  "python": "3.13.16",
+  "host": "c2f40ca0693d",
+  "sampling_protocol": "paired-documents-v1",
+  "manifests": {
+    "6": {
+      "path": "/kaggle/working/erm_paired_account_C/tfidf/results_tfidf_samples/seed_6.json",
+      "sha256": "b95d5133219b42bcad27cd49205648c882a0b10a420f15b8543925241e5b2057"
+    },
+    "7": {
+      "path": "/kaggle/working/erm_paired_account_C/tfidf/results_tfidf_samples/seed_7.json",
+      "sha256": "8e49d5125cdb69069f2d4aac92bf12c427c5aa46978cbd764c047c6d70e9963b"
+    }
+  },
+  "libraries": {
+    "numpy": "2.1.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.3"
+  },
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2"
+}

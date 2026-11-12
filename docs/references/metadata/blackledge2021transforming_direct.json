@@ -1,0 +1,563 @@
+{
+  "url": "https://api.crossref.org/works/10.1109%2FBigData52589.2021.9671970",
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          9
+        ]
+      ],
+      "date-time": "2026-11-09T21:46:55Z",
+      "timestamp": 1794260815318,
+      "version": "4.9.0"
+    },
+    "reference-count": 59,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              15
+            ]
+          ],
+          "date-time": "2021-12-15T00:00:00Z",
+          "timestamp": 1639526400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              15
+            ]
+          ],
+          "date-time": "2021-12-15T00:00:00Z",
+          "timestamp": 1639526400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              15
+            ]
+          ],
+          "date-time": "2021-12-15T00:00:00Z",
+          "timestamp": 1639526400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          15
+        ]
+      ]
+    },
+    "DOI": "10.1109/bigdata52589.2021.9671970",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2022-01-13T20:39:16Z",
+      "timestamp": 1642106356000
+    },
+    "page": "3960-3968",
+    "source": "Crossref",
+    "is-referenced-by-count": 20,
+    "title": [
+      "Transforming Fake News: Robust Generalisable News Classification Using Transformers"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Ciara",
+        "family": "Blackledge",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amir",
+        "family": "Atapour-Abarghouei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3439726"
+      },
+      {
+        "key": "ref38",
+        "article-title": "Deep learning: A critical appraisal",
+        "author": "marcus",
+        "year": "2018",
+        "journal-title": "arXiv preprint arXiv 1801 00257"
+      },
+      {
+        "key": "ref33",
+        "first-page": "1",
+        "article-title": "Adam: A method for stochastic optimization",
+        "author": "kingma",
+        "year": "2014",
+        "journal-title": "Int Conf Learning Representations"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.mlwa.2021.100032"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21437/Interspeech.2019-1836"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/2053168018786848"
+      },
+      {
+        "key": "ref36",
+        "author": "lilleker",
+        "year": "2017",
+        "journal-title": "Evidence to the culture media and sport committee&#x2019;fake news&#x2019; inquiry presented by the faculty for media & communication"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.wpi.2020.101965"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/3-540-48050-1_3"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Distilling the knowledge in a neural network",
+        "author": "hinton",
+        "year": "2015",
+        "journal-title": "arXiv preprint arXiv 1503 02531"
+      },
+      {
+        "key": "ref27",
+        "first-page": "2712",
+        "article-title": "Using pre-training can improve model robustness and uncertainty",
+        "author": "hendrycks",
+        "year": "2019",
+        "journal-title": "International Conference on Machine Learning"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDAR.1995.598994"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2020/8885861"
+      },
+      {
+        "key": "ref1",
+        "first-page": "163973",
+        "article-title": "Classification of fake news by fine-tuning deep bidirectional transformers based language model",
+        "author": "aggarwal",
+        "year": "2020"
+      },
+      {
+        "key": "ref20",
+        "article-title": "Comparing bert against traditional machine learning text classification",
+        "author": "gonz\u00e1lez-carvajal",
+        "year": "2020",
+        "journal-title": "arXiv preprint arXiv 2005 13449"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/cccr.12163"
+      },
+      {
+        "key": "ref21",
+        "author": "goodfellow",
+        "year": "2016",
+        "journal-title": "Deep Learning"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.future.2020.11.022"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Augmenting data with mixup for sentence classification: An empirical study",
+        "author": "guo",
+        "year": "2019",
+        "journal-title": "arXiv preprint arXiv 1905 00571"
+      },
+      {
+        "key": "ref26",
+        "article-title": "Deberta: Decoding-enhanced bert with disentangled attention",
+        "author": "he",
+        "year": "2020",
+        "journal-title": "arXiv preprint arXiv 2006 04989"
+      },
+      {
+        "key": "ref25",
+        "first-page": "385",
+        "article-title": "Idiot&#x2019;s bayes: Not so stupid after all?",
+        "volume": "69",
+        "author": "hand",
+        "year": "2001",
+        "journal-title": "International Statistical Review / Revue Internationale de Statistique"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40537-021-00492-0"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3289600.3290994"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3377478"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3115/1119355.1119372"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2020.emnlp-demos.6"
+      },
+      {
+        "key": "ref56",
+        "article-title": "liar, liar pants on fire",
+        "author": "wang",
+        "year": "2017",
+        "journal-title": "A new benchmark dataset for fake news detection"
+      },
+      {
+        "key": "ref55",
+        "first-page": "5998",
+        "article-title": "Attention is all you need",
+        "author": "vaswani",
+        "year": "2017",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref54",
+        "author": "van rossum",
+        "year": "2020",
+        "journal-title": "The Python Library Reference release 3 8 2"
+      },
+      {
+        "key": "ref53",
+        "first-page": "10",
+        "article-title": "Fake news detection: a deep learning approach",
+        "volume": "1",
+        "author": "thota",
+        "year": "2018",
+        "journal-title": "SMU Data Science Review"
+      },
+      {
+        "key": "ref52",
+        "article-title": "Utilizing bert for aspect-based sentiment analysis via constructing auxiliary sentence",
+        "author": "sun",
+        "year": "2019",
+        "journal-title": "arXiv preprint arXiv 1903 09067"
+      },
+      {
+        "key": "ref10",
+        "author": "chollet",
+        "year": "2015",
+        "journal-title": "Keras"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jjimei.2020.100007"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.2517-6161.1958.tb00292.x"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0163443713499393"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5120/3358-4633"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-981-10-5209-5",
+        "author": "deng",
+        "year": "2018",
+        "journal-title": "CS224d Deep Learning for Natural Language Processing"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+        "author": "devlin",
+        "year": "2018",
+        "journal-title": "arXiv preprint arXiv 1810 04805"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/YAC.2016.7804882"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.procs.2017.11.106"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/21670811.2017.1279979"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15439/2020F20"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CRC50527.2021.9392458"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-69155-8_9"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICIoT48696.2020.9089487"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/ise2.12021"
+      },
+      {
+        "key": "ref8",
+        "author": "bird",
+        "year": "2009",
+        "journal-title": "Natural Language Processing with Python Analyzing Text with the Natural Language Toolkit"
+      },
+      {
+        "key": "ref7",
+        "article-title": "Rank over class: The untapped potential of ranking in natural language processing",
+        "author": "atapour-abarghouei",
+        "year": "2020",
+        "journal-title": "arXiv preprint arXiv 2009 02026"
+      },
+      {
+        "key": "ref49",
+        "article-title": "Distilbert, a distilled version of bert: smaller, faster, cheaper and lighter",
+        "author": "sanh",
+        "year": "2019",
+        "journal-title": "arXiv preprint arXiv 1910 01108"
+      },
+      {
+        "key": "ref9",
+        "first-page": "59",
+        "author": "bisong",
+        "year": "2019",
+        "journal-title": "Google Colaboratory"
+      },
+      {
+        "key": "ref46",
+        "author": "radford",
+        "year": "2018",
+        "journal-title": "Improving language understanding by generative pre-training"
+      },
+      {
+        "key": "ref45",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine learning in Python",
+        "volume": "12",
+        "author": "pedregosa",
+        "year": "2011",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/tacl_a_00349"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3115/1119355.1119369"
+      },
+      {
+        "key": "ref42",
+        "author": "ofcom",
+        "year": "2020",
+        "journal-title": "News consumption in the uk"
+      },
+      {
+        "key": "ref41",
+        "author": "ofcom",
+        "year": "2016",
+        "journal-title": "News consumption in the uk"
+      },
+      {
+        "key": "ref44",
+        "first-page": "8026",
+        "article-title": "PyTorch: An imperative style, high-performance deep learning library",
+        "author": "paszke",
+        "year": "2019",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref43",
+        "article-title": "Finding deceptive opinion spam by any stretch of the imagination",
+        "author": "ott",
+        "year": "2011",
+        "journal-title": "arXiv preprint arXiv 1107 4557"
+      }
+    ],
+    "event": {
+      "name": "2021 IEEE International Conference on Big Data (Big Data)",
+      "location": "Orlando, FL, USA",
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            15
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            18
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2021 IEEE International Conference on Big Data (Big Data)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9671263/9671273/09671970.pdf?arnumber=9671970",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          10
+        ]
+      ],
+      "date-time": "2022-05-10T16:55:34Z",
+      "timestamp": 1652201734000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9671970/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          15
+        ]
+      ]
+    },
+    "references-count": 59,
+    "URL": "https://doi.org/10.1109/bigdata52589.2021.9671970",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          15
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "entry": {
+    "key": "poliak2018hypothesis",
+    "type": "inproceedings",
+    "title": "Hypothesis Only Baselines in Natural Language Inference",
+    "doi": "10.18653/v1/S18-2023",
+    "author": "Poliak, Adam and Naradowsky, Jason and Haldar, Aparajita and Rudinger, Rachel and Van Durme, Benjamin",
+    "year": "2018"
+  },
+  "url": "https://api.crossref.org/works/10.18653%2Fv1%2FS18-2023",
+  "title_similarity": 1.0,
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          9
+        ]
+      ],
+      "date-time": "2026-11-09T20:05:16Z",
+      "timestamp": 1794254716843,
+      "version": "4.9.0"
+    },
+    "publisher-location": "Stroudsburg, PA, USA",
+    "reference-count": 0,
+    "publisher": "Association for Computational Linguistics",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "DOI": "10.18653/v1/s18-2023",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          30
+        ]
+      ],
+      "date-time": "2018-05-30T04:40:05Z",
+      "timestamp": 1527655205000
+    },
+    "page": "180-191",
+    "source": "Crossref",
+    "is-referenced-by-count": 104,
+    "title": [
+      "Hypothesis Only Baselines in Natural Language Inference"
+    ],
+    "prefix": "10.18653",
+    "author": [
+      {
+        "given": "Adam",
+        "family": "Poliak",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jason",
+        "family": "Naradowsky",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Aparajita",
+        "family": "Haldar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rachel",
+        "family": "Rudinger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Benjamin",
+        "family": "Van Durme",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1643",
+    "event": {
+      "name": "Proceedings of the Seventh Joint Conference on Lexical and\n          Computational Semantics",
+      "location": "New Orleans, Louisiana",
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            6
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2018,
+            6
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "Proceedings of the Seventh Joint Conference on Lexical and\n          Computational Semantics"
+    ],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          30
+        ]
+      ],
+      "date-time": "2018-05-30T04:40:13Z",
+      "timestamp": 1527655213000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://aclweb.org/anthology/S18-2023"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.18653/v1/s18-2023",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    }
+  }
+}

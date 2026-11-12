@@ -1,0 +1,175 @@
+{
+  "entry": {
+    "key": "janicka2019cross",
+    "type": "article",
+    "title": "Cross-Domain Failures of Fake News Detection",
+    "doi": "10.13053/cys-23-3-3281",
+    "author": "Janicka, Maria and Pszona, Maria and Wawer, Aleksander",
+    "year": "2019"
+  },
+  "url": "https://api.crossref.org/works/10.13053%2Fcys-23-3-3281",
+  "title_similarity": 1.0,
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          22
+        ]
+      ],
+      "date-time": "2026-09-22T16:15:55Z",
+      "timestamp": 1790093755433,
+      "version": "4.0.1"
+    },
+    "reference-count": 0,
+    "publisher": "Instituto Politecnico Nacional/Centro de Investigacion en Computacion",
+    "issue": "3",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "CyS"
+    ],
+    "DOI": "10.13053/cys-23-3-3281",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          31
+        ]
+      ],
+      "date-time": "2019-12-31T13:59:29Z",
+      "timestamp": 1577800769000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "Cross-Domain Failures of Fake News Detection"
+    ],
+    "prefix": "10.13053",
+    "volume": "23",
+    "author": [
+      {
+        "given": "Maria",
+        "family": "Janicka",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maria",
+        "family": "Pszona",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Aleksander",
+        "family": "Wawer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "5402",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          7
+        ]
+      ]
+    },
+    "container-title": [
+      "Computaci\u00f3n y Sistemas"
+    ],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          31
+        ]
+      ],
+      "date-time": "2019-12-31T14:20:31Z",
+      "timestamp": 1577802031000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cys.cic.ipn.mx/ojs/index.php/CyS/article/view/3281"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          7
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "3",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            7
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.13053/cys-23-3-3281",
+    "relation": {},
+    "ISSN": [
+      "2007-9737",
+      "1405-5546"
+    ],
+    "issn-type": [
+      {
+        "value": "2007-9737",
+        "type": "electronic"
+      },
+      {
+        "value": "1405-5546",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          7
+        ]
+      ]
+    }
+  }
+}

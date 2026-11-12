@@ -7,8 +7,9 @@ WHY THIS DESIGN
   (seed x condition x training dataset), so we parallelise at the JOB level instead:
       parent process  -> builds the list of unfinished jobs, starts one worker per GPU, merges the shards at the end
       worker r        -> sees exactly one GPU (CUDA_VISIBLE_DEVICES=<gpu r>), runs jobs[r::n_workers], appends to its own shard CSV
-  Each job is seeded exactly as in exp_distilbert.py / exp_tfidf.py (same RNG derivation, same samples, same masking), so the
-  result of a job does not depend on how many GPUs ran it, and every new cell stays PAIRED with the existing TF-IDF/DistilBERT cells.
+  Default --sampling legacy preserves exp_distilbert.py / exp_tfidf.py draws.
+  --sampling paired uses saved, condition-independent document selections and
+  separate result/provenance files; its cells must not be mixed with archived ones.
   Resumable: finished cells are read back from the output and shard files, so a Kaggle session that dies (12 h limit) loses at most
   the fine-tunes that were in flight.
 
@@ -21,7 +22,7 @@ COMMANDS
 NEW CONDITIONS (registered here, exp_tfidf.py is untouched)
   L_RE   length matching + random deletion of as many words as entity masking removes   (matched control for L+E)
   L_RSE  length matching + random deletion of as many words as S+E masking removes      (matched control for S+L+E)
-  These supply the pair-level random control for S+L+E that the manuscript lists as missing.
+  These supply the length-matched masking controls.
 
 DATASET ORDER
   The three original corpora keep their original relative order, and any new dataset is placed after them, so the random
@@ -39,6 +40,7 @@ from sklearn.metrics import f1_score, accuracy_score, average_precision_score, r
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import exp_tfidf as X                                                            # noqa: E402
+import paired_sampling as P                                                     # noqa: E402
 
 EXTRA_CONDITIONS = {"L_RE": (0, 1, 0, 0, "E"), "L_RSE": (0, 1, 0, 0, "SE")}
 X.CONDITIONS.update(EXTRA_CONDITIONS)
@@ -58,6 +60,8 @@ def model_name(a):
 def default_out(a):
     alias = model_name(a)
     suffix = "_temporal" if a.split == "temporal" else ""
+    if a.sampling == "paired":
+        return str(REPO / "results" / "paired_validation" / alias / f"results_{alias}{suffix}.csv")
     return str(REPO / "results" / "raw" / alias / f"results_{alias}{suffix}.csv")
 
 
@@ -200,7 +204,15 @@ def worker_main(plan_path, rank):
         if not torch.cuda.is_available() and not a.allow_cpu:
             sys.exit(f"{tag} no CUDA device visible; pass --allow-cpu to run on CPU")
     u = X.load_universe(cfg)
-    spans = pickle.load(open(cfg["spans_cache"], "rb"))["spans"]
+    if a.sampling == "paired":
+        u = u[u["dataset"].isin(datasets)].copy()
+    cache = pickle.load(open(cfg["spans_cache"], "rb"))
+    spans = cache["spans"]
+    paired = a.sampling == "paired"
+    if paired:
+        P.validate_universe(u)
+        P.validate_cache(cache, u, a.allow_regex_ner)
+        indexed = u.set_index("doc_id", drop=False)
     missing = u.loc[~u["doc_id"].isin(spans), "doc_id"]
     if len(missing):
         sys.exit(f"{tag} {len(missing):,} universe documents have no cached spans -> run `exp_transformer.py prepare` first")
@@ -209,17 +221,29 @@ def worker_main(plan_path, rank):
     for n, (seed, cond, tr_ds) in enumerate(jobs, 1):
         if seed != cur:                                                     # random-control cache is keyed without the seed
             X._RCACHE.clear(); pools, cur = build_pools(u, datasets, seed, cfg, a), seed
+            if paired:
+                manifest_info = plan["manifests"][str(seed)]
+                manifest = P.read_manifest(manifest_info["path"], manifest_info["sha256"])
         t0 = time.time()
         S, L, E, T, R = X.CONDITIONS[cond]
-        rng = np.random.RandomState(zlib.crc32(f"{seed}-{cond}-{tr_ds}".encode()) % (2 ** 31))
-        pool, n_eff, q = pools[tr_ds]["tr"]
-        trs = X.draw(pool, n_eff, q, L, rng)
+        if paired:
+            trs, train_hash = P.select_sample(indexed, manifest, tr_ds, "tr", L)
+        else:
+            rng = np.random.RandomState(zlib.crc32(f"{seed}-{cond}-{tr_ds}".encode()) % (2 ** 31))
+            pool, n_eff, q = pools[tr_ds]["tr"]
+            trs = X.draw(pool, n_eff, q, L, rng)
         tests = {}
+        test_hashes = {}
+        transform = P.make_texts if paired else X.make_texts
         for te_ds in datasets:                                              # same draw order as the original runners
-            p, n2, q2 = pools[te_ds]["in_" if te_ds == tr_ds else "x"]
-            ts = X.draw(p, n2, q2, L, rng)
-            tests[te_ds] = (X.make_texts(ts, cond, spans, seed), ts["is_fake"].to_numpy())
-        tr_texts, y_tr = X.make_texts(trs, cond, spans, seed), trs["is_fake"].to_numpy()
+            role = "in_" if te_ds == tr_ds else "x"
+            if paired:
+                ts, test_hashes[te_ds] = P.select_sample(indexed, manifest, te_ds, role, L)
+            else:
+                p, n2, q2 = pools[te_ds][role]
+                ts = X.draw(p, n2, q2, L, rng)
+            tests[te_ds] = (transform(ts, cond, spans, seed), ts["is_fake"].to_numpy())
+        tr_texts, y_tr = transform(trs, cond, spans, seed), trs["is_fake"].to_numpy()
         res = X.fit_eval(tr_texts, y_tr, tests) if a.backend == "tfidf" else fit_predict_transformer(tr_texts, y_tr, tests, a, seed)
         rows = []
         for te_ds, m in res.items():
@@ -227,6 +251,9 @@ def worker_main(plan_path, rank):
                        test=te_ds, kind="in" if te_ds == tr_ds else "cross", n_train=len(trs), n_test=len(tests[te_ds][1]), **m)
             if a.split == "temporal":
                 row["split"] = "temporal"
+            if paired:
+                row.update(sampling_protocol=P.PROTOCOL, train_sample_sha256=train_hash,
+                           test_sample_sha256=test_hashes[te_ds], manifest_sha256=manifest_info["sha256"])
             rows.append(row)
         pd.DataFrame(rows).to_csv(shard, mode="a", header=not shard.exists(), index=False)   # one append per finished job
         print(f"{tag} {n}/{len(jobs)} seed {seed} {cond:6s} train={tr_ds:18s} {time.time() - t0:5.0f}s", flush=True)
@@ -243,12 +270,22 @@ def run_main(a):
         out = out.with_name(out.stem + "_smoke.csv")
         a.epochs = 1
     u = X.load_universe(cfg)
+    if a.datasets and set(a.datasets) - set(u["dataset"].unique()):
+        sys.exit(f"requested datasets absent from analysis CSV: {sorted(set(a.datasets) - set(u['dataset'].unique()))}")
     datasets = order_datasets(u["dataset"].unique(), a.datasets)
+    if a.sampling == "paired":
+        u = u[u["dataset"].isin(datasets)].copy()
+    if not datasets:
+        sys.exit("no datasets selected")
+    if a.workers < 1 or not a.seeds or len(set(a.seeds)) != len(a.seeds) or len(set(a.conds)) != len(a.conds):
+        sys.exit("workers must be positive; seeds and conditions must be unique")
     unknown = [c for c in a.conds if c not in X.CONDITIONS]
     if unknown:
         sys.exit(f"unknown conditions {unknown}; available: {list(X.CONDITIONS)}")
     if a.backend == "transformer":
         gpus = a.gpus if a.gpus is not None else detect_gpus()
+        if len(set(gpus)) != len(gpus):
+            sys.exit("GPU indices must be unique (one worker per GPU)")
         if not gpus and not a.allow_cpu:
             sys.exit("no GPU found (nvidia-smi); pass --gpus 0 1, or --allow-cpu for a (very slow) CPU run")
         n_workers = max(len(gpus), 1)
@@ -256,20 +293,71 @@ def run_main(a):
         gpus, n_workers = [], a.workers
     work = out.parent / (out.stem + "_work"); work.mkdir(exist_ok=True)
     shards = [str(work / f"shard{r}.csv") for r in range(n_workers)]
-    prior = read_rows([out] + shards)
+    # Retain shards from a session with a different worker count.
+    all_shards = sorted(set(shards) | {str(p) for p in work.glob("shard*.csv")})
+    prior = read_rows([out] + all_shards)
+    paired = a.sampling == "paired"
+    manifests = {}
+    if paired:
+        import pickle
+        import importlib.metadata
+        P.validate_universe(u)
+        with open(cfg["spans_cache"], "rb") as f:
+            entity_method = P.validate_cache(pickle.load(f), u, a.allow_regex_ner)
+        signature = dict(protocol=P.PROTOCOL, datasets=datasets,
+                         analysis_sha256=P.file_hash(cfg["analysis_csv"]),
+                         spans_sha256=P.file_hash(cfg["spans_cache"]),
+                         exclusion_sha256=P.file_hash(a.exclude) if a.exclude else None,
+                         cfg={k: v for k, v in cfg.items() if k not in
+                              {"analysis_csv", "spans_cache", "out_csv", "exclude_file", "seeds"}},
+                         split=a.split, date_col=a.date_col, cutoff_quantile=a.cutoff_quantile,
+                         backend=a.backend, model=a.model if a.backend == "transformer" else "tfidf_lr",
+                         max_len=a.max_len, epochs=a.epochs, bs=a.bs, lr=a.lr, entity_method=entity_method,
+                         libraries={name: importlib.metadata.version(name) for name in
+                                    (["numpy", "pandas", "scikit-learn", "scipy"] +
+                                     (["torch", "transformers", "tokenizers"] if a.backend == "transformer" else []))},
+                         code_sha256={name: P.file_hash(pathlib.Path(__file__).with_name(name)) for name in
+                                      ["exp_transformer.py", "exp_tfidf.py", "paired_sampling.py"]})
+        guard = out.with_name(out.stem + "_protocol.json")
+        if guard.exists():
+            if json.loads(guard.read_text()) != signature:
+                sys.exit("paired run inputs/settings/code changed; use a new output path to avoid mixing experiments")
+        elif not prior.empty:
+            sys.exit("existing results have no paired protocol record; use a new output path")
+        else:
+            P.atomic_json(guard, signature)
+        manifest_dir = out.with_name(out.stem + "_samples")
+        for seed in a.seeds:
+            manifest = P.make_manifest(build_pools(u, datasets, seed, cfg, a), seed)
+            path = manifest_dir / f"seed_{seed}.json"
+            P.save_manifest(path, manifest)
+            manifests[str(seed)] = dict(path=str(path.resolve()), sha256=manifest["manifest_sha256"])
     done = set()
-    if not prior.empty:
+    if paired:
+        if not prior.empty and ("sampling_protocol" not in prior or
+                                not prior.sampling_protocol.eq(P.PROTOCOL).all()):
+            sys.exit("output contains legacy/different sampling protocol; use a new output path")
+        done = P.complete_jobs(prior.drop_duplicates(KEY, keep="last") if not prior.empty else prior,
+                               mname, datasets, P.PROTOCOL)
+    elif not prior.empty:
+        if "sampling_protocol" in prior.columns:
+            sys.exit("paired results cannot be resumed with legacy sampling; use --sampling paired")
         p = prior[prior["model"] == mname]
         done = set(zip(p["seed"], p["cond"], p["train"]))
     jobs = [[s, c, d] for s in a.seeds for c in a.conds for d in datasets if (s, c, d) not in done]
-    print(f"model={mname} backend={a.backend} datasets={datasets}")
+    print(f"model={mname} backend={a.backend} sampling={a.sampling} datasets={datasets}")
     print(f"{len(done)} cells already done, {len(jobs)} to run on {n_workers} worker(s) (gpus={gpus or 'cpu'}) -> {out}")
     if not jobs:
-        merge_outputs(out, shards); return
+        merge_outputs(out, all_shards); return
     plan = dict(args=vars(a), cfg=cfg, datasets=datasets, jobs=jobs, n_workers=n_workers, gpus=gpus,
-                shards=shards, model_name=mname)
+                shards=shards, model_name=mname, manifests=manifests)
     plan_path = work / "plan.json"; plan_path.write_text(json.dumps(plan))
     meta = dict(args=vars(a), cfg=cfg, datasets=datasets, python=platform.python_version(), host=platform.node())
+    if paired:
+        import importlib.metadata
+        meta.update(sampling_protocol=P.PROTOCOL, manifests=manifests,
+                    libraries={name: importlib.metadata.version(name) for name in
+                               ["numpy", "pandas", "scikit-learn", "scipy"]})
     try:
         import torch, transformers
         meta.update(torch=torch.__version__, transformers=transformers.__version__)
@@ -286,8 +374,8 @@ def run_main(a):
         procs.append(subprocess.Popen([sys.executable, str(pathlib.Path(__file__).resolve()), "worker",
                                        "--plan", str(plan_path), "--rank", str(r)], env=env))
     codes = [p.wait() for p in procs]
-    df = merge_outputs(out, shards)
-    for s in shards:
+    df = merge_outputs(out, all_shards)
+    for s in all_shards:
         pathlib.Path(s).unlink(missing_ok=True)
     print(f"worker exit codes {codes}; {len(df)} rows in {out}")
     if any(codes):
@@ -324,6 +412,9 @@ def parse():
     pr.add_argument("--allow-regex-ner", action="store_true")
     ru = sub.add_parser("run", parents=[common])
     ru.add_argument("--backend", default="transformer", choices=["transformer", "tfidf"])
+    ru.add_argument("--sampling", choices=["legacy", "paired"], default="legacy",
+                    help="legacy preserves archived draws; paired fixes documents across masking conditions")
+    ru.add_argument("--allow-regex-ner", action="store_true", help="synthetic checks only; paired runs require spaCy spans by default")
     ru.add_argument("--model", default="distilbert-base-uncased", help="distilbert-base-uncased | roberta-base | bert-base-uncased")
     ru.add_argument("--gpus", type=int, nargs="+", help="GPU indices, one worker each (default: all that nvidia-smi lists)")
     ru.add_argument("--workers", type=int, default=2, help="CPU workers for --backend tfidf")

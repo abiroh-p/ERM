@@ -1,0 +1,547 @@
+{
+  "url": "https://api.crossref.org/works/10.1145%2F3477495.3531816",
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          7
+        ]
+      ],
+      "date-time": "2026-11-07T07:28:03Z",
+      "timestamp": 1794036483124,
+      "version": "4.8.0"
+    },
+    "publisher-location": "New York, NY, USA",
+    "reference-count": 42,
+    "publisher": "ACM",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              6
+            ]
+          ],
+          "date-time": "2022-07-06T00:00:00Z",
+          "timestamp": 1657065600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Zhejiang Provincial Key Research and Development Program of China",
+        "award": [
+          "2021C01164"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2021C01164"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62176014"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62176014"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "National Key Research and Development Program of China",
+        "award": [
+          "2021AAA0140203"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2021AAA0140203"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "dl.acm.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1145/3477495.3531816",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          7
+        ]
+      ],
+      "date-time": "2022-07-07T11:12:08Z",
+      "timestamp": 1657192328000
+    },
+    "page": "2120-2125",
+    "update-policy": "https://doi.org/10.1145/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 92,
+    "title": [
+      "Generalizing to the Future"
+    ],
+    "prefix": "10.1145",
+    "author": [
+      {
+        "given": "Yongchun",
+        "family": "Zhu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Institute of Computing Technology, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qiang",
+        "family": "Sheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Computing Technology, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Juan",
+        "family": "Cao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Computing Technology, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shuokai",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Computing Technology, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Danding",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Computing Technology, Chinese Academy of Sciences &amp; University of Chinese Academy of Sciences, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fuzhen",
+        "family": "Zhuang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beihang University, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "320",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          7
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_2_2_1_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/D16-1203"
+      },
+      {
+        "key": "e_1_3_2_2_2_1",
+        "volume-title": "Bias and Debias in Recommender System: A Survey and Future Directions. arXiv preprint arXiv:2010.03240",
+        "author": "Chen Jiawei",
+        "year": "2020",
+        "unstructured": "Jiawei Chen , Hande Dong , Xiang Wang , Fuli Feng , Meng Wang , and Xiangnan He. 2020. Bias and Debias in Recommender System: A Survey and Future Directions. arXiv preprint arXiv:2010.03240 ( 2020 ). Jiawei Chen, Hande Dong, Xiang Wang, Fuli Feng, Meng Wang, and Xiangnan He. 2020. Bias and Debias in Recommender System: A Survey and Future Directions. arXiv preprint arXiv:2010.03240 (2020)."
+      },
+      {
+        "key": "e_1_3_2_2_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3447548.3467321"
+      },
+      {
+        "key": "e_1_3_2_2_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3115/v1/W14-4012"
+      },
+      {
+        "key": "e_1_3_2_2_5_1",
+        "volume-title": "Pre-training with Whole Word Masking for Chinese BERT. arXiv preprint arXiv:1906.08101",
+        "author": "Cui Yiming",
+        "year": "2019",
+        "unstructured": "Yiming Cui , Wanxiang Che , Ting Liu , Bing Qin , Ziqing Yang , Shijin Wang , and Guoping Hu. 2019. Pre-training with Whole Word Masking for Chinese BERT. arXiv preprint arXiv:1906.08101 ( 2019 ). Yiming Cui, Wanxiang Che, Ting Liu, Bing Qin, Ziqing Yang, Shijin Wang, and Guoping Hu. 2019. Pre-training with Whole Word Masking for Chinese BERT. arXiv preprint arXiv:1906.08101 (2019)."
+      },
+      {
+        "key": "e_1_3_2_2_6_1",
+        "volume-title": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. ACL, 4171--4186",
+        "author": "Devlin Jacob",
+        "year": "2019",
+        "unstructured": "Jacob Devlin , Ming-Wei Chang , Kenton Lee , and Kristina Toutanova . 2019 . BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding . In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. ACL, 4171--4186 . Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. ACL, 4171--4186."
+      },
+      {
+        "key": "e_1_3_2_2_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3278721.3278729"
+      },
+      {
+        "key": "e_1_3_2_2_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3404835.3462990"
+      },
+      {
+        "key": "e_1_3_2_2_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3331184.3331285"
+      },
+      {
+        "key": "e_1_3_2_2_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/P19-1160"
+      },
+      {
+        "key": "e_1_3_2_2_11_1",
+        "volume-title": "Decoupling Representation and Classifier for Long-Tailed Recognition. In International Conference on Learning Representations.",
+        "author": "Kang Bingyi",
+        "year": "2019",
+        "unstructured": "Bingyi Kang , Saining Xie , Marcus Rohrbach , Zhicheng Yan , Albert Gordo , Jiashi Feng , and Yannis Kalantidis . 2019 . Decoupling Representation and Classifier for Long-Tailed Recognition. In International Conference on Learning Representations. Bingyi Kang, Saining Xie, Marcus Rohrbach, Zhicheng Yan, Albert Gordo, Jiashi Feng, and Yannis Kalantidis. 2019. Decoupling Representation and Classifier for Long-Tailed Recognition. In International Conference on Learning Representations."
+      },
+      {
+        "key": "e_1_3_2_2_12_1",
+        "volume-title": "Proceedings of International Conference on Learning Representations",
+        "volume": "5",
+        "author": "Kingma Diederik P",
+        "year": "2015",
+        "unstructured": "Diederik P Kingma and Jimmy Ba . 2015 . Adam: A Method for Stochastic Optimization . In Proceedings of International Conference on Learning Representations , Vol. 5 . Diederik P Kingma and Jimmy Ba. 2015. Adam: A Method for Stochastic Optimization. In Proceedings of International Conference on Learning Representations, Vol. 5."
+      },
+      {
+        "key": "e_1_3_2_2_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2021.09.028"
+      },
+      {
+        "key": "e_1_3_2_2_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2021.acl-demo.1"
+      },
+      {
+        "key": "e_1_3_2_2_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3184558.3188729"
+      },
+      {
+        "key": "e_1_3_2_2_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3308558.3313741"
+      },
+      {
+        "key": "e_1_3_2_2_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0272989X8900900307"
+      },
+      {
+        "key": "e_1_3_2_2_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3457607"
+      },
+      {
+        "key": "e_1_3_2_2_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3459637.3482139"
+      },
+      {
+        "key": "e_1_3_2_2_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3340531.3412046"
+      },
+      {
+        "key": "e_1_3_2_2_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/D18-1003"
+      },
+      {
+        "key": "e_1_3_2_2_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i01.5386"
+      },
+      {
+        "key": "e_1_3_2_2_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3474085.3481548"
+      },
+      {
+        "key": "e_1_3_2_2_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDM.2019.00062"
+      },
+      {
+        "key": "e_1_3_2_2_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2021.acl-long.422"
+      },
+      {
+        "key": "e_1_3_2_2_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/D19-1341"
+      },
+      {
+        "key": "e_1_3_2_2_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2022.acl-long.311"
+      },
+      {
+        "key": "e_1_3_2_2_28_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qiang Sheng Juan Cao Xueyao Zhang Xirong Li and Lei Zhong. 2021. Article Reranking by Memory-Enhanced Key Sentence Matching for Detecting Previously Fact-Checked Claims. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). ACL 5468--5481.  Qiang Sheng Juan Cao Xueyao Zhang Xirong Li and Lei Zhong. 2021. Article Reranking by Memory-Enhanced Key Sentence Matching for Detecting Previously Fact-Checked Claims. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). ACL 5468--5481.",
+        "DOI": "10.18653/v1/2021.acl-long.425"
+      },
+      {
+        "key": "e_1_3_2_2_29_1",
+        "volume-title": "Proceedings of the 30th ACM International Conference on Information & Knowledge Management. 1640--1650",
+        "author": "Sheng Qiang",
+        "year": "2021",
+        "unstructured": "Qiang Sheng , Xueyao Zhang , Juan Cao , and Lei Zhong . 2021 . Integrating Patternand Fact-based Fake News Detection via Model Preference Learning . In Proceedings of the 30th ACM International Conference on Information & Knowledge Management. 1640--1650 . Qiang Sheng, Xueyao Zhang, Juan Cao, and Lei Zhong. 2021. Integrating Patternand Fact-based Fake News Detection via Model Preference Learning. In Proceedings of the 30th ACM International Conference on Information & Knowledge Management. 1640--1650."
+      },
+      {
+        "key": "e_1_3_2_2_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3292500.3330935"
+      },
+      {
+        "key": "e_1_3_2_2_31_1",
+        "volume-title": "Social Context, and Spatiotemporal Information for Studying Fake News on Social Media. Big data 8, 3",
+        "author": "Shu Kai",
+        "year": "2020",
+        "unstructured": "Kai Shu , Deepak Mahudeswaran , Suhang Wang , Dongwon Lee , and Huan Liu . 2020. FakeNewsNet: A Data Repository with News Content , Social Context, and Spatiotemporal Information for Studying Fake News on Social Media. Big data 8, 3 ( 2020 ), 171--188. Kai Shu, Deepak Mahudeswaran, Suhang Wang, Dongwon Lee, and Huan Liu. 2020. FakeNewsNet: A Data Repository with News Content, Social Context, and Spatiotemporal Information for Studying Fake News on Social Media. Big data 8, 3 (2020), 171--188."
+      },
+      {
+        "key": "e_1_3_2_2_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3137597.3137600"
+      },
+      {
+        "key": "e_1_3_2_2_33_1",
+        "volume-title": "Understanding User Profiles on Social Media for Fake News Detection. In 2018 IEEE Conference on Multimedia Information Processing and Retrieval. IEEE, 430--435",
+        "author": "Shu Kai",
+        "year": "2018",
+        "unstructured": "Kai Shu , Suhang Wang , and Huan Liu . 2018 . Understanding User Profiles on Social Media for Fake News Detection. In 2018 IEEE Conference on Multimedia Information Processing and Retrieval. IEEE, 430--435 . Kai Shu, Suhang Wang, and Huan Liu. 2018. Understanding User Profiles on Social Media for Fake News Detection. In 2018 IEEE Conference on Multimedia Information Processing and Retrieval. IEEE, 430--435."
+      },
+      {
+        "key": "e_1_3_2_2_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ipm.2021.102618"
+      },
+      {
+        "key": "e_1_3_2_2_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v35i1.16134"
+      },
+      {
+        "key": "e_1_3_2_2_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3404835.3462962"
+      },
+      {
+        "key": "e_1_3_2_2_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3219819.3219903"
+      },
+      {
+        "key": "e_1_3_2_2_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/D19-1670"
+      },
+      {
+        "key": "e_1_3_2_2_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3447548.3467289"
+      },
+      {
+        "key": "e_1_3_2_2_40_1",
+        "unstructured": "Haisong Zhang Lemao Liu Haiyun Jiang Yangming Li Enbo Zhao Kun Xu Linfeng Song Suncong Zheng Botong Zhou Jianchen Zhu etal 2020. TexSmart: A Text Understanding System for Fine-Grained NER and Enhanced Semantic Analysis. arXiv preprint arXiv:2012.15639 (2020).  Haisong Zhang Lemao Liu Haiyun Jiang Yangming Li Enbo Zhao Kun Xu Linfeng Song Suncong Zheng Botong Zhou Jianchen Zhu et al. 2020. TexSmart: A Text Understanding System for Fine-Grained NER and Enhanced Semantic Analysis. arXiv preprint arXiv:2012.15639 (2020)."
+      },
+      {
+        "key": "e_1_3_2_2_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3442381.3450004"
+      },
+      {
+        "key": "e_1_3_2_2_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3366423.3380172"
+      }
+    ],
+    "event": {
+      "name": "SIGIR '22: The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "location": "Madrid Spain",
+      "acronym": "SIGIR '22",
+      "sponsor": [
+        "SIGIR ACM Special Interest Group on Information Retrieval"
+      ]
+    },
+    "container-title": [
+      "Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/10.1145/3477495.3531816",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/3477495.3531816",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2025-06-17T14:10:26Z",
+      "timestamp": 1750169426000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dl.acm.org/doi/10.1145/3477495.3531816"
+      }
+    },
+    "subtitle": [
+      "Mitigating Entity Bias in Fake News Detection"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          6
+        ]
+      ]
+    },
+    "references-count": 42,
+    "alternative-id": [
+      "10.1145/3477495.3531816",
+      "10.1145/3477495"
+    ],
+    "URL": "https://doi.org/10.1145/3477495.3531816",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2022-07-07",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

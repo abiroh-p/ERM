@@ -1,0 +1,209 @@
+{
+  "entry": {
+    "key": "lee2022dedup",
+    "type": "inproceedings",
+    "title": "Deduplicating Training Data Makes Language Models Better",
+    "doi": "10.18653/v1/2022.acl-long.577",
+    "author": "Lee, Katherine and Ippolito, Daphne and Nystrom, Andrew and Zhang, Chiyuan and Eck, Douglas and Callison-Burch, Chris and Carlini, Nicholas",
+    "year": "2022"
+  },
+  "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2022.acl-long.577",
+  "title_similarity": 1.0,
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          10
+        ]
+      ],
+      "date-time": "2026-11-10T18:08:37Z",
+      "timestamp": 1794334117162,
+      "version": "4.9.0"
+    },
+    "publisher-location": "Stroudsburg, PA, USA",
+    "reference-count": 0,
+    "publisher": "Association for Computational Linguistics",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "DOI": "10.18653/v1/2022.acl-long.577",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          2
+        ]
+      ],
+      "date-time": "2022-06-02T21:34:53Z",
+      "timestamp": 1654205693000
+    },
+    "page": "8424-8445",
+    "source": "Crossref",
+    "is-referenced-by-count": 223,
+    "title": [
+      "Deduplicating Training Data Makes Language Models Better"
+    ],
+    "prefix": "10.18653",
+    "author": [
+      {
+        "given": "Katherine",
+        "family": "Lee",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daphne",
+        "family": "Ippolito",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew",
+        "family": "Nystrom",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chiyuan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Douglas",
+        "family": "Eck",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chris",
+        "family": "Callison-Burch",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicholas",
+        "family": "Carlini",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1643",
+    "event": {
+      "name": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "location": "Dublin, Ireland",
+      "start": {
+        "date-parts": [
+          [
+            2022,
+            5
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2022,
+            5
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+    ],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          2
+        ]
+      ],
+      "date-time": "2022-06-02T21:39:39Z",
+      "timestamp": 1654205979000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://aclanthology.org/2022.acl-long.577"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.18653/v1/2022.acl-long.577",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    }
+  }
+}

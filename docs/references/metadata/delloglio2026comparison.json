@@ -1,0 +1,962 @@
+{
+  "entry": {
+    "key": "delloglio2026comparison",
+    "type": "article",
+    "title": "An Experimental Comparison of the Most Popular Approaches to Fake News Detection",
+    "doi": "10.1016/j.ins.2026.123407",
+    "author": "Dell'Oglio, Pietro and Bondielli, Alessandro and Marcelloni, Francesco and Passaro, Lucia C.",
+    "year": "2026"
+  },
+  "url": "https://api.crossref.org/works/10.1016%2Fj.ins.2026.123407",
+  "title_similarity": 1.0,
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          29
+        ]
+      ],
+      "date-time": "2026-10-29T02:03:00Z",
+      "timestamp": 1793239380503,
+      "version": "4.5.0"
+    },
+    "reference-count": 68,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2026-07-01T00:00:00Z",
+          "timestamp": 1782864000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100021856",
+        "name": "Ministero dell'Universit\u00e0 e della Ricerca",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100021856",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100024370",
+        "name": "Ministero dell'Istruzione dell'Universit\u00e0 e della Ricerca",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100024370",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Information Sciences"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ins.2026.123407",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          24
+        ]
+      ],
+      "date-time": "2026-03-24T07:46:15Z",
+      "timestamp": 1774338375000
+    },
+    "page": "123407",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "special_numbering": "C",
+    "title": [
+      "An experimental comparison of the most popular approaches to fake news detection"
+    ],
+    "prefix": "10.1016",
+    "volume": "745",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0793-5226",
+        "authenticated-orcid": false,
+        "given": "Pietro",
+        "family": "Dell\u2019Oglio",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3426-6643",
+        "authenticated-orcid": false,
+        "given": "Alessandro",
+        "family": "Bondielli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5895-876X",
+        "authenticated-orcid": false,
+        "given": "Francesco",
+        "family": "Marcelloni",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4934-5344",
+        "authenticated-orcid": false,
+        "given": "Lucia C.",
+        "family": "Passaro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "10.1016/j.ins.2026.123407_bib0005",
+        "article-title": "Social media in the changing Ecology of news: the fourth and fifth estates in Britain",
+        "volume": "7",
+        "author": "Newman",
+        "year": "2013",
+        "journal-title": "Int. J. Internet Sci."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0010",
+        "first-page": "515",
+        "article-title": "Microblogged contributions to the emergency arena: discovery, interpretation and implications",
+        "author": "Vieweg",
+        "year": "2010",
+        "journal-title": "Comput. Support. Collab. Work"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ins.2026.123407_bib0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "353",
+        "DOI": "10.1016/j.jarmac.2017.07.008",
+        "article-title": "Beyond misinformation: understanding and coping with the \u201cpost-truth\u201d era",
+        "volume": "6",
+        "author": "Lewandowsky",
+        "year": "2017",
+        "journal-title": "J. Appl. Res. Mem. Cogn."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0020",
+        "author": "Alam"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0025",
+        "series-title": "Combating Online Hostile Posts in Regional Languages During Emergency Situation: First International Workshop, CONSTRAINT 2021, Collocated with AAAI 2021, Virtual Event, February 8, 2021, Revised Selected Papers 1",
+        "first-page": "21",
+        "article-title": "Fighting an Infodemic: Covid-19 fake news dataset",
+        "author": "Patwa",
+        "year": "2021"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ins.2026.123407_bib0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3161603",
+        "article-title": "Detection and resolution of rumours in social media: a survey",
+        "volume": "51",
+        "author": "Zubiaga",
+        "year": "2018",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ins.2026.123407_bib0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.1257/jep.31.2.211",
+        "article-title": "Social media and fake news in the 2016 election",
+        "volume": "31",
+        "author": "Allcott",
+        "year": "2017",
+        "journal-title": "J. Econ. Perspect."
+      },
+      {
+        "issue": "26",
+        "key": "10.1016/j.ins.2026.123407_bib0040",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1126/sciadv.adh1850",
+        "article-title": "AI model gpt-3 (dis) informs us better than humans",
+        "volume": "9",
+        "author": "Spitale",
+        "year": "2023",
+        "journal-title": "Science Advances"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0045",
+        "author": "Sun"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ins.2026.123407_bib0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "22",
+        "DOI": "10.1145/3137597.3137600",
+        "article-title": "Fake news detection on social media: a data mining perspective",
+        "volume": "19",
+        "author": "Shu",
+        "year": "2017",
+        "journal-title": "ACM SIGKDD Explor. Newsl."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ins.2026.123407_bib0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3395046",
+        "article-title": "A survey of fake news: fundamental theories, detection methods, and opportunities",
+        "volume": "53",
+        "author": "Zhou",
+        "year": "2020",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0060",
+        "series-title": "Overview of the Clef-2022 Checkthat! Lab Task 2 on Detecting Previously Fact-Checked Claims",
+        "author": "Nakov",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "178",
+        "DOI": "10.1162/tacl_a_00454",
+        "article-title": "A survey on automated fact-checking",
+        "volume": "10",
+        "author": "Guo",
+        "year": "2022",
+        "journal-title": "Trans. Assoc. Comput. Linguist."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0070",
+        "series-title": "Computaci\u00f3n Y Sistemas",
+        "first-page": "1089",
+        "article-title": "Cross-domain failures of fake news detection",
+        "volume": "vol. 23",
+        "author": "Janicka",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0075",
+        "series-title": "Proceedings of the ACM Web Conference 2022",
+        "first-page": "3632",
+        "article-title": "Domain adaptive fake news detection via reinforcement learning",
+        "author": "Mosallanezhad",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "147408",
+        "DOI": "10.1109/ACCESS.2025.3608790",
+        "article-title": "Discovering domain-agnostic fake news detectors through deep self-supervised learning",
+        "volume": "13",
+        "author": "Comito",
+        "year": "2025",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0085",
+        "series-title": "Proceedings of the 31st International Conference on Computational Linguistics",
+        "first-page": "9407",
+        "article-title": "Cross-domain fake news detection based on dual-granularity adversarial training",
+        "author": "Wei",
+        "year": "2025"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0090",
+        "series-title": "Proceedings of the 30th ACM International Conference on Information & Knowledge Management",
+        "first-page": "3343",
+        "article-title": "Mdfend: multi-domain fake news detection",
+        "author": "Nan",
+        "year": "2021"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.ins.2026.123407_bib0095",
+        "first-page": "7178",
+        "article-title": "Memory-guided multi-view multi-domain fake news detection",
+        "volume": "35",
+        "author": "Zhu",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ins.2026.123407_bib0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "188",
+        "DOI": "10.1007/s10994-025-06827-9",
+        "article-title": "Breaking domain barriers: mixture of experts for cross-domain fake news detection",
+        "volume": "114",
+        "author": "Liguori",
+        "year": "2025",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ins.2026.123407_bib0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "11765",
+        "DOI": "10.1007/s11042-020-10183-2",
+        "article-title": "Fakebert: fake news detection in social media with a bert-based deep learning approach",
+        "volume": "80",
+        "author": "Kaliyar",
+        "year": "2021",
+        "journal-title": "Multimed. Tools Appl."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0110",
+        "author": "Hu"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ins.2026.123407_bib0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "3267",
+        "DOI": "10.1007/s10115-024-02321-1",
+        "article-title": "Fake news detection: comparative evaluation of bert-like models and large language models with generative ai-annotated data",
+        "volume": "67",
+        "author": "Raza",
+        "year": "2025",
+        "journal-title": "Knowl. Inf. Syst."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0120",
+        "series-title": "2024 IEEE International Conference on Big Data (BigData)",
+        "first-page": "8617",
+        "article-title": "A large language model-based fake news detection framework with RAG fact-checking",
+        "author": "Bai",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0125",
+        "author": "Niu"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0130",
+        "series-title": "Proceedings of the AAAI Symposium Series",
+        "first-page": "152",
+        "article-title": "An explainable kg-rag-based approach to evidence-based fake news detection using llms",
+        "volume": "vol. 6",
+        "author": "Thomas",
+        "year": "2025"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0135",
+        "series-title": "KDD",
+        "first-page": "849",
+        "article-title": "Eann: event adversarial neural networks for multi-modal fake news detection",
+        "author": "Wang",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0140",
+        "series-title": "ACM Multimedia",
+        "first-page": "4302",
+        "article-title": "Multimodal learning for multi-label fake news detection",
+        "author": "Pramanick",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0145",
+        "series-title": "Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining",
+        "first-page": "312",
+        "article-title": "Beyond news contents: the role of social context for fake news detection",
+        "author": "Shu",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0150",
+        "series-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "first-page": "549",
+        "article-title": "Rumor detection on social media with bi-directional graph convolutional networks",
+        "volume": "vol. 34",
+        "author": "Bian",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0155",
+        "series-title": "Proceedings of the ACM Web Conference 2022",
+        "first-page": "2501",
+        "article-title": "Evidence-aware fake news detection with graph neural networks",
+        "author": "Xu",
+        "year": "2022"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ins.2026.123407_bib0160",
+        "first-page": "e9",
+        "article-title": "Detecting opinion spams and fake news using text classification",
+        "volume": "1",
+        "author": "Ahmed",
+        "year": "2018",
+        "journal-title": "Sec. Priv."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0165",
+        "doi-asserted-by": "crossref",
+        "first-page": "377",
+        "DOI": "10.1016/j.procs.2020.01.035",
+        "article-title": "Analysis of classifiers for fake news detection",
+        "volume": "165",
+        "author": "Agarwal",
+        "year": "2019",
+        "journal-title": "Procedia Comput. Sci."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ins.2026.123407_bib0170",
+        "first-page": "1",
+        "article-title": "Fake news prediction: a survey",
+        "volume": "3",
+        "author": "Dutta",
+        "year": "2019",
+        "journal-title": "Int. J. Sci. Eng. Sci."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0175",
+        "doi-asserted-by": "crossref",
+        "first-page": "22626",
+        "DOI": "10.1109/ACCESS.2021.3056079",
+        "article-title": "A novel stacking approach for accurate detection of fake news",
+        "volume": "9",
+        "author": "Jiang",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0180",
+        "series-title": "IEEE/WIC/ACM International Conference on Web Intelligence",
+        "first-page": "383",
+        "article-title": "Which machine learning paradigm for fake news detection?",
+        "author": "Katsaros",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "30367",
+        "DOI": "10.1109/ACCESS.2022.3159651",
+        "article-title": "A taxonomy of fake news classification techniques: survey and implementation aspects",
+        "volume": "10",
+        "author": "Rohera",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.ins.2026.123407_bib0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "576",
+        "DOI": "10.3390/info13120576",
+        "article-title": "A comparative study of machine learning and deep learning techniques for fake news detection",
+        "volume": "13",
+        "author": "Alghamdi",
+        "year": "2022",
+        "journal-title": "Information"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ins.2026.123407_bib0195",
+        "first-page": "1",
+        "article-title": "Using deep learning models to detect fake news about Covid-19",
+        "volume": "23",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "ACM Trans. Internet Technol."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0200",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.knosys.2023.110642",
+        "article-title": "Towards Covid-19 fake news detection using transformer-based models",
+        "volume": "274",
+        "author": "Alghamdi",
+        "year": "2023",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0205",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.inffus.2023.102140",
+        "article-title": "Fake news detection: taxonomy and comparative study",
+        "volume": "103",
+        "author": "Farhangian",
+        "year": "2024",
+        "journal-title": "Inf. Fusion."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0210",
+        "series-title": "2025 8th International Conference on Advanced Algorithms and Control Engineering (ICAACE)",
+        "first-page": "2470",
+        "article-title": "Unmasking digital falsehoods: a comparative analysis of llm-based misinformation detection strategies",
+        "author": "Huang",
+        "year": "2025"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "657",
+        "DOI": "10.1016/j.ins.2022.07.128",
+        "article-title": "In-context annotation of topic-oriented datasets of fake news: a case study on the Notre-Dame Fire event",
+        "volume": "615",
+        "author": "Passaro",
+        "year": "2022",
+        "journal-title": "Information Sciences"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0220",
+        "author": "P\u00e9rez-Rosas"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ins.2026.123407_bib0225",
+        "doi-asserted-by": "crossref",
+        "first-page": "242",
+        "DOI": "10.22452/mjcs.vol36no3.3",
+        "article-title": "Disinformation detection about islamic issues on social media using deep learning techniques",
+        "volume": "36",
+        "author": "Hamed",
+        "year": "2023",
+        "journal-title": "Malays. J. Comput. Sci."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0230",
+        "series-title": "Proceedings of the 10th ACM Conference on Web Science",
+        "first-page": "17",
+        "article-title": "Fake news VS satire: a dataset and analysis",
+        "author": "Golbeck",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0235",
+        "series-title": "Proceedings of the International AAAI Conference on Web and Social Media",
+        "first-page": "573",
+        "article-title": "Fa-Kes: a fake news dataset around the Syrian war",
+        "volume": "vol. 13",
+        "author": "Salem",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0240",
+        "series-title": "Proceedings of the International AAAI Conference on Web and Social Media",
+        "first-page": "759",
+        "article-title": "This just in: fake news packs a lot in title, uses simpler, repetitive content in text body, more similar to satire than real news",
+        "volume": "vol. 11",
+        "author": "Horne",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0245",
+        "series-title": "Intelligent, Secure, and Dependable Systems in Distributed and Cloud Environments: First International Conference, ISDDC 2017, Vancouver, BC, Canada, October 26\u201328, 2017, Proceedings 1",
+        "first-page": "127",
+        "article-title": "Detection of online fake news using n-gram analysis and machine learning techniques",
+        "author": "Ahmed",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0250",
+        "series-title": "Proceedings of the First Workshop on Fact Extraction and Verification (FEVER)",
+        "first-page": "85",
+        "article-title": "Where is your evidence: improving fact-checking by justification modeling",
+        "author": "Alhindi",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0255",
+        "series-title": "2022 IEEE International Conference on Big Data (Big Data)",
+        "first-page": "5731",
+        "article-title": "Exploring the generalisability of fake news detection models",
+        "author": "Hoy",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0260",
+        "author": "Wang"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0265",
+        "author": "Devlin"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0270",
+        "author": "He"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0275",
+        "author": "Touvron"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0280",
+        "author": "Yang"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0285",
+        "author": "Tunstall"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0290",
+        "series-title": "2018 22nd Conference of Open Innovations Association (FRUCT)",
+        "first-page": "272",
+        "article-title": "Automatic online fake news detection combining content and social signals",
+        "author": "Della Vedova",
+        "year": "2018"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ins.2026.123407_bib0295",
+        "doi-asserted-by": "crossref",
+        "first-page": "352",
+        "DOI": "10.3390/fi16100352",
+        "article-title": "Automated detection of misinformation: a hybrid approach for fake news detection",
+        "volume": "16",
+        "author": "Mohsen",
+        "year": "2024",
+        "journal-title": "Future Internet"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0300",
+        "author": "Mikolov"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0305",
+        "series-title": "Social Computing and Social Media. Design, Human Behavior and Analytics: 11th International Conference, SCSM 2019, Held as Part of the 21st HCI International Conference, HCII 2019, Orlando, FL, USA, July 26\u201331, 2019, Proceedings, Part I 21",
+        "first-page": "293",
+        "article-title": "An empirical analysis of rumor detection on microblogs with recurrent neural networks",
+        "author": "Bugue\u00f1o",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0310",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1016/j.procs.2020.01.072",
+        "article-title": "Fake news detection using bi-directional lstm-recurrent neural network",
+        "volume": "165",
+        "author": "Bahad",
+        "year": "2019",
+        "journal-title": "Proc. Comput. Sci."
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.ins.2026.123407_bib0315",
+        "doi-asserted-by": "crossref",
+        "first-page": "5154",
+        "DOI": "10.1109/TKDE.2021.3054993",
+        "article-title": "An integrated multi-task model for fake news detection",
+        "volume": "34",
+        "author": "Liao",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0320",
+        "series-title": "All That\u2019s Not Fit to Print",
+        "first-page": "57",
+        "article-title": "How to spot fake news",
+        "author": "Affelt",
+        "year": "2019"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ins.2026.123407_bib0325",
+        "doi-asserted-by": "crossref",
+        "first-page": "122",
+        "DOI": "10.3390/info15030122",
+        "article-title": "The power of context: a novel hybrid context-aware fake news detection approach",
+        "volume": "15",
+        "author": "Alghamdi",
+        "year": "2024",
+        "journal-title": "Information"
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0330",
+        "doi-asserted-by": "crossref",
+        "first-page": "47",
+        "DOI": "10.1016/j.future.2020.11.022",
+        "article-title": "An ensemble machine learning approach through effective feature extraction to classify fake news",
+        "volume": "117",
+        "author": "Hakak",
+        "year": "2021",
+        "journal-title": "Futur. Gener. Comput. Syst."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0335",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2024.125024",
+        "article-title": "Enhancing hierarchical attention networks with CNN and stylistic features for fake news detection",
+        "volume": "257",
+        "author": "Alghamdi",
+        "year": "2024",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "10.1016/j.ins.2026.123407_bib0340",
+        "author": "Shazeer"
+      }
+    ],
+    "container-title": [
+      "Information Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0020025526003385?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0020025526003385?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          2
+        ]
+      ],
+      "date-time": "2026-05-02T12:40:30Z",
+      "timestamp": 1777725630000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0020025526003385"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "references-count": 68,
+    "alternative-id": [
+      "S0020025526003385"
+    ],
+    "URL": "https://doi.org/10.1016/j.ins.2026.123407",
+    "relation": {},
+    "ISSN": [
+      "0020-0255"
+    ],
+    "issn-type": [
+      {
+        "value": "0020-0255",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "An experimental comparison of the most popular approaches to fake news detection",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Information Sciences",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ins.2026.123407",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "\u00a9 2026 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "123407"
+  }
+}

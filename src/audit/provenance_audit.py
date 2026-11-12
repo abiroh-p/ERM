@@ -58,8 +58,9 @@ def label(value):
 def recorded_references(root, extra=()):
     """Read only known metadata, never load CSVs or treat result hashes as data hashes."""
     paths = {root / "freeze/MANIFEST.json", root / "archive/freeze_validation_intermediate/MANIFEST.json"}
-    for folder in ("configs", "results/raw", "results/validation"):
+    for folder in ("configs", "results/raw", "results/validation", "results/paired/provenance"):
         paths.update((root / folder).rglob("*_config.json"))
+    paths.update((root / "results/paired/provenance").rglob("*_protocol.json"))
     paths.update(Path(p) for p in extra)
     refs, inspected = [], []
     for path in sorted(paths):

@@ -15,7 +15,7 @@ What it does
       - results/audit/primary|smoke/borderline_to_inspect.csv
     and stages the text-free versions.
   * appends the matching patterns to .gitignore.
-It does not rewrite history: files already committed stay in old commits (see CLEANUP.md for the optional purge).
+It does not rewrite history: files already committed stay in old commits (see docs/DATA_HANDLING.md for the optional purge).
 """
 import argparse, pathlib, subprocess, sys
 import pandas as pd
@@ -73,7 +73,7 @@ def main():
     if left or bad:
         sys.exit(f"verification failed: still tracked {left}, text columns remain in {bad}")
     print("\nDone and verified. Review with `git status`, then:\n  git commit -m \"Stop tracking dataset text; strip excerpts from audit tables\"")
-    print("History still contains the old files; see CLEANUP.md before making the repository public or citing it.")
+    print("History still contains the old files; see docs/DATA_HANDLING.md before making the repository public or citing it.")
 
 
 if __name__ == "__main__":

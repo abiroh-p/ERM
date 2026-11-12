@@ -6,7 +6,7 @@ find_text_in_history.py -- list every file path that EVER held dataset article t
 
 Reads each distinct historical blob (not just the current tree) and flags CSV/TXT/JSON/parquet-like files whose header names a text
 column (text, title, content, text_i, text_j) or whose first lines contain very long fields. Use the printed paths with
-`git filter-repo` (see CLEANUP.md). Heuristic: review the list; it is meant to over-report rather than miss.
+`git filter-repo` (see docs/DATA_HANDLING.md). Heuristic: review the list; it is meant to over-report rather than miss.
 """
 import subprocess, re, collections, sys
 
@@ -48,7 +48,7 @@ for line in batch:
             hits[p].append((size, flag))
 for p, v in sorted(hits.items(), key=lambda kv: -max(s for s, _ in kv[1])):
     print(f"{max(s for s, _ in v):>12,}  {v[0][1]:12s} {p}")
-print(f"\n{len(hits)} paths; purge them with git filter-repo (see CLEANUP.md)")
+print(f"\n{len(hits)} paths; purge them with git filter-repo (see docs/DATA_HANDLING.md)")
 if "--write-paths" in sys.argv:
     out = sys.argv[sys.argv.index("--write-paths") + 1]
     open(out, "w").write("\n".join(sorted(hits)) + "\n"); print("wrote", out)

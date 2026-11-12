@@ -1,3 +1,5 @@
+> Historical runner guide. For the current document-paired protocol use the root README and `scripts/run_paired_validation.py`. Commands below describe the archived condition-specific sampling mode unless `--sampling paired` is explicitly supplied.
+
 # Running the experiments on Kaggle (2 x T4)
 
 Settings -> Accelerator -> **GPU T4 x2**, Internet **on**. Upload `analysis_set.csv` (+ `spans_cache.pkl`) as a Kaggle Dataset,

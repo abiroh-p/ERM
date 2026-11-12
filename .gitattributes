@@ -1,0 +1,11 @@
+# Generated binary assets retain exact bytes and avoid text/whitespace diffs.
+*.pdf binary
+*.png binary
+*.zip binary
+*.parquet binary
+*.pkl binary
+# Generated SVG path data is reviewed visually; omit noisy line diffs.
+*.svg -diff
+# Unmodified publisher assets use their original line endings and spacing.
+paper/sn/sn-jnl.cls binary
+paper/sn/sn-mathphys-num.bst binary

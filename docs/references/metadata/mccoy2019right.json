@@ -1,0 +1,161 @@
+{
+  "entry": {
+    "key": "mccoy2019right",
+    "type": "inproceedings",
+    "title": "Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference",
+    "doi": "10.18653/v1/P19-1334",
+    "author": "McCoy, R. Thomas and Pavlick, Ellie and Linzen, Tal",
+    "year": "2019"
+  },
+  "url": "https://api.crossref.org/works/10.18653%2Fv1%2FP19-1334",
+  "title_similarity": 1.0,
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          9
+        ]
+      ],
+      "date-time": "2026-11-09T20:05:16Z",
+      "timestamp": 1794254716056,
+      "version": "4.9.0"
+    },
+    "publisher-location": "Stroudsburg, PA, USA",
+    "reference-count": 0,
+    "publisher": "Association for Computational Linguistics",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "DOI": "10.18653/v1/p19-1334",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          12
+        ]
+      ],
+      "date-time": "2019-09-12T14:39:56Z",
+      "timestamp": 1568299196000
+    },
+    "page": "3428-3448",
+    "source": "Crossref",
+    "is-referenced-by-count": 306,
+    "title": [
+      "Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference"
+    ],
+    "prefix": "10.18653",
+    "author": [
+      {
+        "given": "R. Thomas",
+        "family": "McCoy",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ellie",
+        "family": "Pavlick",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tal",
+        "family": "Linzen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1643",
+    "event": {
+      "name": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+      "location": "Florence, Italy",
+      "start": {
+        "date-parts": [
+          [
+            2019,
+            7
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2019,
+            7
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics"
+    ],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          31
+        ]
+      ],
+      "date-time": "2026-01-31T21:52:39Z",
+      "timestamp": 1769896359000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://aclanthology.org/P19-1334"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.18653/v1/p19-1334",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    }
+  }
+}

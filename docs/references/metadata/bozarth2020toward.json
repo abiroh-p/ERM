@@ -1,0 +1,166 @@
+{
+  "entry": {
+    "key": "bozarth2020toward",
+    "type": "inproceedings",
+    "title": "Toward a Better Performance Evaluation Framework for Fake News Classification",
+    "doi": "10.1609/icwsm.v14i1.7279",
+    "author": "Bozarth, Lia and Budak, Ceren",
+    "year": "2020"
+  },
+  "url": "https://api.crossref.org/works/10.1609%2Ficwsm.v14i1.7279",
+  "title_similarity": 1.0,
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          9
+        ]
+      ],
+      "date-time": "2026-11-09T21:46:54Z",
+      "timestamp": 1794260814442,
+      "version": "4.9.0"
+    },
+    "reference-count": 0,
+    "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "ICWSM"
+    ],
+    "abstract": "<jats:p>The rising prevalence of fake news and its alarming downstream impact have motivated both the industry and academia to build a substantial number of fake news classification models, each with its unique architecture. Yet, the research community currently lacks a comprehensive model evaluation framework that can provide multifaceted comparisons between these models beyond the simple evaluation metrics such as accuracy or f1 scores. In our work, we examine a representative subset of classifiers using a very simple set of performance evaluation and error analysis steps. We demonstrate that model performance varies considerably based on i) dataset, ii) evaluation archetype, and iii) performance metrics. Additionally, classifiers also demonstrate a potential bias against small and conservative-leaning credible news sites. Finally, models' performance varies based on external events and article topics. In sum, our results highlight the need to move toward systematic benchmarking.</jats:p>",
+    "DOI": "10.1609/icwsm.v14i1.7279",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          1
+        ]
+      ],
+      "date-time": "2022-11-01T18:50:15Z",
+      "timestamp": 1667328615000
+    },
+    "page": "60-71",
+    "source": "Crossref",
+    "is-referenced-by-count": 40,
+    "title": [
+      "Toward a Better Performance Evaluation Framework for Fake News Classification"
+    ],
+    "prefix": "10.1609",
+    "volume": "14",
+    "author": [
+      {
+        "given": "Lia",
+        "family": "Bozarth",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ceren",
+        "family": "Budak",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "9382",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          26
+        ]
+      ]
+    },
+    "container-title": [
+      "Proceedings of the International AAAI Conference on Web and Social Media"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://ojs.aaai.org/index.php/ICWSM/article/download/7279/7133",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://ojs.aaai.org/index.php/ICWSM/article/download/7279/7133",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          1
+        ]
+      ],
+      "date-time": "2022-11-01T18:50:15Z",
+      "timestamp": 1667328615000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ojs.aaai.org/index.php/ICWSM/article/view/7279"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          26
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1609/icwsm.v14i1.7279",
+    "relation": {},
+    "ISSN": [
+      "2334-0770",
+      "2162-3449"
+    ],
+    "issn-type": [
+      {
+        "value": "2334-0770",
+        "type": "electronic"
+      },
+      {
+        "value": "2162-3449",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          26
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "input_sha256": {
+    "merged/results_distilbert.csv": "05fb3b5c1394b0b206c64647ca6e377d5f3dc184001258bbd84703e0f966785b",
+    "merged/results_roberta.csv": "e191cc2ccda1b46b00bdd9d3a0123b380349a9b80949a76aea98232a7cd46604",
+    "merged/results_tfidf.csv": "2a92f71a907b6fe1f71f0f84320d6daa716864afe467717b00daf02c2b741844"
+  },
+  "inference": "Descriptive t-intervals over 8 seeds; six pairs averaged within seed; no population-level causal or equivalence claim.",
+  "corrections": "Holm over 6 planned contrasts per model and outcome; omitted transformer contrasts assigned p=1.",
+  "limitations": "Legacy-vs-paired differences also involve software changes; transformer validation uses 8 of 13 conditions."
+}

@@ -1,0 +1,12 @@
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Train $\rightarrow$ test & TF-IDF & DistilBERT & RoBERTa\\
+\midrule
+ISOT$\rightarrow$McIntire & +0.013 [+0.011, +0.015] & +0.028 [-0.000, +0.056] & +0.028 [+0.007, +0.049]\\
+ISOT$\rightarrow$residual & +0.004 [+0.001, +0.007] & -0.050 [-0.075, -0.025] & +0.046 [-0.056, +0.148]\\
+McIntire$\rightarrow$ISOT & +0.058 [+0.053, +0.064] & +0.101 [+0.074, +0.129] & +0.028 [+0.002, +0.054]\\
+McIntire$\rightarrow$residual & -0.009 [-0.012, -0.007] & -0.017 [-0.027, -0.006] & -0.012 [-0.025, +0.001]\\
+residual$\rightarrow$ISOT & +0.021 [+0.015, +0.027] & -0.077 [-0.115, -0.039] & -0.014 [-0.030, +0.002]\\
+residual$\rightarrow$McIntire & -0.009 [-0.011, -0.006] & -0.031 [-0.045, -0.017] & -0.016 [-0.025, -0.006]\\
+\bottomrule
+\end{tabular}

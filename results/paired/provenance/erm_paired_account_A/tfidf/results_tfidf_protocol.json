@@ -1,0 +1,54 @@
+{
+  "protocol": "paired-documents-v1",
+  "datasets": [
+    "ISOT",
+    "McIntire",
+    "WELFake_residual"
+  ],
+  "analysis_sha256": "29e96d7b7fe60a94a2652c704f2bd4be9b5bb7e45f540eabeb19320276788ab5",
+  "spans_sha256": "f16342d4339666ac924f42b61eb42282d70ed16f5128a3bc4ba2ef1f13ac80bc",
+  "exclusion_sha256": null,
+  "cfg": {
+    "universe_per_class": 4000,
+    "n_train": 1500,
+    "n_test_in": 500,
+    "n_test_x": 800,
+    "test_frac": 0.2,
+    "length_bins": 10,
+    "entity_labels": [
+      "PERSON",
+      "ORG",
+      "GPE",
+      "NORP",
+      "LOC",
+      "FAC",
+      "EVENT",
+      "PRODUCT",
+      "WORK_OF_ART",
+      "LAW",
+      "LANGUAGE"
+    ],
+    "spacy_model": "en_core_web_sm"
+  },
+  "split": "cluster",
+  "date_col": "date",
+  "cutoff_quantile": 0.7,
+  "backend": "tfidf",
+  "model": "tfidf_lr",
+  "max_len": 256,
+  "epochs": 2,
+  "bs": 16,
+  "lr": 3e-05,
+  "entity_method": "spacy:en_core_web_sm",
+  "libraries": {
+    "numpy": "2.1.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.3"
+  },
+  "code_sha256": {
+    "exp_transformer.py": "bef0151e68237fb7e34a40ed3dedf89f9fdd40b3bf7ca3da1a9d49726e13ade4",
+    "exp_tfidf.py": "9e2b453dba6a472b69b55eaf8cb47282a75e16fca157b52e8b30ddb20f0073f7",
+    "paired_sampling.py": "d49b09c03125f6ad2993075d19944b77189e6a2e425b0326c2489f3dee1f75c1"
+  }
+}

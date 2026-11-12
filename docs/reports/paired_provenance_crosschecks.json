@@ -1,0 +1,19 @@
+{
+  "bundle_manifest_status": "PASS",
+  "input_hash_matches_all_nine_model_protocols": true,
+  "saved_paired_manifest_checks": {
+    "A": {
+      "manifests_checked": 9,
+      "flagged_pair_present": false
+    },
+    "B": {
+      "manifests_checked": 9,
+      "flagged_pair_present": false
+    },
+    "C": {
+      "manifests_checked": 6,
+      "flagged_pair_present": false
+    }
+  },
+  "scope": "Checks supplied records and saved samples; does not rerun construction or search all text for overlap."
+}

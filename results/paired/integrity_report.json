@@ -1,0 +1,270 @@
+{
+  "status": "PASS",
+  "models": {
+    "tfidf": {
+      "rows": 936,
+      "fits": 312,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "conditions": [
+        "C0",
+        "S",
+        "L",
+        "E",
+        "SL",
+        "SE",
+        "LE",
+        "SLE",
+        "R_S",
+        "R_E",
+        "R_SE",
+        "L_RE",
+        "L_RSE"
+      ],
+      "python": "3.13.16",
+      "protocol": {
+        "protocol": "paired-documents-v1",
+        "datasets": [
+          "ISOT",
+          "McIntire",
+          "WELFake_residual"
+        ],
+        "analysis_sha256": "29e96d7b7fe60a94a2652c704f2bd4be9b5bb7e45f540eabeb19320276788ab5",
+        "spans_sha256": "f16342d4339666ac924f42b61eb42282d70ed16f5128a3bc4ba2ef1f13ac80bc",
+        "exclusion_sha256": null,
+        "cfg": {
+          "universe_per_class": 4000,
+          "n_train": 1500,
+          "n_test_in": 500,
+          "n_test_x": 800,
+          "test_frac": 0.2,
+          "length_bins": 10,
+          "entity_labels": [
+            "PERSON",
+            "ORG",
+            "GPE",
+            "NORP",
+            "LOC",
+            "FAC",
+            "EVENT",
+            "PRODUCT",
+            "WORK_OF_ART",
+            "LAW",
+            "LANGUAGE"
+          ],
+          "spacy_model": "en_core_web_sm"
+        },
+        "split": "cluster",
+        "date_col": "date",
+        "cutoff_quantile": 0.7,
+        "backend": "tfidf",
+        "model": "tfidf_lr",
+        "max_len": 256,
+        "epochs": 2,
+        "bs": 16,
+        "lr": 3e-05,
+        "entity_method": "spacy:en_core_web_sm",
+        "libraries": {
+          "numpy": "2.1.3",
+          "pandas": "2.3.3",
+          "scikit-learn": "1.6.1",
+          "scipy": "1.16.3"
+        },
+        "code_sha256": {
+          "exp_transformer.py": "bef0151e68237fb7e34a40ed3dedf89f9fdd40b3bf7ca3da1a9d49726e13ade4",
+          "exp_tfidf.py": "9e2b453dba6a472b69b55eaf8cb47282a75e16fca157b52e8b30ddb20f0073f7",
+          "paired_sampling.py": "d49b09c03125f6ad2993075d19944b77189e6a2e425b0326c2489f3dee1f75c1"
+        }
+      }
+    },
+    "distilbert": {
+      "rows": 576,
+      "fits": 192,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "conditions": [
+        "C0",
+        "E",
+        "R_E",
+        "L",
+        "LE",
+        "L_RE",
+        "SLE",
+        "L_RSE"
+      ],
+      "python": "3.13.16",
+      "protocol": {
+        "protocol": "paired-documents-v1",
+        "datasets": [
+          "ISOT",
+          "McIntire",
+          "WELFake_residual"
+        ],
+        "analysis_sha256": "29e96d7b7fe60a94a2652c704f2bd4be9b5bb7e45f540eabeb19320276788ab5",
+        "spans_sha256": "f16342d4339666ac924f42b61eb42282d70ed16f5128a3bc4ba2ef1f13ac80bc",
+        "exclusion_sha256": null,
+        "cfg": {
+          "universe_per_class": 4000,
+          "n_train": 1500,
+          "n_test_in": 500,
+          "n_test_x": 800,
+          "test_frac": 0.2,
+          "length_bins": 10,
+          "entity_labels": [
+            "PERSON",
+            "ORG",
+            "GPE",
+            "NORP",
+            "LOC",
+            "FAC",
+            "EVENT",
+            "PRODUCT",
+            "WORK_OF_ART",
+            "LAW",
+            "LANGUAGE"
+          ],
+          "spacy_model": "en_core_web_sm"
+        },
+        "split": "cluster",
+        "date_col": "date",
+        "cutoff_quantile": 0.7,
+        "backend": "transformer",
+        "model": "distilbert-base-uncased",
+        "max_len": 256,
+        "epochs": 2,
+        "bs": 16,
+        "lr": 3e-05,
+        "entity_method": "spacy:en_core_web_sm",
+        "libraries": {
+          "numpy": "2.1.3",
+          "pandas": "2.3.3",
+          "scikit-learn": "1.6.1",
+          "scipy": "1.16.3",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.2",
+          "tokenizers": "0.23.3"
+        },
+        "code_sha256": {
+          "exp_transformer.py": "bef0151e68237fb7e34a40ed3dedf89f9fdd40b3bf7ca3da1a9d49726e13ade4",
+          "exp_tfidf.py": "9e2b453dba6a472b69b55eaf8cb47282a75e16fca157b52e8b30ddb20f0073f7",
+          "paired_sampling.py": "d49b09c03125f6ad2993075d19944b77189e6a2e425b0326c2489f3dee1f75c1"
+        }
+      }
+    },
+    "roberta": {
+      "rows": 576,
+      "fits": 192,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "conditions": [
+        "C0",
+        "E",
+        "R_E",
+        "L",
+        "LE",
+        "L_RE",
+        "SLE",
+        "L_RSE"
+      ],
+      "python": "3.13.16",
+      "protocol": {
+        "protocol": "paired-documents-v1",
+        "datasets": [
+          "ISOT",
+          "McIntire",
+          "WELFake_residual"
+        ],
+        "analysis_sha256": "29e96d7b7fe60a94a2652c704f2bd4be9b5bb7e45f540eabeb19320276788ab5",
+        "spans_sha256": "f16342d4339666ac924f42b61eb42282d70ed16f5128a3bc4ba2ef1f13ac80bc",
+        "exclusion_sha256": null,
+        "cfg": {
+          "universe_per_class": 4000,
+          "n_train": 1500,
+          "n_test_in": 500,
+          "n_test_x": 800,
+          "test_frac": 0.2,
+          "length_bins": 10,
+          "entity_labels": [
+            "PERSON",
+            "ORG",
+            "GPE",
+            "NORP",
+            "LOC",
+            "FAC",
+            "EVENT",
+            "PRODUCT",
+            "WORK_OF_ART",
+            "LAW",
+            "LANGUAGE"
+          ],
+          "spacy_model": "en_core_web_sm"
+        },
+        "split": "cluster",
+        "date_col": "date",
+        "cutoff_quantile": 0.7,
+        "backend": "transformer",
+        "model": "roberta-base",
+        "max_len": 256,
+        "epochs": 2,
+        "bs": 16,
+        "lr": 3e-05,
+        "entity_method": "spacy:en_core_web_sm",
+        "libraries": {
+          "numpy": "2.1.3",
+          "pandas": "2.3.3",
+          "scikit-learn": "1.6.1",
+          "scipy": "1.16.3",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.2",
+          "tokenizers": "0.23.3"
+        },
+        "code_sha256": {
+          "exp_transformer.py": "bef0151e68237fb7e34a40ed3dedf89f9fdd40b3bf7ca3da1a9d49726e13ade4",
+          "exp_tfidf.py": "9e2b453dba6a472b69b55eaf8cb47282a75e16fca157b52e8b30ddb20f0073f7",
+          "paired_sampling.py": "d49b09c03125f6ad2993075d19944b77189e6a2e425b0326c2489f3dee1f75c1"
+        }
+      }
+    }
+  },
+  "matches_frozen_original_analysis_csv": true,
+  "account_sha256": {
+    "A": "200c51f85f48e5280d9d4ea58413a60cc72a6a53c82b0b0f9ea947ac097cbf2a",
+    "B": "5e1c4baca5a0950571b719d1603556c94d196408a549659033c2ea0ca93a91cb",
+    "C": "b6538848127453829af9d285fd2f81d765f2ee4ab553a0d6d26a11f3ddff3b42"
+  },
+  "manifest_sha256": {
+    "0": "c47f74bffec0385837b85e3d612984b669be19a6c272a0a3b7f608260227e336",
+    "1": "9153428608fee2c1a12054bc1920d3ec583a87c8d8577cff814e62c2c0ed78e8",
+    "2": "5ed79a9dad20e8ecac9438b0111e6fd5a7769f0f5734f10b5891b763bfa97647",
+    "3": "f2ca993abff4f3ab5e2127b4a437889e1f2c86408e3c4b04297704b097eb955e",
+    "4": "1bbd9705e5b7ddc6cb578fa98b00cefece112efbb2dafdcb394ed8bad3437b1c",
+    "5": "0a8ab86a89126d1cfd2a9533334621b26387a92f70725be10f431665742df996",
+    "6": "b95d5133219b42bcad27cd49205648c882a0b10a420f15b8543925241e5b2057",
+    "7": "8e49d5125cdb69069f2d4aac92bf12c427c5aa46978cbd764c047c6d70e9963b"
+  },
+  "caveat": "Checks saved provenance and result consistency; does not rerun training, raw-text matching or NER."
+}

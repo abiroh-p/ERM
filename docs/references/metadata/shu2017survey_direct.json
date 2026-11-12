@@ -1,0 +1,854 @@
+{
+  "url": "https://api.crossref.org/works/10.1145%2F3137597.3137600",
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          9
+        ]
+      ],
+      "date-time": "2026-11-09T20:53:21Z",
+      "timestamp": 1794257601290,
+      "version": "4.9.0"
+    },
+    "reference-count": 102,
+    "publisher": "Association for Computing Machinery (ACM)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2017-09-01T00:00:00Z",
+          "timestamp": 1504224000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "dl.acm.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "SIGKDD Explor. Newsl."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Social media for news consumption is a double-edged sword. On the one hand, its low cost, easy access, and rapid dissemination of information lead people to seek out and consume news from social media. On the other hand, it enables the wide spread of \\fake news\", i.e., low quality news with intentionally false information. The extensive spread of fake news has the potential for extremely negative impacts on individuals and society. Therefore, fake news detection on social media has recently become an emerging research that is attracting tremendous attention. Fake news detection on social media presents unique characteristics and challenges that make existing detection algorithms from traditional news media ine ective or not applicable. First, fake news is intentionally written to mislead readers to believe false information, which makes it difficult and nontrivial to detect based on news content; therefore, we need to include auxiliary information, such as user social engagements on social media, to help make a determination. Second, exploiting this auxiliary information is challenging in and of itself as users' social engagements with fake news produce data that is big, incomplete, unstructured, and noisy. Because the issue of fake news detection on social media is both challenging and relevant, we conducted this survey to further facilitate research on the problem. In this survey, we present a comprehensive review of detecting fake news on social media, including fake news characterizations on psychology and social theories, existing algorithms from a data mining perspective, evaluation metrics and representative datasets. We also discuss related research areas, open problems, and future research directions for fake news detection on social media.</jats:p>",
+    "DOI": "10.1145/3137597.3137600",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          5
+        ]
+      ],
+      "date-time": "2017-09-05T08:23:34Z",
+      "timestamp": 1504599814000
+    },
+    "page": "22-36",
+    "update-policy": "https://doi.org/10.1145/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2821,
+    "title": [
+      "Fake News Detection on Social Media"
+    ],
+    "prefix": "10.1145",
+    "volume": "19",
+    "author": [
+      {
+        "given": "Kai",
+        "family": "Shu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Arizona State University, Tempe, AZ, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amy",
+        "family": "Sliva",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Charles River Analytics, Cambridge, MA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Suhang",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Arizona State University, Tempe, AZ, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiliang",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Michigan State University, East Lansing, MI, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huan",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Arizona State University, Tempe, AZ, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "320",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          9
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_1_1_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP.2012.34"
+      },
+      {
+        "key": "e_1_2_1_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3386/w23089"
+      },
+      {
+        "key": "e_1_2_1_3_1",
+        "first-page": "222",
+        "volume-title": "Effects of group pressure upon the modification and distortion of judgments. Groups, leadership, and men",
+        "author": "Asch Solomon E.",
+        "year": "1951",
+        "unstructured": "Solomon E. Asch and H. Guetzkow . Effects of group pressure upon the modification and distortion of judgments. Groups, leadership, and men , pages 222 -- 236 , 1951 . Solomon E. Asch and H. Guetzkow. Effects of group pressure upon the modification and distortion of judgments. Groups, leadership, and men, pages 222--236, 1951."
+      },
+      {
+        "key": "e_1_2_1_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0093650212453600"
+      },
+      {
+        "key": "e_1_2_1_5_1",
+        "volume-title": "IJCAI'07",
+        "author": "Banko Michele",
+        "unstructured": "Michele Banko , Michael J. Cafarella , Stephen Soderland , Matthew Broadhead , and Oren Etzioni . Open information extraction from the web . In IJCAI'07 . Michele Banko, Michael J. Cafarella, Stephen Soderland, Matthew Broadhead, and Oren Etzioni. Open information extraction from the web. In IJCAI'07."
+      },
+      {
+        "key": "e_1_2_1_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5210/fm.v21i11.7090"
+      },
+      {
+        "key": "e_1_2_1_7_1",
+        "unstructured": "Prakhar Biyani Kostas Tsioutsiouliklis and John Blackmer. \"8 amazing secrets for getting more clicks\": Detecting clickbaits in news streams using article informality. In AAAI'16.  Prakhar Biyani Kostas Tsioutsiouliklis and John Blackmer. \"8 amazing secrets for getting more clicks\": Detecting clickbaits in news streams using article informality. In AAAI'16."
+      },
+      {
+        "key": "e_1_2_1_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.pragma.2014.11.010"
+      },
+      {
+        "key": "e_1_2_1_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ijpor/edt015"
+      },
+      {
+        "key": "e_1_2_1_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2531602.2531623"
+      },
+      {
+        "key": "e_1_2_1_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1963405.1963500"
+      },
+      {
+        "key": "e_1_2_1_12_1",
+        "volume-title": "ASONAM'16",
+        "author": "Chakraborty Abhijnan",
+        "unstructured": "Abhijnan Chakraborty , Bhargavi Paranjape , Sourya Kakarla , and Niloy Ganguly . Stop clickbait : Detecting and preventing clickbaits in online news media . In ASONAM'16 . Abhijnan Chakraborty, Bhargavi Paranjape, Sourya Kakarla, and Niloy Ganguly. Stop clickbait: Detecting and preventing clickbaits in online news media. In ASONAM'16."
+      },
+      {
+        "key": "e_1_2_1_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2823465.2823467"
+      },
+      {
+        "key": "e_1_2_1_14_1",
+        "volume-title": "CSCW '17",
+        "author": "Cheng Justin",
+        "unstructured": "Justin Cheng , Michael Bernstein , Cristian Danescu-Niculescu-Mizil , and Jure Leskovec . Anyone can become a troll: Causes of trolling behavior in online discussions . In CSCW '17 . Justin Cheng, Michael Bernstein, Cristian Danescu-Niculescu-Mizil, and Jure Leskovec. Anyone can become a troll: Causes of trolling behavior in online discussions. In CSCW '17."
+      },
+      {
+        "key": "e_1_2_1_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TDSC.2012.75"
+      },
+      {
+        "key": "e_1_2_1_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0128193"
+      },
+      {
+        "key": "e_1_2_1_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pra2.2015.145052010082"
+      },
+      {
+        "key": "e_1_2_1_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1517441113"
+      },
+      {
+        "key": "e_1_2_1_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/srep37825"
+      },
+      {
+        "key": "e_1_2_1_20_1",
+        "volume-title": "Dietterich et al. Ensemble methods in machine learning. Multiple classifier systems",
+        "author": "Thomas",
+        "year": "1857",
+        "unstructured": "Thomas G. Dietterich et al. Ensemble methods in machine learning. Multiple classifier systems , 1857 :1--15, 2000. Thomas G. Dietterich et al. Ensemble methods in machine learning. Multiple classifier systems, 1857:1--15, 2000."
+      },
+      {
+        "key": "e_1_2_1_21_1",
+        "volume-title": "Fake news mitigation via point process based intervention. arXiv preprint arXiv:1703.07823",
+        "author": "Farajtabar Mehrdad",
+        "year": "2017",
+        "unstructured": "Mehrdad Farajtabar , Jiachen Yang , Xiaojing Ye , Huan Xu , Rakshit Trivedi , Elias Khalil , Shuang Li , Le Song , and Hongyuan Zha . Fake news mitigation via point process based intervention. arXiv preprint arXiv:1703.07823 , 2017 . Mehrdad Farajtabar, Jiachen Yang, Xiaojing Ye, Huan Xu, Rakshit Trivedi, Elias Khalil, Shuang Li, Le Song, and Hongyuan Zha. Fake news mitigation via point process based intervention. arXiv preprint arXiv:1703.07823, 2017."
+      },
+      {
+        "key": "e_1_2_1_22_1",
+        "volume-title": "ACL'12",
+        "author": "Feng Song",
+        "unstructured": "Song Feng , Ritwik Banerjee , and Yejin Choi . Syntactic stylometry for deception detection . In ACL'12 . Song Feng, Ritwik Banerjee, and Yejin Choi. Syntactic stylometry for deception detection. In ACL'12."
+      },
+      {
+        "key": "e_1_2_1_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2818717"
+      },
+      {
+        "key": "e_1_2_1_24_1",
+        "first-page": "1",
+        "article-title": "A study using n-gram features for text categorization",
+        "volume": "3",
+        "author": "F\u00fcrnkranz Johannes",
+        "year": "1998",
+        "unstructured": "Johannes F\u00fcrnkranz . A study using n-gram features for text categorization . Austrian Research Institute for Artifical Intelligence , 3 (1998): 1 -- 10 , 1998 . Johannes F\u00fcrnkranz. A study using n-gram features for text categorization. Austrian Research Institute for Artifical Intelligence, 3(1998):1--10, 1998.",
+        "journal-title": "Austrian Research Institute for Artifical Intelligence"
+      },
+      {
+        "key": "e_1_2_1_25_1",
+        "volume-title": "ECML'01",
+        "author": "Garg Ashutosh",
+        "unstructured": "Ashutosh Garg and Dan Roth . Understanding probabilistic classifiers . ECML'01 . Ashutosh Garg and Dan Roth. Understanding probabilistic classifiers. ECML'01."
+      },
+      {
+        "key": "e_1_2_1_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3386/w19880"
+      },
+      {
+        "key": "e_1_2_1_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2503792.2503797"
+      },
+      {
+        "key": "e_1_2_1_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2487788.2488033"
+      },
+      {
+        "key": "e_1_2_1_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9781611972825.14"
+      },
+      {
+        "key": "e_1_2_1_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1010920819831"
+      },
+      {
+        "key": "e_1_2_1_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2806416.2806652"
+      },
+      {
+        "key": "e_1_2_1_32_1",
+        "first-page": "77",
+        "volume-title": "N-gram feature selection for authorship identification. Artificial Intelligence: Methodology, Systems, and Applications",
+        "author": "Houvardas John",
+        "year": "2006",
+        "unstructured": "John Houvardas and Efstathios Stamatatos . N-gram feature selection for authorship identification. Artificial Intelligence: Methodology, Systems, and Applications , pages 77 -- 86 , 2006 . John Houvardas and Efstathios Stamatatos. N-gram feature selection for authorship identification. Artificial Intelligence: Methodology, Systems, and Applications, pages 77--86, 2006."
+      },
+      {
+        "key": "e_1_2_1_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDM.2014.141"
+      },
+      {
+        "key": "e_1_2_1_34_1",
+        "first-page": "59",
+        "volume-title": "AAAI'14",
+        "author": "Hu Xia",
+        "year": "2014",
+        "unstructured": "Xia Hu , Jiliang Tang , and Huan Liu . Online social spammer detection . In AAAI'14 , pages 59 -- 65 , 2014 . Xia Hu, Jiliang Tang, and Huan Liu. Online social spammer detection. In AAAI'14, pages 59--65, 2014."
+      },
+      {
+        "key": "e_1_2_1_35_1",
+        "volume-title": "IJCAI'13",
+        "author": "Hu Xia",
+        "unstructured": "Xia Hu , Jiliang Tang , Yanchao Zhang , and Huan Liu . Social spammer detection in microblogging . In IJCAI'13 . Xia Hu, Jiliang Tang, Yanchao Zhang, and Huan Liu. Social spammer detection in microblogging. In IJCAI'13."
+      },
+      {
+        "key": "e_1_2_1_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDM.2014.91"
+      },
+      {
+        "key": "e_1_2_1_37_1",
+        "unstructured": "Zhiwei Jin Juan Cao Yongdong Zhang and Jiebo Luo. News verification by exploiting conicting social viewpoints in microblogs. In AAAI'16.  Zhiwei Jin Juan Cao Yongdong Zhang and Jiebo Luo. News verification by exploiting conicting social viewpoints in microblogs. In AAAI'16."
+      },
+      {
+        "key": "e_1_2_1_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2016.2617078"
+      },
+      {
+        "key": "e_1_2_1_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1914185"
+      },
+      {
+        "key": "e_1_2_1_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9781315128801"
+      },
+      {
+        "key": "e_1_2_1_41_1",
+        "volume-title": "Fake news: A legal perspective",
+        "author": "Klein David O.",
+        "year": "2017",
+        "unstructured": "David O. Klein and Joshua R. Wueller . Fake news: A legal perspective . 2017 . David O. Klein and Joshua R. Wueller. Fake news: A legal perspective. 2017."
+      },
+      {
+        "key": "e_1_2_1_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDM.2013.61"
+      },
+      {
+        "key": "e_1_2_1_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14539"
+      },
+      {
+        "key": "e_1_2_1_44_1",
+        "volume-title": "SIGIR'10",
+        "author": "Lee Kyumin",
+        "unstructured": "Kyumin Lee , James Caverlee , and Steve Webb . Uncovering social spammers: social honeypots+ machine learning . In SIGIR'10 . Kyumin Lee, James Caverlee, and Steve Webb. Uncovering social spammers: social honeypots+ machine learning. In SIGIR'10."
+      },
+      {
+        "issue": "8",
+        "key": "e_1_2_1_45_1",
+        "first-page": "3",
+        "article-title": "Deception detection by scientific content analysis",
+        "volume": "38",
+        "author": "Lesce Tony",
+        "year": "1990",
+        "unstructured": "Tony Lesce . Scan : Deception detection by scientific content analysis . Law and Order , 38 ( 8 ): 3 -- 6 , 1990 . Tony Lesce. Scan: Deception detection by scientific content analysis. Law and Order, 38(8):3--6, 1990.",
+        "journal-title": "Law and Order"
+      },
+      {
+        "key": "e_1_2_1_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2897350.2897352"
+      },
+      {
+        "key": "e_1_2_1_47_1",
+        "unstructured": "Charles X. Ling Jin Huang and Harry Zhang. Auc: a statistically consistent and more discriminating measure than accuracy.  Charles X. Ling Jin Huang and Harry Zhang. Auc: a statistically consistent and more discriminating measure than accuracy."
+      },
+      {
+        "key": "e_1_2_1_48_1",
+        "unstructured": "Jing Ma Wei Gao Prasenjit Mitra Sejeong Kwon Bernard J. Jansen Kam-Fai Wong and Meeyoung Cha. Detecting rumors from microblogs with recurrent neural networks.  Jing Ma Wei Gao Prasenjit Mitra Sejeong Kwon Bernard J. Jansen Kam-Fai Wong and Meeyoung Cha. Detecting rumors from microblogs with recurrent neural networks."
+      },
+      {
+        "key": "e_1_2_1_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2806416.2806607"
+      },
+      {
+        "key": "e_1_2_1_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1871985.1872002"
+      },
+      {
+        "key": "e_1_2_1_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2872518.2890092"
+      },
+      {
+        "key": "e_1_2_1_52_1",
+        "volume-title": "ICWSM'15",
+        "author": "Mitra Tanushree",
+        "unstructured": "Tanushree Mitra and Eric Gilbert . Credbank : A largescale social media corpus with associated credibility annotations . In ICWSM'15 . Tanushree Mitra and Eric Gilbert. Credbank: A largescale social media corpus with associated credibility annotations. In ICWSM'15."
+      },
+      {
+        "key": "e_1_2_1_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3003433"
+      },
+      {
+        "key": "e_1_2_1_54_1",
+        "unstructured": "Fred Morstatter Harsh Dani Justin Sampson and Huan Liu. Can one tamper with the sample api?: Toward neutralizing bias from spam and bot content. In WWW'16.  Fred Morstatter Harsh Dani Justin Sampson and Huan Liu. Can one tamper with the sample api?: Toward neutralizing bias from spam and bot content. In WWW'16."
+      },
+      {
+        "key": "e_1_2_1_55_1",
+        "volume-title": "ASONAM'16",
+        "author": "Morstatter Fred",
+        "unstructured": "Fred Morstatter , Liang Wu , Tahora H. Nazer , Kathleen M. Carley , and Huan Liu . A new approach to bot detection: Striking the balance between precision and recall . In ASONAM'16 . Fred Morstatter, Liang Wu, Tahora H. Nazer, Kathleen M. Carley, and Huan Liu. A new approach to bot detection: Striking the balance between precision and recall. In ASONAM'16."
+      },
+      {
+        "key": "e_1_2_1_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2806416.2806537"
+      },
+      {
+        "key": "e_1_2_1_57_1",
+        "volume-title": "The fake news spreading plague: Was it preventable? arXiv preprint arXiv:1703.06988",
+        "author": "Mustafaraj Eni",
+        "year": "2017",
+        "unstructured": "Eni Mustafaraj and Panagiotis Takis Metaxas . The fake news spreading plague: Was it preventable? arXiv preprint arXiv:1703.06988 , 2017 . Eni Mustafaraj and Panagiotis Takis Metaxas. The fake news spreading plague: Was it preventable? arXiv preprint arXiv:1703.06988, 2017."
+      },
+      {
+        "key": "e_1_2_1_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/1089-2680.2.2.175"
+      },
+      {
+        "key": "e_1_2_1_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11109-010-9112-2"
+      },
+      {
+        "key": "e_1_2_1_60_1",
+        "unstructured": "Christopher Paul and Miriam Matthews. The russian firehose of falsehood propaganda model.  Christopher Paul and Miriam Matthews. The russian firehose of falsehood propaganda model."
+      },
+      {
+        "issue": "4",
+        "key": "e_1_2_1_61_1",
+        "first-page": "385",
+        "article-title": "A review on image feature extraction and representation techniques",
+        "volume": "8",
+        "author": "Dongping Tian",
+        "year": "2013",
+        "unstructured": "Dongping Tian et al . A review on image feature extraction and representation techniques . International Journal of Multimedia and Ubiquitous Engineering , 8 ( 4 ): 385 -- 396 , 2013 . Dongping Tian et al. A review on image feature extraction and representation techniques. International Journal of Multimedia and Ubiquitous Engineering, 8(4):385--396, 2013.",
+        "journal-title": "International Journal of Multimedia and Ubiquitous Engineering"
+      },
+      {
+        "key": "e_1_2_1_62_1",
+        "volume-title": "A stylometric inquiry into hyperpartisan and fake news. arXiv preprint arXiv:1702.05638",
+        "author": "Potthast Martin",
+        "year": "2017",
+        "unstructured": "Martin Potthast , Johannes Kiesel , Kevin Reinartz , Janek Bevendorff , and Benno Stein . A stylometric inquiry into hyperpartisan and fake news. arXiv preprint arXiv:1702.05638 , 2017 . Martin Potthast, Johannes Kiesel, Kevin Reinartz, Janek Bevendorff, and Benno Stein. A stylometric inquiry into hyperpartisan and fake news. arXiv preprint arXiv:1702.05638, 2017."
+      },
+      {
+        "key": "e_1_2_1_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-30671-1_72"
+      },
+      {
+        "key": "e_1_2_1_64_1",
+        "volume-title": "EMNLP'11",
+        "author": "Qazvinian Vahed",
+        "unstructured": "Vahed Qazvinian , Emily Rosengren , Dragomir R. Radev , and Qiaozhu Mei . Rumor has it: Identifying misinformation in microblogs . In EMNLP'11 . Vahed Qazvinian, Emily Rosengren, Dragomir R. Radev, and Qiaozhu Mei. Rumor has it: Identifying misinformation in microblogs. In EMNLP'11."
+      },
+      {
+        "key": "e_1_2_1_65_1",
+        "volume-title": "Echo chambers on facebook",
+        "author": "Quattrociocchi Walter",
+        "year": "2016",
+        "unstructured": "Walter Quattrociocchi , Antonio Scala , and Cass R. Sunstein . Echo chambers on facebook . 2016 . Walter Quattrociocchi, Antonio Scala, and Cass R. Sunstein. Echo chambers on facebook. 2016."
+      },
+      {
+        "key": "e_1_2_1_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pra2.2015.145052010083"
+      },
+      {
+        "key": "e_1_2_1_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/W16-0802"
+      },
+      {
+        "key": "e_1_2_1_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/asi.23216"
+      },
+      {
+        "key": "e_1_2_1_69_1",
+        "volume-title": "Csi: A hybrid deep model for fake news. arXiv preprint arXiv:1703.06959",
+        "author": "Ruchansky Natali",
+        "year": "2017",
+        "unstructured": "Natali Ruchansky , Sungyong Seo , and Yan Liu . Csi: A hybrid deep model for fake news. arXiv preprint arXiv:1703.06959 , 2017 . Natali Ruchansky, Sungyong Seo, and Yan Liu. Csi: A hybrid deep model for fake news. arXiv preprint arXiv:1703.06959, 2017."
+      },
+      {
+        "key": "e_1_2_1_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2983323.2983697"
+      },
+      {
+        "key": "e_1_2_1_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2872518.2890098"
+      },
+      {
+        "key": "e_1_2_1_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2872518.2889354"
+      },
+      {
+        "key": "e_1_2_1_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3068777.3068781"
+      },
+      {
+        "key": "e_1_2_1_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3072959.3073640"
+      },
+      {
+        "key": "e_1_2_1_75_1",
+        "volume-title": "Some like it hoax: Automated fake news detection in social networks. arXiv preprint arXiv:1704.07506",
+        "author": "Tacchini Eugenio",
+        "year": "2017",
+        "unstructured": "Eugenio Tacchini , Gabriele Ballarin , Marco L. Della Vedova , Stefano Moret , and Luca de Alfaro . Some like it hoax: Automated fake news detection in social networks. arXiv preprint arXiv:1704.07506 , 2017 . Eugenio Tacchini, Gabriele Ballarin, Marco L. Della Vedova, Stefano Moret, and Luca de Alfaro. Some like it hoax: Automated fake news detection in social networks. arXiv preprint arXiv:1704.07506, 2017."
+      },
+      {
+        "key": "e_1_2_1_76_1",
+        "volume-title": "An integrative theory of intergroup conict. The social psychology of intergroup relations, 33(47):74",
+        "author": "Tajfel Henri",
+        "year": "1979",
+        "unstructured": "Henri Tajfel and John C. Turner . An integrative theory of intergroup conict. The social psychology of intergroup relations, 33(47):74 , 1979 . Henri Tajfel and John C. Turner. An integrative theory of intergroup conict. The social psychology of intergroup relations, 33(47):74, 1979."
+      },
+      {
+        "key": "e_1_2_1_77_1",
+        "volume-title": "The social identity theory of intergroup behavior",
+        "author": "Tajfel Henri",
+        "year": "2004",
+        "unstructured": "Henri Tajfel and John C. Turner . The social identity theory of intergroup behavior . 2004 . Henri Tajfel and John C. Turner. The social identity theory of intergroup behavior. 2004."
+      },
+      {
+        "key": "e_1_2_1_78_1",
+        "volume-title": "WWW'15",
+        "author": "Tang Jian",
+        "unstructured": "Jian Tang , Meng Qu , Mingzhe Wang , Ming Zhang , Jun Yan , and Qiaozhu Mei . Line : Large-scale information network embedding . In WWW'15 . Jian Tang, Meng Qu, Mingzhe Wang, Ming Zhang, Jun Yan, and Qiaozhu Mei. Line: Large-scale information network embedding. In WWW'15."
+      },
+      {
+        "key": "e_1_2_1_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2641190.2641195"
+      },
+      {
+        "key": "e_1_2_1_80_1",
+        "volume-title": "CVPR'16",
+        "author": "Thies Justus",
+        "unstructured": "Justus Thies , Michael Zollhofer , Marc Stamminger , Christian Theobalt , and Matthias Nie\u00dfner . Face2face : Real-time face capture and reenactment of rgb videos . In CVPR'16 . Justus Thies, Michael Zollhofer, Marc Stamminger, Christian Theobalt, and Matthias Nie\u00dfner. Face2face: Real-time face capture and reenactment of rgb videos. In CVPR'16."
+      },
+      {
+        "key": "e_1_2_1_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00122574"
+      },
+      {
+        "key": "e_1_2_1_82_1",
+        "first-page": "26",
+        "article-title": "Beurteilung der glaubhaftigkeit von aussagen",
+        "volume": "11",
+        "author": "Undeutsch Udo",
+        "year": "1967",
+        "unstructured": "Udo Undeutsch . Beurteilung der glaubhaftigkeit von aussagen . Handbuch der psychologie , 11 : 26 -- 181 , 1967 . Udo Undeutsch. Beurteilung der glaubhaftigkeit von aussagen. Handbuch der psychologie, 11:26--181, 1967.",
+        "journal-title": "Handbuch der psychologie"
+      },
+      {
+        "key": "e_1_2_1_83_1",
+        "volume-title": "ACL'14",
+        "author": "Vlachos Andreas",
+        "unstructured": "Andreas Vlachos and Sebastian Riedel . Fact checking : Task definition and dataset construction . ACL'14 . Andreas Vlachos and Sebastian Riedel. Fact checking: Task definition and dataset construction. ACL'14."
+      },
+      {
+        "key": "e_1_2_1_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/1076-8971.11.1.3"
+      },
+      {
+        "key": "e_1_2_1_85_1",
+        "volume-title": "CIKM'17",
+        "author": "Wang Suhang",
+        "unstructured": "Suhang Wang , Charu Aggarwal , Jiliang Tang , and Huan Liu . Attributed signed network embedding . In CIKM'17 . Suhang Wang, Charu Aggarwal, Jiliang Tang, and Huan Liu. Attributed signed network embedding. In CIKM'17."
+      },
+      {
+        "key": "e_1_2_1_86_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9781611974973.37"
+      },
+      {
+        "key": "e_1_2_1_87_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2983323.2983755"
+      },
+      {
+        "key": "e_1_2_1_88_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2983323.2983756"
+      },
+      {
+        "key": "e_1_2_1_89_1",
+        "unstructured": "Suhang Wang Yilin Wang Jiliang Tang Kai Shu Suhas Ranganath and Huan Liu. What your images reveal: Exploiting visual contents for point-of-interest recommendation. In WWW'17.  Suhang Wang Yilin Wang Jiliang Tang Kai Shu Suhas Ranganath and Huan Liu. What your images reveal: Exploiting visual contents for point-of-interest recommendation. In WWW'17."
+      },
+      {
+        "key": "e_1_2_1_90_1",
+        "volume-title": "liar pants on fire\": A new benchmark dataset for fake news detection. arXiv preprint arXiv:1705.00648",
+        "author": "Wang William Yang",
+        "year": "2017",
+        "unstructured": "William Yang Wang . \"liar , liar pants on fire\": A new benchmark dataset for fake news detection. arXiv preprint arXiv:1705.00648 , 2017 . William Yang Wang. \"liar, liar pants on fire\": A new benchmark dataset for fake news detection. arXiv preprint arXiv:1705.00648, 2017."
+      },
+      {
+        "key": "e_1_2_1_91_1",
+        "first-page": "2378",
+        "volume-title": "IJCAI",
+        "author": "Wang Yilin",
+        "year": "2015",
+        "unstructured": "Yilin Wang , Suhang Wang , Jiliang Tang , Huan Liu , and Baoxin Li . Unsupervised sentiment analysis for social media images . In IJCAI , pages 2378 -- 2379 , 2015 . Yilin Wang, Suhang Wang, Jiliang Tang, Huan Liu, and Baoxin Li. Unsupervised sentiment analysis for social media images. In IJCAI, pages 2378--2379, 2015."
+      },
+      {
+        "key": "e_1_2_1_92_1",
+        "first-page": "103",
+        "volume-title": "Naive realism in everyday life: Implications for social conict and misunderstanding. Values and knowledge",
+        "author": "Ward Andrew",
+        "year": "1997",
+        "unstructured": "Andrew Ward , L. Ross , E. Reed , E. Turiel , and T. Brown . Naive realism in everyday life: Implications for social conict and misunderstanding. Values and knowledge , pages 103 -- 135 , 1997 . Andrew Ward, L. Ross, E. Reed, E. Turiel, and T. Brown. Naive realism in everyday life: Implications for social conict and misunderstanding. Values and knowledge, pages 103--135, 1997."
+      },
+      {
+        "key": "e_1_2_1_93_1",
+        "unstructured": "Gerhard Weikum. What computers should know shouldn't know and shouldn't believe. In WWW'17.  Gerhard Weikum. What computers should know shouldn't know and shouldn't believe. In WWW'17."
+      },
+      {
+        "key": "e_1_2_1_94_1",
+        "unstructured": "L. Wu F. Morstatter X. Hu and H. Liu. Chapter 5: Mining misinformation in social media 2016.  L. Wu F. Morstatter X. Hu and H. Liu. Chapter 5: Mining misinformation in social media 2016."
+      },
+      {
+        "key": "e_1_2_1_95_1",
+        "volume-title": "ICWSM'17",
+        "author": "Wu Liang",
+        "unstructured": "Liang Wu , Xia Hu , Fred Morstatter , and Huan Liu . Adaptive spammer detection with sparse group modeling . In ICWSM'17 . Liang Wu, Xia Hu, Fred Morstatter, and Huan Liu. Adaptive spammer detection with sparse group modeling. In ICWSM'17."
+      },
+      {
+        "key": "e_1_2_1_96_1",
+        "volume-title": "SDM'17",
+        "author": "Wu Liang",
+        "unstructured": "Liang Wu , Jundong Li , Xia Hu , and Huan Liu . Gleaning wisdom from the past: Early detection of emerging rumors in social media . In SDM'17 . Liang Wu, Jundong Li, Xia Hu, and Huan Liu. Gleaning wisdom from the past: Early detection of emerging rumors in social media. In SDM'17."
+      },
+      {
+        "key": "e_1_2_1_97_1",
+        "first-page": "123",
+        "volume-title": "Big Data in Complex and Social Networks",
+        "author": "Wu Liang",
+        "year": "2016",
+        "unstructured": "Liang Wu , Fred Morstatter , Xia Hu , and Huan Liu . Mining misinformation in social media . Big Data in Complex and Social Networks , pages 123 -- 152 , 2016 . Liang Wu, Fred Morstatter, Xia Hu, and Huan Liu. Mining misinformation in social media. Big Data in Complex and Social Networks, pages 123--152, 2016."
+      },
+      {
+        "key": "e_1_2_1_98_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14778/2732286.2732295"
+      },
+      {
+        "key": "e_1_2_1_99_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2350190.2350203"
+      },
+      {
+        "key": "e_1_2_1_100_1",
+        "volume-title": "Attitudinal effects of mere exposure. Journal of personality and social psychology, 9(2p2):1",
+        "author": "Zajonc Robert B.",
+        "year": "1968",
+        "unstructured": "Robert B. Zajonc . Attitudinal effects of mere exposure. Journal of personality and social psychology, 9(2p2):1 , 1968 Robert B. Zajonc. Attitudinal effects of mere exposure. Journal of personality and social psychology, 9(2p2):1, 1968"
+      },
+      {
+        "key": "e_1_2_1_101_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-8721.00154"
+      },
+      {
+        "key": "e_1_2_1_102_1",
+        "volume-title": "Detection and resolution of rumours in social media: A survey. arXiv preprint arXiv:1704.00656",
+        "author": "Zubiaga Arkaitz",
+        "year": "2017",
+        "unstructured": "Arkaitz Zubiaga , Ahmet Aker , Kalina Bontcheva , Maria Liakata , and Rob Procter . Detection and resolution of rumours in social media: A survey. arXiv preprint arXiv:1704.00656 , 2017 . Arkaitz Zubiaga, Ahmet Aker, Kalina Bontcheva, Maria Liakata, and Rob Procter. Detection and resolution of rumours in social media: A survey. arXiv preprint arXiv:1704.00656, 2017."
+      }
+    ],
+    "container-title": [
+      "ACM SIGKDD Explorations Newsletter"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/10.1145/3137597.3137600",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/3137597.3137600",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2025-06-17T22:11:10Z",
+      "timestamp": 1750198270000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dl.acm.org/doi/10.1145/3137597.3137600"
+      }
+    },
+    "subtitle": [
+      "A Data Mining Perspective"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9
+        ]
+      ]
+    },
+    "references-count": 102,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1145/3137597.3137600"
+    ],
+    "URL": "https://doi.org/10.1145/3137597.3137600",
+    "relation": {},
+    "ISSN": [
+      "1931-0145",
+      "1931-0153"
+    ],
+    "issn-type": [
+      {
+        "value": "1931-0145",
+        "type": "print"
+      },
+      {
+        "value": "1931-0153",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2017-09-01",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

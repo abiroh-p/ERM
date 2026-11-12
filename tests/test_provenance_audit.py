@@ -111,3 +111,12 @@ def test_parse_failure_is_partial_and_text_free(tmp_path):
     assert report["checks"]["csv_parse_errors"] == 1
     assert "PRIVATE_UNCLOSED" not in json.dumps(report)
     assert A.failed(report)
+
+
+def test_discovers_canonical_paired_protocol_input_hash(tmp_path):
+    folder = tmp_path / "results/paired/provenance/account_A/tfidf"
+    folder.mkdir(parents=True)
+    (folder / "results_tfidf_protocol.json").write_text(json.dumps({"analysis_sha256": "d" * 64}))
+    refs, inspected = A.recorded_references(tmp_path)
+    assert [r["sha256"] for r in refs] == ["d" * 64]
+    assert len(inspected) == 1

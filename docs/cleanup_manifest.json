@@ -1,0 +1,659 @@
+{
+  "base_commit": "83f807a0da71603347483a05587341ee9724fdd1",
+  "changes": [
+    {
+      "action": "updated",
+      "path": "src/experiments/exp_transformer.py",
+      "destination": null,
+      "reason": "Exact paired-validation implementation used by uploaded runs"
+    },
+    {
+      "action": "updated",
+      "path": "src/experiments/paired_sampling.py",
+      "destination": null,
+      "reason": "Exact paired-validation implementation used by uploaded runs"
+    },
+    {
+      "action": "updated",
+      "path": "src/analysis/analyze_paired.py",
+      "destination": null,
+      "reason": "Exact paired-validation implementation used by uploaded runs"
+    },
+    {
+      "action": "removed",
+      "path": "paper/sn/main_check.tex",
+      "destination": null,
+      "reason": "Obsolete article-class preview; official Springer build is now available"
+    },
+    {
+      "action": "removed",
+      "path": "paper/sn/flatten.py",
+      "destination": null,
+      "reason": "Replaced by scripts/stage_springer_source.py with complete flat asset staging"
+    },
+    {
+      "action": "removed",
+      "path": "paper/manuscript/How_Much_of_the_Cross_Dataset_Gap_Do_Dataset_Artifacts_Explain__A_Controlled_Study_of_Fake_News_Detectors.pdf",
+      "destination": null,
+      "reason": "Superseded manuscript replaced with the audited paired revision"
+    },
+    {
+      "action": "removed",
+      "path": "paper/references/paper.zip",
+      "destination": null,
+      "reason": "Stale duplicate source archive, generated inventory or operating-system metadata"
+    },
+    {
+      "action": "removed",
+      "path": "paper/sn.zip",
+      "destination": null,
+      "reason": "Stale duplicate source archive, generated inventory or operating-system metadata"
+    },
+    {
+      "action": "removed",
+      "path": "repo_tree.txt",
+      "destination": null,
+      "reason": "Stale duplicate source archive, generated inventory or operating-system metadata"
+    },
+    {
+      "action": "removed",
+      "path": "archive/old_results/__MACOSX/._fake_or_real_news.csv",
+      "destination": null,
+      "reason": "Stale duplicate source archive, generated inventory or operating-system metadata"
+    },
+    {
+      "action": "removed",
+      "path": "archive/old_versions/analyze_v2_fixed2.py",
+      "destination": null,
+      "reason": "Superseded analysis versions; maintained analyzer and Git history retain provenance"
+    },
+    {
+      "action": "removed",
+      "path": "archive/old_versions/analyze.py",
+      "destination": null,
+      "reason": "Superseded analysis versions; maintained analyzer and Git history retain provenance"
+    },
+    {
+      "action": "removed",
+      "path": "archive/old_versions/analyze_v2_fixed.py",
+      "destination": null,
+      "reason": "Superseded analysis versions; maintained analyzer and Git history retain provenance"
+    },
+    {
+      "action": "removed",
+      "path": "src/analysis/analyze_1.py",
+      "destination": null,
+      "reason": "Unreferenced older analyzer; src/analysis/analyze.py is the maintained implementation"
+    },
+    {
+      "action": "removed",
+      "path": "CLEANUP.md",
+      "destination": null,
+      "reason": "Obsolete pre-purge instructions replaced with docs/DATA_HANDLING.md"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory/confirmatory_distilbert_auc.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory/confirmatory_distilbert_auc.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory/confirmatory_roberta_auc.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory/confirmatory_roberta_auc.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory/confirmatory_tfidf_auc.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory/confirmatory_tfidf_auc.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory_results_tfIdf/results_tfidf_merged_pairs.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory_results_tfIdf/results_tfidf_merged_pairs.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory_results_tfIdf/table_conditions.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory_results_tfIdf/table_conditions.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory_results_tfIdf/table_effects.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory_results_tfIdf/table_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory_results_tfIdf/table_gap_change_by_pair.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory_results_tfIdf/table_gap_change_by_pair.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory_results_tfIdf/table_gap_share.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory_results_tfIdf/table_gap_share.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory_results_tfIdf/table_model_comparison.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory_results_tfIdf/table_model_comparison.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory_results_tfIdf/table_model_comparison_by_pair.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory_results_tfIdf/table_model_comparison_by_pair.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory_results_tfIdf/table_pairs.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory_results_tfIdf/table_pairs.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory_results_tfIdf/table_pairwise_auc_change.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory_results_tfIdf/table_pairwise_auc_change.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory_results_tfIdf/table_per_seed_effects.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory_results_tfIdf/table_per_seed_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory_results_tfIdf/table_source_split.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory_results_tfIdf/table_source_split.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory_results_tfIdf/table_specific_effects.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory_results_tfIdf/table_specific_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/confirmatory_results_tfIdf/table_temporal_extension.csv",
+      "destination": "archive/legacy_derived/results/final/confirmatory_results_tfIdf/table_temporal_extension.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert/fig_gap_by_condition.png",
+      "destination": "archive/legacy_derived/results/final/distilbert/fig_gap_by_condition.png",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert/table_conditions.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert/table_conditions.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert/table_effects.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert/table_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert/table_gap_change_by_pair.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert/table_gap_change_by_pair.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert/table_gap_share.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert/table_gap_share.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert/table_pairs.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert/table_pairs.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert/table_pairwise_auc_change.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert/table_pairwise_auc_change.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert/table_specific_effects.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert/table_specific_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/analysis_metadata.json",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/analysis_metadata.json",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/fig_gap_by_condition.png",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/fig_gap_by_condition.png",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/results_distilbert_pairs.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/results_distilbert_pairs.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/table_conditions.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/table_conditions.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/table_conditions_pretty.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/table_conditions_pretty.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/table_effects.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/table_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/table_factorial_effects.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/table_factorial_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/table_factorial_per_seed.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/table_factorial_per_seed.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/table_gap_change_by_pair.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/table_gap_change_by_pair.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/table_gap_share.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/table_gap_share.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/table_pairs.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/table_pairs.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/table_pairwise_auc_change.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/table_pairwise_auc_change.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/table_primary_results.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/table_primary_results.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/table_specific_effects.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/table_specific_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/distilbert_8seed/table_vs_C0_contrasts.csv",
+      "destination": "archive/legacy_derived/results/final/distilbert_8seed/table_vs_C0_contrasts.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/figures/fig_gap_by_condition.png",
+      "destination": "archive/legacy_derived/results/final/figures/fig_gap_by_condition.png",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/figures/fig_gap_by_condition_tfidf.png",
+      "destination": "archive/legacy_derived/results/final/figures/fig_gap_by_condition_tfidf.png",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/model_comparison/analysis_metadata.json",
+      "destination": "archive/legacy_derived/results/final/model_comparison/analysis_metadata.json",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "removed",
+      "path": "results/final/model_comparison/fig_gap_by_condition.png",
+      "destination": null,
+      "reason": "Byte-identical historical export retained at freeze/outputs/tfidf/fig_gap_by_condition.png"
+    },
+    {
+      "action": "removed",
+      "path": "results/final/model_comparison/table_conditions.csv",
+      "destination": null,
+      "reason": "Byte-identical historical export retained at freeze/outputs/tfidf/table_conditions.csv"
+    },
+    {
+      "action": "removed",
+      "path": "results/final/model_comparison/table_conditions_pretty.csv",
+      "destination": null,
+      "reason": "Byte-identical historical export retained at freeze/outputs/tfidf/table_conditions_pretty.csv"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/model_comparison/table_effects.csv",
+      "destination": "archive/legacy_derived/results/final/model_comparison/table_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "removed",
+      "path": "results/final/model_comparison/table_factorial_effects.csv",
+      "destination": null,
+      "reason": "Byte-identical historical export retained at freeze/outputs/tfidf/table_factorial_effects.csv"
+    },
+    {
+      "action": "removed",
+      "path": "results/final/model_comparison/table_factorial_per_seed.csv",
+      "destination": null,
+      "reason": "Byte-identical historical export retained at freeze/outputs/tfidf/table_factorial_per_seed.csv"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/model_comparison/table_gap_change_by_pair.csv",
+      "destination": "archive/legacy_derived/results/final/model_comparison/table_gap_change_by_pair.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/model_comparison/table_gap_reduction.csv",
+      "destination": "archive/legacy_derived/results/final/model_comparison/table_gap_reduction.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "removed",
+      "path": "results/final/model_comparison/table_gap_share.csv",
+      "destination": null,
+      "reason": "Byte-identical historical export retained at freeze/outputs/tfidf/table_gap_share.csv"
+    },
+    {
+      "action": "removed",
+      "path": "results/final/model_comparison/table_model_comparison.csv",
+      "destination": null,
+      "reason": "Byte-identical historical export retained at freeze/outputs/model_comparison/table_model_comparison.csv"
+    },
+    {
+      "action": "removed",
+      "path": "results/final/model_comparison/table_model_comparison_by_pair.csv",
+      "destination": null,
+      "reason": "Byte-identical historical export retained at freeze/outputs/model_comparison/table_model_comparison_by_pair.csv"
+    },
+    {
+      "action": "removed",
+      "path": "results/final/model_comparison/table_pairs.csv",
+      "destination": null,
+      "reason": "Byte-identical historical export retained at freeze/outputs/tfidf/table_pairs.csv"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/model_comparison/table_pairwise_auc_change.csv",
+      "destination": "archive/legacy_derived/results/final/model_comparison/table_pairwise_auc_change.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "removed",
+      "path": "results/final/model_comparison/table_per_seed_effects.csv",
+      "destination": null,
+      "reason": "Byte-identical historical export retained at freeze/outputs/model_comparison/table_per_seed_effects.csv"
+    },
+    {
+      "action": "removed",
+      "path": "results/final/model_comparison/table_primary_results.csv",
+      "destination": null,
+      "reason": "Byte-identical historical export retained at freeze/outputs/tfidf/table_primary_results.csv"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/model_comparison/table_source_split.csv",
+      "destination": "archive/legacy_derived/results/final/model_comparison/table_source_split.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/model_comparison/table_specific_effects.csv",
+      "destination": "archive/legacy_derived/results/final/model_comparison/table_specific_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/model_comparison/table_temporal_extension.csv",
+      "destination": "archive/legacy_derived/results/final/model_comparison/table_temporal_extension.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "removed",
+      "path": "results/final/model_comparison/table_vs_C0_contrasts.csv",
+      "destination": null,
+      "reason": "Byte-identical historical export retained at freeze/outputs/tfidf/table_vs_C0_contrasts.csv"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/analysis_metadata.json",
+      "destination": "archive/legacy_derived/results/final/tfidf/analysis_metadata.json",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/table_conditions.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf/table_conditions.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/table_conditions_pretty.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf/table_conditions_pretty.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/table_effects.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf/table_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/table_factorial_effects.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf/table_factorial_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/table_factorial_per_seed.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf/table_factorial_per_seed.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/table_gap_change_by_pair.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf/table_gap_change_by_pair.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/table_gap_share.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf/table_gap_share.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/table_pairs.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf/table_pairs.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/table_pairwise_auc_change.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf/table_pairwise_auc_change.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/table_primary_results.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf/table_primary_results.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/table_source_split.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf/table_source_split.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/table_specific_effects.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf/table_specific_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/table_temporal_extension.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf/table_temporal_extension.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf/table_vs_C0_contrasts.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf/table_vs_C0_contrasts.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/analysis_metadata.json",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/analysis_metadata.json",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/fig_gap_by_condition.png",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/fig_gap_by_condition.png",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/table_conditions.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/table_conditions.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/table_conditions_pretty.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/table_conditions_pretty.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/table_effects.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/table_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/table_factorial_effects.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/table_factorial_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/table_factorial_per_seed.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/table_factorial_per_seed.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/table_gap_change_by_pair.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/table_gap_change_by_pair.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/table_gap_share.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/table_gap_share.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/table_pairs.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/table_pairs.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/table_pairwise_auc_change.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/table_pairwise_auc_change.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/table_primary_results.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/table_primary_results.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/table_source_split.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/table_source_split.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/table_specific_effects.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/table_specific_effects.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/table_temporal_extension.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/table_temporal_extension.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "moved",
+      "path": "results/final/tfidf_8seed_final/table_vs_C0_contrasts.csv",
+      "destination": "archive/legacy_derived/results/final/tfidf_8seed_final/table_vs_C0_contrasts.csv",
+      "reason": "Historical derived export; moved out of the active-results entry point"
+    },
+    {
+      "action": "removed",
+      "path": "results/raw/distilbert/results_distilbert_5seeds.csv",
+      "destination": null,
+      "reason": "Exact five-seed slice of results_distilbert.csv; recover with seed in [0,1,2,3,4]"
+    },
+    {
+      "action": "moved",
+      "path": "requirements-lock.txt",
+      "destination": "archive/environment_records/requirements-lock_legacy.txt",
+      "reason": "Original unsupported mixed-environment pins retained as historical evidence only"
+    }
+  ]
+}

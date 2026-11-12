@@ -1,0 +1,601 @@
+{
+  "entry": {
+    "key": "asr2019big",
+    "type": "article",
+    "title": "Big Data and Quality Data for Fake News and Misinformation Detection",
+    "doi": "10.1177/2053951719843310",
+    "author": "Asr, Fatemeh Torabi and Taboada, Maite",
+    "year": "2019"
+  },
+  "url": "https://api.crossref.org/works/10.1177%2F2053951719843310",
+  "title_similarity": 1.0,
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ],
+      "date-time": "2026-10-04T03:04:37Z",
+      "timestamp": 1791083077068,
+      "version": "4.1.0"
+    },
+    "reference-count": 64,
+    "publisher": "SAGE Publications",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2019-01-01T00:00:00Z",
+          "timestamp": 1546300800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100007065",
+        "name": "NVIDIA Corporation",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "Donation of a Titan Xp GPU"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Donation of a Titan Xp GPU"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100007065",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000038",
+        "name": "Natural Sciences and Engineering Research Council of Canada",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "Discovery Grant 2015-05220"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Discovery Grant 2015-05220"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000038",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Big Data &amp; Society"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Fake news has become an important topic of research in a variety of disciplines including linguistics and computer science. In this paper, we explain how the problem is approached from the perspective of natural language processing, with the goal of building a system to automatically detect misinformation in news. The main challenge in this line of research is collecting quality data, i.e., instances of fake and real news articles on a balanced distribution of topics. We review available datasets and introduce the MisInfoText repository as a contribution of our lab to the community. We make available the full text of the news articles, together with veracity labels previously assigned based on manual assessment of the articles\u2019 truth content. We also perform a topic modelling experiment to elaborate on the gaps and sources of imbalance in currently available datasets to guide future efforts. We appeal to the community to collect more data and to make it available for research purposes.</jats:p>",
+    "DOI": "10.1177/2053951719843310",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          23
+        ]
+      ],
+      "date-time": "2019-05-23T06:43:16Z",
+      "timestamp": 1558593796000
+    },
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 111,
+    "title": [
+      "Big Data and quality data for fake news and misinformation detection"
+    ],
+    "prefix": "10.1177",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Fatemeh",
+        "family": "Torabi Asr",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Simon Fraser University, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6750-8891",
+        "authenticated-orcid": false,
+        "given": "Maite",
+        "family": "Taboada",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Simon Fraser University, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "#cr-split#-bibr1-2053951719843310.1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Afroz S, Brennan M and Greenstadt R (2012) Detecting hoaxes, frauds, and deception in writing style online. In: IEEE symposium on security and privacy",
+        "DOI": "10.1109/SP.2012.34"
+      },
+      {
+        "key": "#cr-split#-bibr1-2053951719843310.2",
+        "unstructured": "(SP) 2012, San Francisco, CA, IEEE, pp. 461-475."
+      },
+      {
+        "key": "bibr2-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1257/jep.31.2.211"
+      },
+      {
+        "key": "bibr3-2053951719843310",
+        "unstructured": "Ananny M (2018)\n                      The partnership press: Lessons for platform-publisher collaborations as Facebook and news outlets team to fight misinformation\n                      . Technical report, Tow Center for Digital Journalism, Columbia University, New York."
+      },
+      {
+        "key": "bibr4-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/21670811.2018.1510741"
+      },
+      {
+        "key": "bibr5-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0007123415000186"
+      },
+      {
+        "key": "bibr6-2053951719843310",
+        "unstructured": "Chen A (2017) The human toll of protecting the Internet from the worst of humanity.\n                      New Yorker\n                      , 28 January."
+      },
+      {
+        "key": "bibr7-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen Y, Conroy NJ and Rubin VL (2015) Misleading online content: Recognizing clickbait as false news. In:\n                      Proceedings of the 2015 ACM on workshop on multimodal deception detection\n                      , ACM, pp. 15\u201319.",
+        "DOI": "10.1145/2823465.2823467"
+      },
+      {
+        "key": "bibr8-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0128193"
+      },
+      {
+        "key": "bibr9-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Conneau A, Schwenk H, Barrault L, et\u00a0al. (2017) Very deep convolutional networks for text classification. In:\n                      Proceedings of the 15th conference of the European chapter of the association for computational linguistics\n                      , Valencia, Spain, pp. 1107\u20131116.",
+        "DOI": "10.18653/v1/E17-1104"
+      },
+      {
+        "key": "bibr10-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pra2.2015.145052010082"
+      },
+      {
+        "key": "bibr11-2053951719843310",
+        "unstructured": "Constine J (2018) Facebook shrinks fake news after warnings backfire.\n                      Tech Crunch\n                      , 28 April. Available at: https://tcrn.ch/2jb7gcp (accessed April 24, 2019)."
+      },
+      {
+        "key": "bibr12-2053951719843310",
+        "unstructured": "Darnton R (2017) The true history of fake news.\n                      The New York Review of Books,\n                      13 February."
+      },
+      {
+        "key": "bibr13-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1517441113"
+      },
+      {
+        "key": "bibr14-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/h0101809"
+      },
+      {
+        "key": "bibr15-2053951719843310",
+        "unstructured": "Feng S, Banerjee R and Choi Y (2012) Syntactic stylometry for deception detection. In:\n                      Proceedings of the 50th annual meeting of the Association for Computational Linguistics\n                      , pp. 171\u2013175."
+      },
+      {
+        "key": "bibr16-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ferreira W and Vlachos A (2016) Emergent: a novel data-set for stance classification. In:\n                      Proceedings of the 2016 conference of the North American chapter of the Association for Computational Linguistics: Human Language Technologies\n                      , pp. 1163\u20131168.",
+        "DOI": "10.18653/v1/N16-1138"
+      },
+      {
+        "issue": "2",
+        "key": "bibr17-2053951719843310",
+        "first-page": "136",
+        "volume": "27",
+        "author": "Glogger I",
+        "year": "2016",
+        "journal-title": "Communication Theory"
+      },
+      {
+        "key": "bibr18-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/isq/sqx015"
+      },
+      {
+        "key": "bibr19-2053951719843310",
+        "unstructured": "Hanselowski A, Avinesh PVS, Schiller B, et\u00a0al. (2018) A retrospective analysis of the fake news challenge stance detection task.\n                      arXiv preprint arXiv:1806.05180\n                      ."
+      },
+      {
+        "key": "bibr20-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Horne BD and Adali S (2017) This just in: Fake news packs a lot in title, uses simpler, repetitive content in text body, more similar to satire than real news.\n                      arXiv preprint arXiv:1703.09398\n                      .",
+        "DOI": "10.1609/icwsm.v11i1.14976"
+      },
+      {
+        "key": "bibr21-2053951719843310",
+        "unstructured": "Jack C (2017)\n                      Lexicon of lies: Terms for problematic information\n                      . Technical report, Data & Society Research Institute, New York, NY."
+      },
+      {
+        "key": "bibr22-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jaradat I, Gencheva P, Barr\u00f3n-Cede\u00f1o A, et\u00a0al. (2018) ClaimRank: Detecting check-worthy claims in Arabic and English. In:\n                      Proceedings of the 2018 conference of the North American Chapter of the Association for Computational Linguistics: Demonstrations\n                      , New Orleans, LA, pp. 26\u201330.",
+        "DOI": "10.18653/v1/N18-5006"
+      },
+      {
+        "key": "bibr23-2053951719843310",
+        "unstructured": "Lazer D, Baum M, Grinberg N, et\u00a0al. (2017)\n                      Combating fake news: An agenda for research and action\n                      . Harvard Kennedy School, Shorenstein Center on Media, Politics and Public Policy, 2 May."
+      },
+      {
+        "key": "bibr24-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aao2998"
+      },
+      {
+        "key": "bibr25-2053951719843310",
+        "unstructured": "Le Q and Mikolov T (2014) Distributed representations of sentences and documents. In:\n                      Proceedings of the 31st international conference on machine learning\n                      , Beijing, China, pp. II-1188\u2013II-1196."
+      },
+      {
+        "key": "bibr26-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1529100612451018"
+      },
+      {
+        "key": "bibr27-2053951719843310",
+        "volume-title": "Propaganda and the Ethics of Persuasion",
+        "author": "Marlin R",
+        "year": "2002"
+      },
+      {
+        "key": "bibr28-2053951719843310",
+        "unstructured": "Marwick A and Lewis R (2017)\n                      Media manipulation and disinformation online\n                      . Technical report, Data & Society Research Institute, New York, USA."
+      },
+      {
+        "key": "bibr29-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Medvedeva M, Kroon M and Plank B (2017) When sparse traditional models outperform dense neural networks: The curious case of discriminating between similar languages. In:\n                      Proceedings of the 4th workshop on NLP for Similar Languages, Varieties and Dialects (VarDial)\n                      , Valencia, Spain, pp. 156\u2013163.",
+        "DOI": "10.18653/v1/W17-1219"
+      },
+      {
+        "key": "bibr30-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mohtarami M, Baly R, Glass J, et\u00a0al. (2018) Automatic stance detection using end-to-end memory networks. In:\n                      Proceedings of the 2018 conference of the North American chapter of the Association for Computational Linguistics: Human Language Technologies, volume 1 (long papers)\n                      , New Orleans, LA, pp. 767\u2013776.",
+        "DOI": "10.18653/v1/N18-1070"
+      },
+      {
+        "key": "bibr31-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mustafaraj E and Metaxas PT (2017) The fake news spreading plague: Was it preventable? In:\n                      Proceedings of the 2017 ACM on web science conference\n                      , ACM, pp. 235\u2013239.",
+        "DOI": "10.1145/3091478.3091523"
+      },
+      {
+        "key": "bibr32-2053951719843310",
+        "unstructured": "Ng A (2011) Why is deep learning taking off? Available at: https://www.coursera.org/lecture/neural-networks-deep-learning/why-is-deep-learning-taking-off-praGm."
+      },
+      {
+        "key": "bibr33-2053951719843310",
+        "unstructured": "Nielsen RK and Graves L (2017) \u2018News you don\u2019t believe\u2019: Audience perspectives on fake news.\n                      Reuters Institute for the Study of Journalism Report\n                      . Available at: https://reutersinstitute.politics.ox.ac.uk/sites/default/files/2017-10/Nielsen%26Graves_factsheet_1710v3_FINAL_download.pdf."
+      },
+      {
+        "key": "bibr34-2053951719843310",
+        "unstructured": "Pavleska T, \u0160kolkay A, Zankova B, et\u00a0al. (2018) Performance analysis of fact-checking organizations and initiatives in Europe: A critical overview of online platforms fighting fake news. In:\n                      EIDS6 (European Integration and Democracy Series)\n                      , pp. 1\u201329."
+      },
+      {
+        "key": "bibr35-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pennycook G, Cannon T and Rand DG (2018) Prior exposure increases perceived accuracy of fake news.\n                      Journal of Experimental Psychology: General\n                      147(12): 1865\u20131880.",
+        "DOI": "10.1037/xge0000465"
+      },
+      {
+        "key": "bibr36-2053951719843310",
+        "unstructured": "P\u00e9rez-Rosas V, Kleinberg B, Lefevre A, et\u00a0al. (2017) Automatic detection of fake news.\n                      arXiv preprint arXiv:1708.07104\n                      ."
+      },
+      {
+        "key": "bibr37-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P\u00e9rez-Rosas V and Mihalcea R (2015) Experiments in open domain deception detection. In:\n                      Proceedings of the conference on empirical methods in natural language processing,\n                      pp. 1120\u20131125.",
+        "DOI": "10.18653/v1/D15-1133"
+      },
+      {
+        "key": "bibr38-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Potthast M, Kiesel J, Reinartz K, et\u00a0al. (2018) A stylometric inquiry into hyperpartisan and fake news. In:\n                      Proceedings of the 56th annual meeting of the Association for Computational Linguistics (volume 1: long papers)\n                      , Melbourne, Australia, pp. 231\u2013240.",
+        "DOI": "10.18653/v1/P18-1022"
+      },
+      {
+        "key": "bibr39-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rashkin H, Choi E, Jang JY, et\u00a0al. (2017) Truth of varying shades: Analyzing language in fake news and political fact-checking. In:\n                      Proceedings of the 2017 conference on empirical methods in natural language processing\n                      , Copenhagen, Denmark, pp. 2921\u20132927.",
+        "DOI": "10.18653/v1/D17-1317"
+      },
+      {
+        "key": "bibr40-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1207/S15327957PSPR0504_2"
+      },
+      {
+        "key": "bibr41-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pra2.2015.145052010083"
+      },
+      {
+        "key": "bibr42-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rubin VL, Conroy NJ, Chen Y, et\u00a0al. (2016) Fake news or truth? Using satirical cues to detect potentially misleading news. In:\n                      Proceedings of NAACL-HLT\n                      , San Diego, CA, pp. 7\u201317.",
+        "DOI": "10.18653/v1/W16-0802"
+      },
+      {
+        "key": "bibr43-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ruchansky N, Seo S and Liu Y (2017) CSI: A hybrid deep model for fake news detection. In:\n                      Proceedings of the 2017 ACM on conference on information and knowledge management\n                      , Singapore, pp. 797\u2013806.",
+        "DOI": "10.1145/3132847.3132877"
+      },
+      {
+        "key": "bibr44-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9781315129143"
+      },
+      {
+        "key": "bibr45-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0196087"
+      },
+      {
+        "key": "bibr46-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3137597.3137600"
+      },
+      {
+        "key": "bibr47-2053951719843310",
+        "unstructured": "Silverman C and Alexander L (2016) How teens in the Balkans are duping Trump supporters with fake news.\n                      Buzzfeed News.\n                      Available at: https://www.buzzfeed.com/craigsilverman/how-macedonia-became-a-global-hub-for-pro-trump-misinfo."
+      },
+      {
+        "key": "bibr48-2053951719843310",
+        "unstructured": "Silverman C, Strapagiel L, Shaban H, et\u00a0al. (2016) Hyperpartisan Facebook pages are publishing false and misleading information at an alarming rate.\n                      BuzzFeed News.\n                      Available at: https://www.buzzfeed.com/craigsilverman/partisan-fb-pages-analysis."
+      },
+      {
+        "key": "bibr49-2053951719843310",
+        "unstructured": "Subramanian S (2017) Inside the Macedonian fake-news complex.\n                      Wired Magazine,\n                      15 February."
+      },
+      {
+        "key": "bibr50-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/xlm0000422"
+      },
+      {
+        "key": "bibr51-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tambuscio M, Ruffo G, Flammini A, et\u00a0al. (2015) Fact-checking effect on viral hoaxes: A model of misinformation spread in social networks. In:\n                      Proceedings of the 24th international conference on world wide web\n                      , ACM, pp. 977\u2013982.",
+        "DOI": "10.1145/2740908.2742572"
+      },
+      {
+        "key": "bibr52-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thorne J, Vlachos A, Christodoulopoulos C, et\u00a0al. (2018) FEVER: A large-scale dataset for Fact Extraction and VERification. In:\n                      Proceedings of the 2018 conference of the North American chapter of the Association for Computational Linguistics: Human Language Technologies, volume 1 (long papers)\n                      , New Orleans, LA, pp. 809\u2013819.",
+        "DOI": "10.18653/v1/N18-1074"
+      },
+      {
+        "key": "bibr53-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1461444817712086"
+      },
+      {
+        "key": "bibr54-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Volkova S, Shaffer K, Jang JY, et\u00a0al. (2017) Separating facts from fiction: Linguistic models to classify suspicious and trusted news posts on Twitter. In:\n                      Proceedings of the 55th annual meeting of the Association for Computational Linguistics\n                      , Vol. 2, Vancouver, Canada, pp. 647\u2013653.",
+        "DOI": "10.18653/v1/P17-2102"
+      },
+      {
+        "key": "bibr55-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aap9559"
+      },
+      {
+        "key": "bibr56-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang WY (2017) \u2018Liar, liar pants on fire\u2019: A new benchmark dataset for fake news detection. In:\n                      Proceedings of the 55th annual meeting of the Association for Computational Linguistics\n                      , Vol. 2, Vancouver, Canada, pp. 422\u2013426.",
+        "DOI": "10.18653/v1/P17-2067"
+      },
+      {
+        "key": "bibr57-2053951719843310",
+        "unstructured": "Wardle C (2016) Six types of misinformation circulated this election season.\n                      Columbia Journalism Review,\n                      18 November."
+      },
+      {
+        "key": "bibr58-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang F, Mukherjee A and Dragut E (2017) Satirical news detection and analysis using attention mechanism and linguistic features. In:\n                      Proceedings of the 2017 conference on empirical methods in natural language processing\n                      , pp. 1979\u20131989.",
+        "DOI": "10.18653/v1/D17-1211"
+      },
+      {
+        "key": "bibr59-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang Z, Yang D, Dyer C, et\u00a0al. (2016) Hierarchical attention networks for document classification. In:\n                      Proceedings of the 2016 conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies\n                      , pp. 1480\u20131489.",
+        "DOI": "10.18653/v1/N16-1174"
+      },
+      {
+        "key": "bibr60-2053951719843310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCI.2018.2840738"
+      },
+      {
+        "key": "bibr61-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang AX, Ranganathan A, Metz SE, et\u00a0al. (2018) A structured response to misinformation: Defining and annotating credibility indicators in news articles. In:\n                      Proceedings of the web conference 2018\n                      , pp. 603\u2013612. Lyon, France: International World Wide Web Conferences Steering Committee.",
+        "DOI": "10.1145/3184558.3188731"
+      },
+      {
+        "key": "bibr62-2053951719843310",
+        "unstructured": "Zhang X, Zhao J and LeCun Y (2015) Character-level convolutional networks for text classification. In:\n                      Proceedings of the 28th international conference on neural information processing systems\n                      , Montr\u00e9al, Canada, pp. 649\u2013657."
+      },
+      {
+        "key": "bibr63-2053951719843310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao Z, Resnick P and Mei Q (2015) Enquiring minds: Early detection of rumors in social media from enquiry posts. In:\n                      Proceedings of the 24th international conference on world wide web\n                      , pp. 1395\u20131405.",
+        "DOI": "10.1145/2736277.2741637"
+      }
+    ],
+    "container-title": [
+      "Big Data &amp; Society"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/2053951719843310",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/2053951719843310",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/2053951719843310",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          28
+        ]
+      ],
+      "date-time": "2026-04-28T12:57:47Z",
+      "timestamp": 1777381067000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.1177/2053951719843310"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          1
+        ]
+      ]
+    },
+    "references-count": 64,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2019,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1177/2053951719843310"
+    ],
+    "URL": "https://doi.org/10.1177/2053951719843310",
+    "relation": {},
+    "ISSN": [
+      "2053-9517",
+      "2053-9517"
+    ],
+    "issn-type": [
+      {
+        "value": "2053-9517",
+        "type": "print"
+      },
+      {
+        "value": "2053-9517",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          1
+        ]
+      ]
+    },
+    "article-number": "2053951719843310"
+  }
+}

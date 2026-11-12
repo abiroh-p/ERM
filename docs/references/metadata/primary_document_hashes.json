@@ -1,0 +1,30 @@
+{
+  "blackledge.pdf": {
+    "bytes": 336955,
+    "sha256": "60606436ca6705951cdaf683770d7cb869f15fd2dc3f777f4d806491e55a765e"
+  },
+  "xiao.pdf": {
+    "bytes": 792945,
+    "sha256": "ddc74759ee6d5c951bb96fa858b82b15e13fdc680bcab060b917a90d8a59e2b8"
+  },
+  "verma.pdf": {
+    "bytes": 556578,
+    "sha256": "5dbc6e13a8e67bc622f4b73a4dbc2a22d0adaee6f5d0d99432784780d455f35a"
+  },
+  "guide.pdf": {
+    "bytes": 2330336,
+    "sha256": "50681d9a180cd3a9f6afd76b50324a94457e96d65f782a75a01e8db86840a11a"
+  },
+  "murayama.pdf": {
+    "bytes": 248962,
+    "sha256": "8032cceaadf7335915512835f645bc5302a35ff8381392a0edc29b1136f06349"
+  },
+  "haroon.pdf": {
+    "bytes": 3134641,
+    "sha256": "cfa766ae5fc73da1b93a520005ed899f2f22ee0ecfff7ba59d89985acf0cc011"
+  },
+  "endef.pdf": {
+    "bytes": 860757,
+    "sha256": "cd36522f75e74906b7dc4b21bbaaa6d9af39e727055cbf81fe9bcfb9d060a3e6"
+  }
+}

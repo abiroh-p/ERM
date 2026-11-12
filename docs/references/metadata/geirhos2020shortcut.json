@@ -1,0 +1,1007 @@
+{
+  "entry": {
+    "key": "geirhos2020shortcut",
+    "type": "article",
+    "title": "Shortcut Learning in Deep Neural Networks",
+    "doi": "10.1038/s42256-020-00257-z",
+    "author": "Geirhos, Robert and Jacobsen, J{\\\"o}rn-Henrik and Michaelis, Claudio and Zemel, Richard and Brendel, Wieland and Bethge, Matthias and Wichmann, Felix A.",
+    "year": "2020"
+  },
+  "url": "https://api.crossref.org/works/10.1038%2Fs42256-020-00257-z",
+  "title_similarity": 1.0,
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          12
+        ]
+      ],
+      "date-time": "2026-11-12T11:55:31Z",
+      "timestamp": 1794484531295,
+      "version": "4.9.1"
+    },
+    "reference-count": 107,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              11,
+              10
+            ]
+          ],
+          "date-time": "2020-11-10T00:00:00Z",
+          "timestamp": 1604966400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              11,
+              10
+            ]
+          ],
+          "date-time": "2020-11-10T00:00:00Z",
+          "timestamp": 1604966400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat Mach Intell"
+    ],
+    "DOI": "10.1038/s42256-020-00257-z",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          10
+        ]
+      ],
+      "date-time": "2020-11-10T12:04:19Z",
+      "timestamp": 1605009859000
+    },
+    "page": "665-673",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2141,
+    "title": [
+      "Shortcut learning in deep neural networks"
+    ],
+    "prefix": "10.1038",
+    "volume": "2",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7698-3187",
+        "authenticated-orcid": false,
+        "given": "Robert",
+        "family": "Geirhos",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J\u00f6rn-Henrik",
+        "family": "Jacobsen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9812-317X",
+        "authenticated-orcid": false,
+        "given": "Claudio",
+        "family": "Michaelis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard",
+        "family": "Zemel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wieland",
+        "family": "Brendel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthias",
+        "family": "Bethge",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2592-634X",
+        "authenticated-orcid": false,
+        "given": "Felix A.",
+        "family": "Wichmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          10
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "257_CR1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K., Zhang, X., Ren, S. & Sun, J. Delving deep into rectifiers: Surpassing human-level performance on ImageNet classification. In Proc. IEEE Int. Conf. Computer Vision 1026\u20131034 (ACM, 2015).",
+        "DOI": "10.1109/ICCV.2015.123"
+      },
+      {
+        "key": "257_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "484",
+        "DOI": "10.1038/nature16961",
+        "volume": "529",
+        "author": "D Silver",
+        "year": "2016",
+        "unstructured": "Silver, D. et al. Mastering the game of Go with deep neural networks and tree search. Nature 529, 484\u2013489 (2016).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "257_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "508",
+        "DOI": "10.1126/science.aam6960",
+        "volume": "356",
+        "author": "M Morav\u010d\u00edk",
+        "year": "2017",
+        "unstructured": "Morav\u010d\u00edk, M. et al. Deepstack: expert-level artificial intelligence in heads-up no-limit poker. Science 356, 508\u2013513 (2017).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "257_CR4",
+        "unstructured": "Rajpurkar, P. et al. CheXNet: radiologist-level pneumonia detection on chest X-rays with deep learning. Preprint at https://arxiv.org/abs/1711.05225 (2017)."
+      },
+      {
+        "key": "257_CR5",
+        "unstructured": "Devlin, J., Chang, M. W., Lee, K. & Toutanova, K. BERT: pre-training of deep bidirectional transformers for language understanding. In Proc. Annual Conf. North American Chapter of the Association for Computational Linguistics (ACL, 2019)."
+      },
+      {
+        "key": "257_CR6",
+        "unstructured": "Rolnick, D. et al. Tackling climate change with machine learning. Preprint at https://arxiv.org/abs/1906.05433 (2019)."
+      },
+      {
+        "key": "257_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "195",
+        "DOI": "10.1038/s41586-019-0912-1",
+        "volume": "566",
+        "author": "M Reichstein",
+        "year": "2019",
+        "unstructured": "Reichstein, M. et al. Deep learning and process understanding for data-driven earth system science. Nature 566, 195\u2013204 (2019).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "257_CR8",
+        "unstructured": "Szegedy, C. et al. Intriguing properties of neural networks. In Proc. Int. Conf. Learning Representations (ICLR, 2014)."
+      },
+      {
+        "key": "257_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Beery, S., Van Horn, G. & Perona, P. Recognition in terra incognita. In European Conf. Computer Vision 456\u2013473 (Springer, 2018).",
+        "DOI": "10.1007/978-3-030-01270-0_28"
+      },
+      {
+        "key": "257_CR10",
+        "unstructured": "Rosenfeld, A., Zemel, R. & Tsotsos, J. K. The elephant in the room. Preprint at https://arxiv.org/abs/1808.03305 (2018)."
+      },
+      {
+        "key": "257_CR11",
+        "unstructured": "Heuer, H., Monz, C. & Smeulders, A. W. Generating captions without looking beyond objects. Preprint at https://arxiv.org/abs/1610.03708 (2016)."
+      },
+      {
+        "key": "257_CR12",
+        "unstructured": "Buolamwini, J. & Gebru, T. Gender shades: Intersectional accuracy disparities in commercial gender classification. In Proc. ACM Fairness Accountability and Transparency 77\u201391 (PMLR, 2018)."
+      },
+      {
+        "key": "257_CR13",
+        "unstructured": "Dastin, J. Amazon scraps secret AI recruiting tool that showed bias against women. Reuters https://reut.rs/2Od9fPr (2018)."
+      },
+      {
+        "key": "257_CR14",
+        "unstructured": "Shane, J. Do neural nets dream of electric sheep? AI Wierdness https://aiweirdness.com/post/171451900302/do-neural-nets-dream-of-electric-sheep (2018)."
+      },
+      {
+        "key": "257_CR15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Niven, T. & Kao, H.-Y. Probing neural network comprehension of natural language arguments. In Proc. 57th Annual Meeting of the Association of Computational Linguistics 4658\u20134664 (2019).",
+        "DOI": "10.18653/v1/P19-1459"
+      },
+      {
+        "key": "257_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jia, R. & Liang, P. Adversarial examples for evaluating reading comprehension systems. Preprint at https://arxiv.org/1707.07328 (2017).",
+        "DOI": "10.18653/v1/D17-1215"
+      },
+      {
+        "key": "257_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1002683",
+        "DOI": "10.1371/journal.pmed.1002683",
+        "volume": "15",
+        "author": "JR Zech",
+        "year": "2018",
+        "unstructured": "Zech, J. R. et al. Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs: a cross-sectional study. PLoS Med. 15, e1002683 (2018).",
+        "journal-title": "PLoS Med."
+      },
+      {
+        "key": "257_CR18",
+        "first-page": "2137",
+        "volume": "10",
+        "author": "S Bickel",
+        "year": "2009",
+        "unstructured": "Bickel, S., Bru\u00a8ckner, M. & Scheffer, T. Discriminative learning under covariate shift. J. Mach. Learn. Res. 10, 2137\u20132155 (2009).",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "257_CR19",
+        "unstructured": "Sch\u00f6lkopf, B. et al. On causal and anticausal learning. In Proc. Int. Conf. Machine Learning 1255\u20131262 (ICML, 2012)."
+      },
+      {
+        "key": "257_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Torralba, A. & Efros, A. A. Unbiased look at dataset bias. In Proc. IEEE Conf. Computer Vision and Pattern Recognition (IEEE, 2011).",
+        "DOI": "10.1109/CVPR.2011.5995347"
+      },
+      {
+        "key": "257_CR21",
+        "unstructured": "Branwen, G. The neural net tank urban legend. Gwern.net https://www.gwern.net/Tanks (2011)."
+      },
+      {
+        "key": "257_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pfungst, O. Clever Hans (The Horse of Mr. Von Osten): A Contribution to Experimental Animal and Human Psychology (Holt, Rinehart and Winston, 1911).",
+        "DOI": "10.5962/bhl.title.56164"
+      },
+      {
+        "key": "257_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "453",
+        "DOI": "10.1023/A:1003196224280",
+        "volume": "35",
+        "author": "K Scouller",
+        "year": "1998",
+        "unstructured": "Scouller, K. The influence of assessment method on students\u2019 learning approaches: multiple choice question examination versus assignment essay. Higher Educ. 35, 453\u2013472 (1998).",
+        "journal-title": "Higher Educ."
+      },
+      {
+        "key": "257_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "6",
+        "DOI": "10.1167/10.4.6",
+        "volume": "10",
+        "author": "FA Wichmann",
+        "year": "2010",
+        "unstructured": "Wichmann, F. A., Drewes, J., Rosas, P. & Gegenfurtner, K. R. Animal detection in natural scenes: critical features revisited. J. Vis. 10, 6 (2010).",
+        "journal-title": "J. Vis."
+      },
+      {
+        "key": "257_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ribeiro, M. T., Singh, S. & Guestrin, C. \u201cWhy should I trust you?\u201d: Explaining the predictions of any classifier. In Proc. 22nd ACM SIGKDD Int. Conf. Knowledge Discovery and Data Mining 1135\u20131144 (ACM, 2016).",
+        "DOI": "10.1145/2939672.2939778"
+      },
+      {
+        "key": "257_CR26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu, Z., Xie, L. & Yuille, A. L. Object recognition with and without objects. In Proc. 26th Int. Joint Conf. Artificial Intelligence 3609\u20133615 (IJCAI, 2017).",
+        "DOI": "10.24963/ijcai.2017/505"
+      },
+      {
+        "key": "257_CR27",
+        "doi-asserted-by": "crossref",
+        "first-page": "151",
+        "DOI": "10.4310/AMSA.2018.v3.n1.a5",
+        "volume": "3",
+        "author": "J Wang",
+        "year": "2018",
+        "unstructured": "Wang, J. et al. Visual concepts and compositional voting. Ann. Math. Sci. Appl. 3, 151\u2013188 (2018).",
+        "journal-title": "Ann. Math. Sci. Appl."
+      },
+      {
+        "key": "257_CR28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dawson, M., Zisserman, A. & Nell\u00e5ker, C. From same photo: cheating on visual kinship challenges. In Asian Conf. Computer Vision 654\u2013668 (Springer, 2018).",
+        "DOI": "10.1007/978-3-030-20893-6_41"
+      },
+      {
+        "key": "257_CR29",
+        "unstructured": "Biederman, I. On the Semantics of a Glance at a Scene (Erlbaum, 1981)."
+      },
+      {
+        "key": "257_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "143",
+        "DOI": "10.1016/0010-0285(82)90007-X",
+        "volume": "14",
+        "author": "I Biederman",
+        "year": "1982",
+        "unstructured": "Biederman, I., Mezzanotte, R. J. & Rabinowitz, J. C. Scene perception: detecting and judging objects undergoing relational violations. Cogn. Psychol. 14, 143\u2013177 (1982).",
+        "journal-title": "Cogn. Psychol."
+      },
+      {
+        "key": "257_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "520",
+        "DOI": "10.1016/j.tics.2007.09.009",
+        "volume": "11",
+        "author": "A Oliva",
+        "year": "2007",
+        "unstructured": "Oliva, A. & Torralba, A. The role of context in object recognition. Trends Cogn. Sci. 11, 520\u2013527 (2007).",
+        "journal-title": "Trends Cogn. Sci."
+      },
+      {
+        "key": "257_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "890",
+        "DOI": "10.3758/s13423-011-0107-8",
+        "volume": "18",
+        "author": "MS Castelhano",
+        "year": "2011",
+        "unstructured": "Castelhano, M. S. & Heaven, C. Scene context influences without scene gist: eye movements guided by spatial associations in visual search. Psychon. Bull Rev. 18, 890\u2013896 (2011).",
+        "journal-title": "Psychon. Bull Rev."
+      },
+      {
+        "key": "257_CR33",
+        "unstructured": "Jo, J. & Bengio, Y. Measuring the tendency of CNNs to learn surface statistical regularities. Preprint at https://arxiv.org/abs/1711.11561 (2017)."
+      },
+      {
+        "key": "257_CR34",
+        "unstructured": "Ilyas, A. et al. Adversarial examples are not bugs, they are features. In Proc. Advances NeurIPS 125\u2013136 (NeurIPS, 2019)."
+      },
+      {
+        "key": "257_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "67",
+        "DOI": "10.1109/4235.585893",
+        "volume": "1",
+        "author": "DH Wolpert",
+        "year": "1997",
+        "unstructured": "Wolpert, D. H. & Macready, W. G. No free lunch theorems for optimization. IEEE T. Evolut. Comput. 1, 67\u201382 (1997).",
+        "journal-title": "IEEE T. Evolut. Comput."
+      },
+      {
+        "key": "257_CR36",
+        "unstructured": "Brendel, W. & Bethge, M. Approximating CNNs with bag-of-local-features models works surprisingly well on ImageNet. In Proc. Int. Conf. Learning Representations (ICLR, 2019)."
+      },
+      {
+        "key": "257_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1006613",
+        "DOI": "10.1371/journal.pcbi.1006613",
+        "volume": "14",
+        "author": "N Baker",
+        "year": "2018",
+        "unstructured": "Baker, N., Lu, H., Erlikhman, G. & Kellman, P. J. Deep convolutional networks do not classify based on global object shape. PLoS Comp. Biol. 14, e1006613 (2018).",
+        "journal-title": "PLoS Comp. Biol."
+      },
+      {
+        "key": "257_CR38",
+        "unstructured": "Geirhos, R. et al. ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness. In Proc. Int. Conf. Learning Representations (ICLR, 2019)."
+      },
+      {
+        "key": "257_CR39",
+        "unstructured": "Heinze-Deml, C. & Meinshausen, N. Conditional variance penalties and domain shift robustness. Preprint at https://arxiv.org/abs/1710.11469 (2017)."
+      },
+      {
+        "key": "257_CR40",
+        "unstructured": "Malhotra, G. & Bowers, J. What a difference a pixel makes: an empirical examination of features used by CNNs for categorisation. In Proc. Int. Conf. Learning Representations (ICLR, 2019)."
+      },
+      {
+        "key": "257_CR41",
+        "unstructured": "Jacobsen, J.-H., Behrmann, J., Zemel, R. & Bethge, M. Excessive invariance causes adversarial vulnerability. In Proc. Int. Conf. Learning Representations (ICLR, 2019)."
+      },
+      {
+        "key": "257_CR42",
+        "unstructured": "Kamin, L. J. Predictability, surprise, attention, and conditioning. In Symp. Punishment and Averse Behavior (eds Campbell, B. A. & Church, R. M.) 279\u2013296 (Appleton-Century-Crofts, 1969)."
+      },
+      {
+        "key": "257_CR43",
+        "unstructured": "Dickinson, A. Contemporary Animal Learning Theory Vol. 1 (CUP Archive, 1980)."
+      },
+      {
+        "key": "257_CR44",
+        "unstructured": "Bouton, M. E. Learning and Behavior: A Contemporary Synthesis (Sinauer Associates, 2007)."
+      },
+      {
+        "key": "257_CR45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nguyen, A., Yosinski, J. & Clune, J. Deep neural networks are easily fooled: high confidence predictions for unrecognizable images. In Proc. IEEE Conf. Computer Vision and Pattern Recognition 427\u2013436 (IEEE, 2015).",
+        "DOI": "10.1109/CVPR.2015.7298640"
+      },
+      {
+        "key": "257_CR46",
+        "unstructured": "Hendrycks, D., Zhao, K., Basart, S., Steinhardt, J. & Song, D. Natural adversarial examples. Preprint at https://arxiv.org/abs/1907.07174 (2019)."
+      },
+      {
+        "key": "257_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "135",
+        "DOI": "10.1016/j.neucom.2018.05.083",
+        "volume": "312",
+        "author": "M Wang",
+        "year": "2018",
+        "unstructured": "Wang, M. & Deng, W. Deep visual domain adaptation: a survey. Neurocomputing 312, 135\u2013153 (2018).",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "257_CR48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alcorn, M. A. et al. Strike (with) a pose: neural networks are easily fooled by strange poses of familiar objects. In Proc. IEEE Conf. Computer Vision and Pattern Recognition (IEEE, 2019).",
+        "DOI": "10.1109/CVPR.2019.00498"
+      },
+      {
+        "key": "257_CR49",
+        "first-page": "1",
+        "volume": "20",
+        "author": "A Azulay",
+        "year": "2019",
+        "unstructured": "Azulay, A. & Weiss, Y. Why do deep convolutional networks generalize so poorly to small image transformations? J. Mach. Learn. Res. 20, 1\u201325 (2019).",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "257_CR50",
+        "first-page": "7",
+        "volume": "16",
+        "author": "S Dodge",
+        "year": "2019",
+        "unstructured": "Dodge, S. & Karam, L. Human and DNN classification performance on images with quality distortions: a comparative study. ACM T. Appl. Perc. 16, 7 (2019).",
+        "journal-title": "ACM T. Appl. Perc."
+      },
+      {
+        "key": "257_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "211",
+        "DOI": "10.1007/s11263-015-0816-y",
+        "volume": "115",
+        "author": "O Russakovsky",
+        "year": "2015",
+        "unstructured": "Russakovsky, O. et al. ImageNet large scale visual recognition challenge. Int. J. Comput. Vis. 115, 211\u2013252 (2015).",
+        "journal-title": "Int. J. Comput. Vis."
+      },
+      {
+        "key": "257_CR52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gururangan, S. et al. Annotation artifacts in natural language inference data. In Proc. Annual Conf. North American Chapter of the Association for Computational Linguistics (ACL, 2018).",
+        "DOI": "10.18653/v1/N18-2017"
+      },
+      {
+        "key": "257_CR53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zellers, R., Holtzman, A., Bisk, Y., Farhadi, A. & Choi, Y. HellaSwag: can a machine really finish your sentence? In Proc. 57th Annual Meeting Assocciation of Computational Linguistics 4791\u20134800 (ACL, 2019).",
+        "DOI": "10.18653/v1/P19-1472"
+      },
+      {
+        "key": "257_CR54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Borowski, J. et al. The notorious difficulty of comparing human and machine perception. In Proc. NeurIPS Shared Representations in Human and Machine Intelligence Workshop (NeurIPS, 2019).",
+        "DOI": "10.32470/CCN.2019.1295-0"
+      },
+      {
+        "key": "257_CR55",
+        "unstructured": "Geirhos, R., Meding, K. & Wichmann, F. A. Beyond accuracy: quantifying trial-by-trial behaviour of CNNs and humans by measuring error consistency. Preprint at https://arxiv.org/abs/2006.16736 (2020)."
+      },
+      {
+        "key": "257_CR56",
+        "unstructured": "Marr, D. Vision: A Computational Investigation into the Human Representation and Processing of Visual Information (W. H. Freeman and Company, 1982)."
+      },
+      {
+        "key": "257_CR57",
+        "unstructured": "Buckner, C. The Comparative Psychology of Artificial Intelligences (PhilSci Archive, 2019); http://philsci-archive.pitt.edu/16034/"
+      },
+      {
+        "key": "257_CR58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Morgan, C. L. Introduction to Comparative Psychology (Scribner, 1903).",
+        "DOI": "10.1037/13701-000"
+      },
+      {
+        "key": "257_CR59",
+        "unstructured": "Ghahramani, Z. Panel of workshop on advances in approximate Bayesian inference (AABI) 2017. YouTube https://www.youtube.com/watch?v=x1UByHT60mQ (2017)."
+      },
+      {
+        "key": "257_CR60",
+        "doi-asserted-by": "publisher",
+        "first-page": "115",
+        "DOI": "10.1111/j.2044-8279.1976.tb02304.x",
+        "volume": "46",
+        "author": "F Marton",
+        "year": "1976",
+        "unstructured": "Marton, F. & S\u00e4alj\u00f6, R. On qualitative differences in learning\u2014II Outcome as a function of the learner\u2019s conception of the task. Br. J. Educ. Psychol. 46, 115\u2013127 (1976).",
+        "journal-title": "Br. J. Educ. Psychol."
+      },
+      {
+        "key": "257_CR61",
+        "doi-asserted-by": "publisher",
+        "first-page": "381",
+        "DOI": "10.1007/BF01680526",
+        "volume": "8",
+        "author": "J Biggs",
+        "year": "1979",
+        "unstructured": "Biggs, J. Individual differences in study processes and the quality of learning outcomes. Higher Educ. 8, 381\u2013394 (1979).",
+        "journal-title": "Higher Educ."
+      },
+      {
+        "key": "257_CR62",
+        "doi-asserted-by": "publisher",
+        "first-page": "109",
+        "DOI": "10.1002/(SICI)1098-2736(200002)37:2<109::AID-TEA3>3.0.CO;2-7",
+        "volume": "37",
+        "author": "C Chin",
+        "year": "2000",
+        "unstructured": "Chin, C. & Brown, D. E. Learning in science: a comparison of deep and surface approaches. J. Res. Sci. Teach. 37, 109\u2013138 (2000).",
+        "journal-title": "J. Res. Sci. Teach."
+      },
+      {
+        "key": "257_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "243",
+        "DOI": "10.1006/cogp.1998.0694",
+        "volume": "37",
+        "author": "GF Marcus",
+        "year": "1998",
+        "unstructured": "Marcus, G. F. Rethinking eliminative connectionism. Cogn. Psychol. 37, 243\u2013282 (1998).",
+        "journal-title": "Cogn. Psychol."
+      },
+      {
+        "key": "257_CR64",
+        "unstructured": "Kilbertus, N., Parascandolo, G. & Sch\u00f6lkopf, B. Generalization in anti-causal learning. Preprint at https://arxiv.org/abs/1812.00524 (2018)."
+      },
+      {
+        "key": "257_CR65",
+        "unstructured": "Marcus, G. Deep learning: a critical appraisal. Preprint at https://arxiv.org/abs/1801.00631 (2018)."
+      },
+      {
+        "key": "257_CR66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-08987-4",
+        "volume": "10",
+        "author": "S Lapuschkin",
+        "year": "2019",
+        "unstructured": "Lapuschkin, S. et al. Unmasking Clever Hans predictors and assessing what machines really learn. Nat. Commun. 10, 1096 (2019).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "257_CR67",
+        "doi-asserted-by": "publisher",
+        "first-page": "e253",
+        "DOI": "10.1017/S0140525X16001837",
+        "volume": "40",
+        "author": "BM Lake",
+        "year": "2017",
+        "unstructured": "Lake, B. M., Ullman, T. D., Tenenbaum, J. B. & Gershman, S. J. Building machines that learn and think like people. Behav. Brain Sci. 40, e253 (2017).",
+        "journal-title": "Behav. Brain Sci."
+      },
+      {
+        "key": "257_CR68",
+        "unstructured": "Chollet, F. The measure of intelligence. Preprint at https://arxiv.org/abs/1911.01547 (2019)."
+      },
+      {
+        "key": "257_CR69",
+        "doi-asserted-by": "publisher",
+        "first-page": "257",
+        "DOI": "10.1038/s42256-019-0050-3",
+        "volume": "1",
+        "author": "M Crosby",
+        "year": "2019",
+        "unstructured": "Crosby, M., Beyret, B. & Halina, M. The Animal-AI Olympics. Nat. Mach. Int. 1, 257\u2013257 (2019).",
+        "journal-title": "Nat. Mach. Int."
+      },
+      {
+        "key": "257_CR70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Juliani, A. et al. Obstacle tower: a generalization challenge in vision, control, and planning. In Proc. 28th Int. Joint Conf. Artificial Intelligence (IJCAI, 2019).",
+        "DOI": "10.24963/ijcai.2019/373"
+      },
+      {
+        "key": "257_CR71",
+        "unstructured": "Hendrycks, D. & Dietterich, T. Benchmarking neural network robustness to common corruptions and perturbations. In Proc. Int. Conf. Learning Representations (ICLR, 2019)."
+      },
+      {
+        "key": "257_CR72",
+        "unstructured": "Levesque, H., Davis, E. & Morgenstern, L. The Winograd Schema Challenge. In 13th Int. Conf. Principles of Knowledge Representation and Reasoning (KR, 2012)."
+      },
+      {
+        "key": "257_CR73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Trichelair, P., Emami, A., Trischler, A., Suleman, K. & Cheung, J. C. K. How reasonable are common-sense reasoning tasks: a case-study on the Winograd Schema Challenge and SWAG. In Proc. Conf. Empirical Methods in Natural Language Processing and Int. Joint Conf. Natural Language Processing 3373\u20133378 (ACL, 2019).",
+        "DOI": "10.18653/v1/D19-1335"
+      },
+      {
+        "key": "257_CR74",
+        "unstructured": "Zipf, G. K. Human Behavior and the Principle of Least Effort (Addison-Wesley, 1949)."
+      },
+      {
+        "key": "257_CR75",
+        "doi-asserted-by": "publisher",
+        "first-page": "258",
+        "DOI": "10.1017/CBO9780511627736.014",
+        "volume": "1",
+        "author": "JJ Ohala",
+        "year": "1990",
+        "unstructured": "Ohala, J. J. The phonetics and phonology of aspects of assimilation. Papers Lab. Phono. 1, 258\u2013275 (1990).",
+        "journal-title": "Papers Lab. Phono."
+      },
+      {
+        "key": "257_CR76",
+        "first-page": "37",
+        "volume": "3",
+        "author": "A Vicentini",
+        "year": "2003",
+        "unstructured": "Vicentini, A. The economy principle in language. Notes and Observations from early modern English grammars. Mots Palabras Words 3, 37\u201357 (2003).",
+        "journal-title": "Mots Palabras Words"
+      },
+      {
+        "key": "257_CR77",
+        "doi-asserted-by": "publisher",
+        "first-page": "967",
+        "DOI": "10.1016/j.neuron.2019.08.034",
+        "volume": "103",
+        "author": "FH Sinz",
+        "year": "2019",
+        "unstructured": "Sinz, F. H., Pitkow, X., Reimer, J., Bethge, M. & Tolias, A. S. Engineering a less artificial intelligence. Neuron 103, 967\u2013979 (2019).",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "257_CR78",
+        "unstructured": "Arpit, D. et al. A closer look at memorization in deep networks. In Proc. Int. Conf. Machine Learning (ICML, 2017)."
+      },
+      {
+        "key": "257_CR79",
+        "unstructured": "Valle-Perez, G., Camargo, C. Q. & Louis, A. A. Deep learning generalizes because the parameter-function map is biased towards simple functions. In Proc. Int. Conf. Learning Representations (ICLR, 2018)."
+      },
+      {
+        "key": "257_CR80",
+        "unstructured": "Shah, H., Tamuly, K., Raghunathan, A., Jain, P. & Netrapalli, P. The pitfalls of simplicity bias in neural networks. Preprint at https://arxiv.org/abs/2006.07710 (2020)."
+      },
+      {
+        "key": "257_CR81",
+        "unstructured": "Kalimeris, D. et al. SGD on neural networks learns functions of increasing complexity. In Proc. Advances NeurIPS 3496\u20133506 (NeurIPS, 2019)."
+      },
+      {
+        "key": "257_CR82",
+        "unstructured": "Hermann, K. L. & Lampinen, A. K. What shapes feature representations? exploring datasets, architectures, and training. Preprint at https://arxiv.org/abs/2006.12433 (2020)."
+      },
+      {
+        "key": "257_CR83",
+        "unstructured": "Richardson, J. Vectors: Aphorisms & Ten-Second Essays (Ausable, 2001)."
+      },
+      {
+        "key": "257_CR84",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Engstrom, L. et al. A discussion of \u2018adversarial examples are not bugs, they are features\u2019. Distill https://distill.pub/2019/advex-bugs-discussion/ (2019).",
+        "DOI": "10.23915/distill.00019"
+      },
+      {
+        "key": "257_CR85",
+        "unstructured": "Barbu, A. et al. ObjectNet: a large-scale bias-controlled dataset for pushing the limits of object recognition models. In Proc. Advances NeurIPS 9448\u20139458 (NeurIPS, 2019)."
+      },
+      {
+        "key": "257_CR86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, D., Yang, Y., Song, Y.-Z. & Hospedales, T. M. Deeper, broader and artier domain generalization. In Proc. IEEE Int. Conf. Computer Vision (IEEE, 2017).",
+        "DOI": "10.1109/ICCV.2017.591"
+      },
+      {
+        "key": "257_CR87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qiu, W. & Yuille, A. UnrealCV: connecting computer vision to unreal engine. In European Conf. Computer Vision 909\u2013916 (Springer, 2016).",
+        "DOI": "10.1007/978-3-319-49409-8_75"
+      },
+      {
+        "key": "257_CR88",
+        "unstructured": "Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A. & Koltun, V. CARLA: an open urban driving simulator. In Conf. Robot Learning 1\u201316 (CoRL, 2017)."
+      },
+      {
+        "key": "257_CR89",
+        "unstructured": "Creager, E. et al. Flexibly fair representation learning by disentanglement. In Proc. Int. Conf. Machine Learning (ICML, 2019)."
+      },
+      {
+        "key": "257_CR90",
+        "doi-asserted-by": "publisher",
+        "first-page": "4",
+        "DOI": "10.1145/1276377.1276382",
+        "volume": "26",
+        "author": "J Hays",
+        "year": "2007",
+        "unstructured": "Hays, J. & Efros, A. A. Scene completion using millions of photographs. ACM Trans. Graph. 26, 4 (2007).",
+        "journal-title": "ACM Trans. Graph."
+      },
+      {
+        "key": "257_CR91",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hays, J. & Efros, A. A. IM2GPS: estimating geographic information from a single image. In Proc. IEEE Conf. Computer Vision and Pattern Recognition (IEEE, 2008).",
+        "DOI": "10.1109/CVPR.2008.4587784"
+      },
+      {
+        "key": "257_CR92",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Poliak, A., Naradowsky, J., Haldar, A., Rudinger, R. & Van Durme, B. Hypothesis only baselines in natural language inference. In Proc. 7th Joint Conf. Lexical and Computational Semantics 180\u2013191 (ACL, 2018).",
+        "DOI": "10.18653/v1/S18-2023"
+      },
+      {
+        "key": "257_CR93",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jasani, B., Girdhar, R. & Ramanan, D. Are we asking the right questions in MovieQA? In Proc. IEEE/CVF Int. Conf. Computer Vision Workshop (IEEE, 2019).",
+        "DOI": "10.1109/ICCVW.2019.00235"
+      },
+      {
+        "key": "257_CR94",
+        "doi-asserted-by": "publisher",
+        "first-page": "359",
+        "DOI": "10.1016/0893-6080(89)90020-8",
+        "volume": "2",
+        "author": "K Hornik",
+        "year": "1989",
+        "unstructured": "Hornik, K., Stinchcombe, M. & White, H. Multilayer feedforward networks are universal approximators. Neural Netw. 2, 359\u2013366 (1989).",
+        "journal-title": "Neural Netw."
+      },
+      {
+        "key": "257_CR95",
+        "unstructured": "d\u2019Ascoli, S., Sagun, L., Bruna, J. & Biroli, G. Finding the needle in the haystack with convolutions: on the benefits of architectural bias. In Proc. Advances NeurIPS (NeurIPS, 2019)."
+      },
+      {
+        "key": "257_CR96",
+        "unstructured": "Ulyanov, D., Vedaldi, A. & Lempitsky, V. Deep image prior. In Proc. IEEE/CVF Conf. Computer Vision and Pattern Recognition 9446\u20139454 (IEEE, 2018)."
+      },
+      {
+        "key": "257_CR97",
+        "unstructured": "Vaswani, A. et al. Attention is all you need. In Proc. Advances NeurIPS 5998\u20136008 (NeurIPS, 2017)."
+      },
+      {
+        "key": "257_CR98",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hein, M., Andriushchenko, M. & Bitterwolf, J. Why ReLU networks yield high-confidence predictions far away from the training data and how to mitigate the problem. In Proc. IEEE Conf. Computer Vision and Pattern Recognition 41\u201350 (IEEE, 2019).",
+        "DOI": "10.1109/CVPR.2019.00013"
+      },
+      {
+        "key": "257_CR99",
+        "doi-asserted-by": "publisher",
+        "first-page": "274",
+        "DOI": "10.1162/artl_a_00319",
+        "volume": "26",
+        "author": "J Lehman",
+        "year": "2020",
+        "unstructured": "Lehman, J. et al. The surprising creativity of digital evolution: a collection of anecdotes from the evolutionary computation and artificial life research communities. Art. Life 26, 274\u2013306 (2020).",
+        "journal-title": "Art. Life"
+      },
+      {
+        "key": "257_CR100",
+        "unstructured": "Madry, A., Makelov, A., Schmidt, L., Tsipras, D. & Vladu, A. Towards deep learning models resistant to adversarial attacks. In Proc. Int. Conf. Learning Representations (ICLR, 2018)."
+      },
+      {
+        "key": "257_CR101",
+        "unstructured": "Arjovsky, M., Bottou, L., Gulrajani, I. & Lopez-Paz, D. Invariant risk minimization. Preprint at https://arxiv.org/abs/1907.02893 (2019)."
+      },
+      {
+        "key": "257_CR102",
+        "unstructured": "Wu, L., Zhu, Z. & E, W. Towards understanding generalization of deep learning: perspective of loss landscapes. Preprint at https://arxiv.org/abs/1706.10239 (2017)."
+      },
+      {
+        "key": "257_CR103",
+        "unstructured": "De Palma, G., Kiani, B. T. & Lloyd, S. Deep neural networks are biased towards simple functions. Preprint at https://arxiv.org/abs/1812.10156 (2018)."
+      },
+      {
+        "key": "257_CR104",
+        "unstructured": "Valle-Perez, G., Camargo, C. Q. & Louis, A. A. Deep learning generalizes because the parameter-function map is biased towards simple functions. In Proc. Int. Conf. Learning Representations (ICLR, 2019)."
+      },
+      {
+        "key": "257_CR105",
+        "unstructured": "Sun, K. & Nielsen, F. Lightlike neuromanifolds, Occam\u2019s razor and deep learning. Preprint at https://arxiv.org/abs/1905.11027 (2019)."
+      },
+      {
+        "key": "257_CR106",
+        "unstructured": "Li, Y., Wei, C. & Ma, T. Towards explaining the regularization effect of initial large learning rate in training neural networks. In Proc. Advances NeurIPS 11674\u201311685 (NeurIPS, 2019)."
+      },
+      {
+        "key": "257_CR107",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Bartlett, P. L., Long, P. M., Lugosi, G. & Tsigler, A. Benign overfitting in linear regression. Proc. Natl Acad Sci. USA https://doi.org/10.1073/pnas.1907378117 (2019).",
+        "DOI": "10.1073/pnas.1907378117"
+      }
+    ],
+    "container-title": [
+      "Nature Machine Intelligence"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s42256-020-00257-z.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s42256-020-00257-z",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s42256-020-00257-z.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          12,
+          6
+        ]
+      ],
+      "date-time": "2022-12-06T23:07:10Z",
+      "timestamp": 1670368030000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s42256-020-00257-z"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          10
+        ]
+      ]
+    },
+    "references-count": 107,
+    "journal-issue": {
+      "issue": "11",
+      "published-online": {
+        "date-parts": [
+          [
+            2020,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "257"
+    ],
+    "URL": "https://doi.org/10.1038/s42256-020-00257-z",
+    "relation": {},
+    "ISSN": [
+      "2522-5839"
+    ],
+    "issn-type": [
+      {
+        "value": "2522-5839",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "25 June 2020",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "9 October 2020",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "10 November 2020",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ]
+  }
+}

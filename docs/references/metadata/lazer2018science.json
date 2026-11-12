@@ -1,0 +1,504 @@
+{
+  "entry": {
+    "key": "lazer2018science",
+    "type": "article",
+    "title": "The Science of Fake News",
+    "doi": "10.1126/science.aao2998",
+    "author": "Lazer, David M. J. and Baum, Matthew A. and Benkler, Yochai and Berinsky, Adam J. and Greenhill, Kelly M. and Menczer, Filippo and Metzger, Miriam J. and Nyhan, Brendan and Pennycook, Gordon and Rothschild, David and Schudson, Michael and Sloman, Steven A. and Sunstein, Cass R. and Thorson, Emily A. and Watts, Duncan J. and Zittrain, Jonathan L.",
+    "year": "2018"
+  },
+  "url": "https://api.crossref.org/works/10.1126%2Fscience.aao2998",
+  "title_similarity": 1.0,
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ],
+      "date-time": "2026-11-11T15:48:47Z",
+      "timestamp": 1794412127015,
+      "version": "4.9.0"
+    },
+    "reference-count": 15,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "6380",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              9
+            ]
+          ],
+          "date-time": "2018-03-09T00:00:00Z",
+          "timestamp": 1520553600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://www.sciencemag.org/about/science-licenses-journal-article-reuse"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Addressing fake news requires a multidisciplinary effort</jats:p>",
+    "DOI": "10.1126/science.aao2998",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          8
+        ]
+      ],
+      "date-time": "2018-03-08T14:05:34Z",
+      "timestamp": 1520517934000
+    },
+    "page": "1094-1096",
+    "source": "Crossref",
+    "is-referenced-by-count": 3402,
+    "title": [
+      "The science of fake news"
+    ],
+    "prefix": "10.1126",
+    "volume": "359",
+    "author": [
+      {
+        "given": "David M. J.",
+        "family": "Lazer",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthew A.",
+        "family": "Baum",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yochai",
+        "family": "Benkler",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Adam J.",
+        "family": "Berinsky",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kelly M.",
+        "family": "Greenhill",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Filippo",
+        "family": "Menczer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Miriam J.",
+        "family": "Metzger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brendan",
+        "family": "Nyhan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gordon",
+        "family": "Pennycook",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Rothschild",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Schudson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Steven A.",
+        "family": "Sloman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cass R.",
+        "family": "Sunstein",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Emily A.",
+        "family": "Thorson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Duncan J.",
+        "family": "Watts",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan L.",
+        "family": "Zittrain",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The list of author affiliations is provided in the supplementary materials."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "221",
+    "reference": [
+      {
+        "key": "e_1_3_3_2_2",
+        "unstructured": "C. Wardle H. Derakhshan \u201cInformation disorder: Toward an interdisciplinary framework for research and policy making\u201d [Council of Europe policy report DGI(2017)09 Council of Europe 2017]; https://firstdraftnews.com/wp-content/uploads/2017/11/PREMS-162317-GBR-2018-Report-de%CC%81sinformation-1.pdf?x29719."
+      },
+      {
+        "key": "e_1_3_3_3_2",
+        "unstructured": "A. Swift Americans' trust in mass media sinks to new low (Gallup 2016); www.gallup.com/poll/195542/americans-trust-mass-media-sinks-new-low.aspx."
+      },
+      {
+        "key": "e_1_3_3_4_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1257/jep.31.2.211"
+      },
+      {
+        "key": "e_1_3_3_5_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aap9559"
+      },
+      {
+        "key": "e_1_3_3_6_2",
+        "unstructured": "J. Weedon . Information operations and Facebook (Facebook 2017); https://fbnewsroomus.files.wordpress.com/2017/04/facebook-and-information-operations-v1.pdf."
+      },
+      {
+        "key": "e_1_3_3_7_2",
+        "first-page": "280",
+        "volume-title": "Proceedings of the 11th AAAI Conference on Web and Social Media",
+        "author": "Varol O.",
+        "year": "2017",
+        "unstructured": "O. Varol ., in Proceedings of the 11th AAAI Conference on Web and Social Media (Association for the Advancement of Artificial Intelligence, Montreal, 2017), pp. 280\u2013289."
+      },
+      {
+        "key": "e_1_3_3_8_2",
+        "unstructured": "Senate Judiciary Committee Extremist content and Russian disinformation online: Working with tech to find solutions (Committee on the Judiciary 2017); www.judiciary.senate.gov/meetings/extremist-content-and-russian-disinformation-online-working-with-tech-to-find-solutions."
+      },
+      {
+        "key": "e_1_3_3_9_2",
+        "first-page": "2017",
+        "volume": "22",
+        "author": "Ferrara E.",
+        "year": "2017",
+        "unstructured": "E. Ferrara, First Monday 22, 2017 (2017).",
+        "journal-title": "First Monday"
+      },
+      {
+        "key": "e_1_3_3_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0003055417000363"
+      },
+      {
+        "key": "e_1_3_3_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/xlm0000422"
+      },
+      {
+        "key": "e_1_3_3_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jarmac.2017.01.014"
+      },
+      {
+        "key": "e_1_3_3_13_2",
+        "unstructured": "C. Jones Bill would help California schools teach about \u201cfake news \u201d media literacy (EdSource 2017); https://edsource.org/2017/bill-would-help-california-schoolsteach-about-fake-news-media-literacy/582363."
+      },
+      {
+        "key": "e_1_3_3_14_2",
+        "unstructured": "Gottfried E. Shearer News use across social media platforms 2017 Pew Research Center 7 September 2017; www.journalism.org/2017/09/07/news-use-across-social-media-platforms-2017/."
+      },
+      {
+        "key": "e_1_3_3_15_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aaa1160"
+      },
+      {
+        "key": "e_1_3_3_16_2",
+        "unstructured": "C. Crowell Our approach to bots & misinformation Twitter 14 June 2017; https://blog.twitter.com/official/en_us/topics/company/2017/Our-Approach-Bots-Misinformation.html."
+      }
+    ],
+    "container-title": [
+      "Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.science.org/doi/pdf/10.1126/science.aao2998",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2024-01-15T12:29:17Z",
+      "timestamp": 1705321757000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.science.org/doi/10.1126/science.aao2998"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          9
+        ]
+      ]
+    },
+    "references-count": 15,
+    "journal-issue": {
+      "issue": "6380",
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            3,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1126/science.aao2998"
+    ],
+    "URL": "https://doi.org/10.1126/science.aao2998",
+    "relation": {},
+    "ISSN": [
+      "0036-8075",
+      "1095-9203"
+    ],
+    "issn-type": [
+      {
+        "value": "0036-8075",
+        "type": "print"
+      },
+      {
+        "value": "1095-9203",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          9
+        ]
+      ]
+    }
+  }
+}

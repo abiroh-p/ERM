@@ -1,13 +1,22 @@
 %% Springer Nature wrapper (sn-jnl class, numbered references). Needs the Springer Nature LaTeX template files
 %% (sn-jnl.cls, sn-mathphys-num.bst); on Overleaf choose the "Springer Nature LaTeX Template" and replace its main file by this one.
 %% Compile: pdflatex main_sn; bibtex main_sn; pdflatex main_sn; pdflatex main_sn.  Content lives in sections/*.tex and abstract.tex.
-%% Before submission: search for \todo and VERIFY; python3 flatten.py writes a single-file version for upload.
+%% Review status and unresolved author checks are documented in docs/RELEASE_CHECKLIST.md.
 \documentclass[pdflatex,sn-mathphys-num]{sn-jnl}
 \usepackage{graphicx}\usepackage{multirow}\usepackage{amsmath,amssymb,amsfonts}\usepackage{booktabs}\usepackage{array}
+\usepackage{placeins}
 \usepackage{adjustbox}\usepackage{xcolor}\usepackage{url}
 \graphicspath{{../figs/}{figs/}}
 \newcommand{\todo}[1]{{\color{red}\textbf{[TODO: #1]}}}
 \newcommand{\ci}[2]{\mbox{$[#1,\,#2]$}}
+% Use the class float without its automatic threeparttable wrapper: tables use boxed scaling.
+\makeatletter
+\let\table\tableorg
+\let\endtable\endtableorg
+\makeatother
+% Use the standard math bullet without requiring bitmap TS1 fonts.
+\renewcommand{\textbullet}{\ensuremath{\bullet}}
+\errorcontextlines=100
 \begin{document}
 \title[Dataset artifacts and the cross-dataset gap]{How Much of the Cross-Dataset Gap Do Dataset Artifacts Explain? A Controlled Study of Fake-News Detectors}
 % ORCID: Abishek Prasad 0009-0004-8424-9758 (enter in Editorial Manager; add with the class's ORCID command if your template version has one). Natasha Rai: none yet.
@@ -28,5 +37,7 @@
 \input{sections/09_future}
 \input{sections/10_declarations}
 \input{sections/11_appendix}
+\input{sections/12_archived_results}
+\setlength{\bibsep}{0.6em}
 \bibliography{refs}
 \end{document}

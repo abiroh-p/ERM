@@ -44,3 +44,15 @@ paper/sn/*.log
 paper/sn/*.out
 paper/sn/*.pdf
 paper/sn/main_sn_flat.tex
+
+# Local runs and regenerated flat submission staging
+runs/
+paper/submission/
+*.zip.tmp
+.pytest_cache/
+.DS_Store
+__MACOSX/
+# Large local construction reproductions and text-bearing inputs
+/data/provenance_reproduction*/
+/data/processed/
+*.pkl

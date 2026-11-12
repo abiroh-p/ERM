@@ -1,0 +1,8 @@
+# Observed paired numerical stack. Python 3.13.16 was recorded on Kaggle.
+# This is not a full environment lock or a CUDA installation recipe.
+numpy==2.1.3
+pandas==2.3.3
+scikit-learn==1.6.1
+scipy==1.16.3
+# Transformer runs recorded torch 2.11.0+cu130 and transformers 5.20.2.
+# Keep a compatible CUDA/PyTorch installation; do not infer NER-cache creation versions.

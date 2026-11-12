@@ -1,0 +1,21 @@
+{
+  "base_commit": "83f807a0da71603347483a05587341ee9724fdd1",
+  "tests_passed": 31,
+  "result_rows": 2088,
+  "fits": 696,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "manuscript_pages": 30,
+  "manuscript_text_matches_audited_revision": true,
+  "paired_protocol_input_hashes_matched": 9,
+  "remote_changes_made": false,
+  "article_data_redistributed": false
+}

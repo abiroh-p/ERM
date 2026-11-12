@@ -1,0 +1,1212 @@
+{
+  "entry": {
+    "key": "zhou2020survey",
+    "type": "article",
+    "title": "A Survey of Fake News: Fundamental Theories, Detection Methods, and Opportunities",
+    "doi": "10.1145/3395046",
+    "author": "Zhou, Xinyi and Zafarani, Reza",
+    "year": "2020"
+  },
+  "url": "https://api.crossref.org/works/10.1145%2F3395046",
+  "title_similarity": 0.4,
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          11
+        ]
+      ],
+      "date-time": "2026-11-11T22:22:18Z",
+      "timestamp": 1794435738551,
+      "version": "4.9.1"
+    },
+    "reference-count": 179,
+    "publisher": "Association for Computing Machinery (ACM)",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              28
+            ]
+          ],
+          "date-time": "2020-09-28T00:00:00Z",
+          "timestamp": 1601251200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "dl.acm.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "ACM Comput. Surv."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          30
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n                    The explosive growth in fake news and its erosion to democracy, justice, and public trust has increased the demand for fake news detection and intervention. This survey reviews and evaluates methods that can detect fake news from four perspectives: the false\n                    <jats:italic>knowledge</jats:italic>\n                    it carries, its writing\n                    <jats:italic>style</jats:italic>\n                    , its\n                    <jats:italic>propagation</jats:italic>\n                    patterns, and the credibility of its\n                    <jats:italic>source</jats:italic>\n                    . The survey also highlights some potential research tasks based on the review. In particular, we identify and detail related fundamental theories across various disciplines to encourage interdisciplinary research on fake news. It is our hope that this survey can facilitate collaborative efforts among experts in computer and information sciences, social sciences, political science, and journalism to research fake news, where such efforts can lead to fake news detection that is not only efficient but, more importantly, explainable.\n                  </jats:p>",
+    "DOI": "10.1145/3395046",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          7
+        ]
+      ],
+      "date-time": "2020-07-07T08:38:30Z",
+      "timestamp": 1594111110000
+    },
+    "page": "1-40",
+    "update-policy": "https://doi.org/10.1145/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1150,
+    "title": [
+      "A Survey of Fake News"
+    ],
+    "prefix": "10.1145",
+    "volume": "53",
+    "author": [
+      {
+        "given": "Xinyi",
+        "family": "Zhou",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Syracuse University, Syracuse, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Reza",
+        "family": "Zafarani",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Syracuse University, Syracuse, NY"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "320",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          28
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_1_1_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10994-010-5171-1"
+      },
+      {
+        "key": "e_1_2_1_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP.2012.34"
+      },
+      {
+        "key": "e_1_2_1_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1257/jep.31.2.211"
+      },
+      {
+        "key": "e_1_2_1_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14778/2732967.2732975"
+      },
+      {
+        "key": "e_1_2_1_5_1",
+        "volume-title": "Proceedings of the 5th International Conference on Learning Representations (ICLR\u201917)",
+        "author": "Arora Sanjeev",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_1_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5465/amr.1989.4278999"
+      },
+      {
+        "key": "e_1_2_1_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14778/3380750.3380762"
+      },
+      {
+        "key": "e_1_2_1_8_1",
+        "volume-title": "The Semantic Web",
+        "author": "Auer S\u00f6ren"
+      },
+      {
+        "key": "e_1_2_1_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1556/oh.2009.ho2256"
+      },
+      {
+        "key": "e_1_2_1_10_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ramy Baly Georgi Karadzhov Dimitar Alexandrov James Glass and Preslav Nakov. 2018. Predicting factuality of reporting and bias of news media sources. arXiv:1810.01765.  Ramy Baly Georgi Karadzhov Dimitar Alexandrov James Glass and Preslav Nakov. 2018. Predicting factuality of reporting and bias of news media sources. arXiv:1810.01765.",
+        "DOI": "10.18653/v1/D18-1389"
+      },
+      {
+        "key": "e_1_2_1_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0165-4101(97)00014-1"
+      },
+      {
+        "key": "e_1_2_1_12_1",
+        "volume-title": "Proceedings of the 21st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval. ACM",
+        "author": "Bharat Krishna"
+      },
+      {
+        "key": "e_1_2_1_13_1",
+        "volume-title": "Collective entity resolution in relational data. ACM Transactions on Knowledge Discovery from Data 1, 1",
+        "author": "Bhattacharya Indrajit",
+        "year": "2007"
+      },
+      {
+        "key": "e_1_2_1_14_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tian Bian Xi Xiao Tingyang Xu Peilin Zhao Wenbing Huang Yu Rong and Junzhou Huang. 2020. Rumor detection on social media with bi-directional graph convolutional networks. arXiv:2001.06362.  Tian Bian Xi Xiao Tingyang Xu Peilin Zhao Wenbing Huang Yu Rong and Junzhou Huang. 2020. Rumor detection on social media with bi-directional graph convolutional networks. arXiv:2001.06362.",
+        "DOI": "10.1609/aaai.v34i01.5393"
+      },
+      {
+        "key": "e_1_2_1_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0146167294203006"
+      },
+      {
+        "key": "e_1_2_1_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1376616.1376746"
+      },
+      {
+        "key": "e_1_2_1_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/acp.3376"
+      },
+      {
+        "key": "e_1_2_1_18_1",
+        "unstructured": "Antoine Bordes Nicolas Usunier Alberto Garcia-Duran Jason Weston and Oksana Yakhnenko. 2013. Translating embeddings for modeling multi-relational data. In Advances in Neural Information Processing Systems. 2787--2795.  Antoine Bordes Nicolas Usunier Alberto Garcia-Duran Jason Weston and Oksana Yakhnenko. 2013. Translating embeddings for modeling multi-relational data. In Advances in Neural Information Processing Systems. 2787--2795."
+      },
+      {
+        "key": "e_1_2_1_19_1",
+        "volume-title": "Distributed optimization and statistical learning via the alternating direction method of multipliers. Foundations and Trends\u00ae in Machine Learning 3, 1",
+        "author": "Boyd Stephen",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_1_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3132847.3133050"
+      },
+      {
+        "key": "e_1_2_1_21_1",
+        "volume-title": "Proceedings of the 24th AAAI Conference on Artificial Intelligence (AAA\u201910)",
+        "volume": "5",
+        "author": "Carlson Andrew"
+      },
+      {
+        "key": "e_1_2_1_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3308560.3316739"
+      },
+      {
+        "key": "e_1_2_1_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1963405.1963500"
+      },
+      {
+        "key": "e_1_2_1_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2939785"
+      },
+      {
+        "key": "e_1_2_1_25_1",
+        "volume-title": "Proceedings of the 2015 ACM Workshop on Multimodal Deception Detection. ACM",
+        "author": "Chen Yimin"
+      },
+      {
+        "key": "e_1_2_1_26_1",
+        "volume-title": "Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, and Yoshua Bengio.",
+        "author": "Cho Kyunghyun",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_1_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1401890.1401913"
+      },
+      {
+        "key": "e_1_2_1_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0128193"
+      },
+      {
+        "key": "e_1_2_1_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2001269.2001288"
+      },
+      {
+        "key": "e_1_2_1_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5555/2857070.2857152"
+      },
+      {
+        "key": "e_1_2_1_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2872518.2889302"
+      },
+      {
+        "key": "e_1_2_1_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10489-015-0661-2"
+      },
+      {
+        "key": "e_1_2_1_33_1",
+        "volume-title": "Gerard",
+        "author": "Deutsch Morton",
+        "year": "1955"
+      },
+      {
+        "key": "e_1_2_1_34_1",
+        "volume-title": "Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv:1810.04805.",
+        "author": "Devlin Jacob",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_1_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3292500.3330890"
+      },
+      {
+        "key": "e_1_2_1_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2623330.2623623"
+      },
+      {
+        "key": "e_1_2_1_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14778/2777598.2777603"
+      },
+      {
+        "key": "e_1_2_1_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1458082.1458095"
+      },
+      {
+        "key": "e_1_2_1_39_1",
+        "unstructured": "Mengnan Du Ninghao Liu and Xia Hu. 2018. Techniques for interpretable machine learning. arXiv:1808.00033.  Mengnan Du Ninghao Liu and Xia Hu. 2018. Techniques for interpretable machine learning. arXiv:1808.00033."
+      },
+      {
+        "key": "e_1_2_1_40_1",
+        "volume-title": "The overconfidence effect in social prediction.Journal of Personality and Social Psychology 58, 4",
+        "author": "Dunning David",
+        "year": "1990"
+      },
+      {
+        "key": "e_1_2_1_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5555/2390665.2390708"
+      },
+      {
+        "key": "e_1_2_1_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5555/2627435.2697065"
+      },
+      {
+        "key": "e_1_2_1_43_1",
+        "volume-title": "Disinformation and social bot operations in the run up to the 2017 French presidential election. First Monday 22, 8",
+        "author": "Ferrara Emilio",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_1_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2818717"
+      },
+      {
+        "key": "e_1_2_1_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/N16-1138"
+      },
+      {
+        "key": "e_1_2_1_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1076034.1076066"
+      },
+      {
+        "key": "e_1_2_1_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/209351"
+      },
+      {
+        "key": "e_1_2_1_48_1",
+        "volume-title": "Sears",
+        "author": "Freedman Jonathan L.",
+        "year": "1965"
+      },
+      {
+        "key": "e_1_2_1_49_1",
+        "volume-title": "The Emotions",
+        "author": "Frijda Nico H."
+      },
+      {
+        "key": "e_1_2_1_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.dss.2008.11.001"
+      },
+      {
+        "key": "e_1_2_1_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14778/2367502.2367564"
+      },
+      {
+        "key": "e_1_2_1_52_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "180",
+        "DOI": "10.1287/mnsc.2015.2158",
+        "article-title": "The structural virality of online diffusion",
+        "volume": "62",
+        "author": "Goel Sharad",
+        "year": "2015",
+        "journal-title": "Management Science"
+      },
+      {
+        "key": "e_1_2_1_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3201064.3201100"
+      },
+      {
+        "key": "e_1_2_1_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9781611972825.14"
+      },
+      {
+        "key": "e_1_2_1_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5555/1316689.1316740"
+      },
+      {
+        "key": "e_1_2_1_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3097983.3098131"
+      },
+      {
+        "key": "e_1_2_1_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14778/3137765.3137815"
+      },
+      {
+        "key": "e_1_2_1_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "e_1_2_1_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "e_1_2_1_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.artint.2012.06.001"
+      },
+      {
+        "key": "e_1_2_1_61_1",
+        "volume-title": "Proceedings of the International AAAI Conference on Web and Social Media",
+        "volume": "13",
+        "author": "Horne Benjamin D.",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_1_62_1",
+        "volume-title": "Assimilation and contrast effects in reactions to communication and attitude change.Journal of Abnormal and Social Psychology 55, 2",
+        "author": "Hovland Carl I.",
+        "year": "1957"
+      },
+      {
+        "key": "e_1_2_1_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "e_1_2_1_64_1",
+        "volume-title": "Cappella",
+        "author": "Jamieson Kathleen Hall",
+        "year": "2008"
+      },
+      {
+        "key": "e_1_2_1_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDM.2014.91"
+      },
+      {
+        "key": "e_1_2_1_66_1",
+        "volume-title": "Proceedings of the 30th AAAI Conference on Artificial Intelligence (AAAI\u201916)",
+        "author": "Jin Zhiwei",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_1_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tmm.2016.2617078"
+      },
+      {
+        "key": "e_1_2_1_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1341531.1341560"
+      },
+      {
+        "key": "e_1_2_1_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-295X.88.1.67"
+      },
+      {
+        "key": "e_1_2_1_70_1",
+        "first-page": "389",
+        "article-title": "Correspondent inferences and the attribution cube: A comparative reappraisal",
+        "volume": "1",
+        "author": "Jones Edward E.",
+        "year": "1976",
+        "journal-title": "New Directions in Attribution Research"
+      },
+      {
+        "key": "e_1_2_1_71_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Daniel Kahneman and Amos Tversky. 2013. Prospect theory: An analysis of decision under risk. In Handbook of the Fundamentals of Financial Decision Making: Part I. World Scientific 99--127.  Daniel Kahneman and Amos Tversky. 2013. Prospect theory: An analysis of decision under risk. In Handbook of the Fundamentals of Financial Decision Making: Part I. World Scientific 99--127.",
+        "DOI": "10.1142/9789814417358_0006"
+      },
+      {
+        "key": "e_1_2_1_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2019.2937679"
+      },
+      {
+        "key": "e_1_2_1_73_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hamid Karimi and Jiliang Tang. 2019. Learning hierarchical discourse-level structure for fake news detection. arXiv:1903.07389.  Hamid Karimi and Jiliang Tang. 2019. Learning hierarchical discourse-level structure for fake news detection. arXiv:1903.07389.",
+        "DOI": "10.18653/v1/N19-1347"
+      },
+      {
+        "key": "e_1_2_1_74_1",
+        "unstructured": "Seyed Mehran Kazemi and David Poole. 2018. Simple embedding for link prediction in knowledge graphs. In Advances in Neural Information Processing Systems. 4284--4295.  Seyed Mehran Kazemi and David Poole. 2018. Simple embedding for link prediction in knowledge graphs. In Advances in Neural Information Processing Systems. 4284--4295."
+      },
+      {
+        "key": "e_1_2_1_75_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yoon Kim. 2014. Convolutional neural networks for sentence classification. arXiv:1408.5882.  Yoon Kim. 2014. Convolutional neural networks for sentence classification. arXiv:1408.5882.",
+        "DOI": "10.3115/v1/D14-1181"
+      },
+      {
+        "key": "e_1_2_1_76_1",
+        "volume-title": "Kingma and Jimmy Ba",
+        "author": "Diederik",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_1_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/324133.324140"
+      },
+      {
+        "key": "e_1_2_1_78_1",
+        "volume-title": "All-in-one: Multi-task learning for rumour verification. arXiv:1806.03713.",
+        "author": "Kochkina Elena",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_1_79_1",
+        "first-page": "3",
+        "article-title": "Supervised machine learning: A review of classification techniques",
+        "volume": "160",
+        "author": "Kotsiantis Sotiris B.",
+        "year": "2007",
+        "journal-title": "Emerging Artificial Intelligence Applications in Computer Engineering"
+      },
+      {
+        "key": "e_1_2_1_80_1",
+        "volume-title": "Hinton",
+        "author": "Krizhevsky Alex",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_1_81_1",
+        "volume-title": "IT Professional6",
+        "author": "Kshetri Nir",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_1_82_1",
+        "volume-title": "Post-truth: Study epidemiology of fake news. Nature 540, 7634",
+        "author": "Kucharski Adam",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_1_83_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1229439"
+      },
+      {
+        "key": "e_1_2_1_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDM.2013.61"
+      },
+      {
+        "key": "e_1_2_1_85_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10994-010-5205-8"
+      },
+      {
+        "key": "e_1_2_1_86_1",
+        "volume-title": "et\u00a0al",
+        "author": "Lazer David M. J.",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_1_87_1",
+        "volume-title": "Proceedings of the International Conference on Machine Learning. 1188--1196",
+        "author": "Le Quoc",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_1_88_1",
+        "volume-title": "Deep learning. Nature 521, 7553",
+        "author": "LeCun Yann",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_1_89_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1989.1.4.541"
+      },
+      {
+        "key": "e_1_2_1_90_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1882692"
+      },
+      {
+        "key": "e_1_2_1_91_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3308558.3313573"
+      },
+      {
+        "key": "e_1_2_1_92_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5555/2886521.2886624"
+      },
+      {
+        "key": "e_1_2_1_93_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.dss.2015.07.010"
+      },
+      {
+        "key": "e_1_2_1_94_1",
+        "volume-title": "Proceedings of the 32nd AAAI Conference on Artificial Intelligence (AAAI\u201918)",
+        "author": "Liu Yang",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_1_95_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/P18-1184"
+      },
+      {
+        "key": "e_1_2_1_96_1",
+        "volume-title": "Attentional bias in emotional disorders.Journal of Abnormal Psychology 95, 1",
+        "author": "MacLeod Colin",
+        "year": "1986"
+      },
+      {
+        "key": "e_1_2_1_97_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0261927X14534656"
+      },
+      {
+        "key": "e_1_2_1_98_1",
+        "volume-title": "Flanagin",
+        "author": "Metzger Miriam J.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_1_99_1",
+        "unstructured": "Tomas Mikolov Kai Chen Greg Corrado and Jeffrey Dean. 2013. Efficient estimation of word representations in vector space. arXiv:1301.3781.  Tomas Mikolov Kai Chen Greg Corrado and Jeffrey Dean. 2013. Efficient estimation of word representations in vector space. arXiv:1301.3781."
+      },
+      {
+        "key": "e_1_2_1_100_1",
+        "volume-title": "Explainable AI: Beware of inmates running the asylum or: How I learnt to stop worrying and love the social and behavioural sciences. arXiv:1712.00547.",
+        "author": "Miller Tim",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_1_101_1",
+        "volume-title": "Proceedings of the 9th International AAAI Conference on Web and Social Media.",
+        "author": "Mitra Tanushree",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_1_102_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ASONAM.2016.7752287"
+      },
+      {
+        "key": "e_1_2_1_103_1",
+        "volume-title": "Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning. 1135--1145",
+        "author": "Nakashole Ndapandula",
+        "year": "2012"
+      },
+      {
+        "key": "e_1_2_1_104_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JPROC.2015.2483592"
+      },
+      {
+        "key": "e_1_2_1_105_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2187836.2187874"
+      },
+      {
+        "key": "e_1_2_1_106_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/1089-2680.2.2.175"
+      },
+      {
+        "key": "e_1_2_1_107_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4018/jswis.2012070103"
+      },
+      {
+        "key": "e_1_2_1_108_1",
+        "volume-title": "Proceedings of the International AAAI Conference on Web and Social Media",
+        "volume": "13",
+        "author": "N\u00f8rregaard Jeppe",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_1_109_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1135777.1135794"
+      },
+      {
+        "key": "e_1_2_1_110_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fdata.2019.00013"
+      },
+      {
+        "key": "e_1_2_1_111_1",
+        "unstructured": "Ray Oshikawa Jing Qian and William Yang Wang. 2018. A survey on natural language processing for fake news detection. arXiv:1811.00770.  Ray Oshikawa Jing Qian and William Yang Wang. 2018. A survey on natural language processing for fake news detection. arXiv:1811.00770."
+      },
+      {
+        "key": "e_1_2_1_113_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ins.2019.07.037"
+      },
+      {
+        "key": "e_1_2_1_114_1",
+        "volume-title": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP\u201914)",
+        "author": "Pennington Jeffrey"
+      },
+      {
+        "key": "e_1_2_1_115_1",
+        "unstructured": "Ver\u00f3nica P\u00e9rez-Rosas Bennett Kleinberg Alexandra Lefevre and Rada Mihalcea. 2017. Automatic detection of fake news. arXiv:1708.07104.  Ver\u00f3nica P\u00e9rez-Rosas Bennett Kleinberg Alexandra Lefevre and Rada Mihalcea. 2017. Automatic detection of fake news. arXiv:1708.07104."
+      },
+      {
+        "key": "e_1_2_1_116_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/scientificamerican0217-24"
+      },
+      {
+        "key": "e_1_2_1_117_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Martin Potthast Johannes Kiesel Kevin Reinartz Janek Bevendorff and Benno Stein. 2017. A stylometric inquiry into hyperpartisan and fake news. arXiv:1702.05638.  Martin Potthast Johannes Kiesel Kevin Reinartz Janek Bevendorff and Benno Stein. 2017. A stylometric inquiry into hyperpartisan and fake news. arXiv:1702.05638.",
+        "DOI": "10.18653/v1/P18-1022"
+      },
+      {
+        "key": "e_1_2_1_118_1",
+        "volume-title": "You don\u2019t know me, but I know you: The illusion of asymmetric insight.Journal of Personality and Social Psychology 81, 4",
+        "author": "Pronin Emily",
+        "year": "2001"
+      },
+      {
+        "key": "e_1_2_1_119_1",
+        "volume-title": "Forbes. Retrieved",
+        "author": "Rapoza K.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_1_120_1",
+        "volume-title": "Proceedings of the Computational Journalism Conference",
+        "volume": "5",
+        "author": "Resnick Paul",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_1_121_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5555/1920331.1920377"
+      },
+      {
+        "key": "e_1_2_1_122_1",
+        "volume-title": "Proceedings of the 78th ASIS&T Annual Meeting: Information Science with Impact: Research in and for the Community. 83",
+        "author": "Rubin Victoria L."
+      },
+      {
+        "key": "e_1_2_1_123_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/78.650093"
+      },
+      {
+        "key": "e_1_2_1_124_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2872518.2890098"
+      },
+      {
+        "key": "e_1_2_1_125_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-018-06930-7"
+      },
+      {
+        "key": "e_1_2_1_126_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.knosys.2016.04.015"
+      },
+      {
+        "key": "e_1_2_1_127_1",
+        "volume-title": "Proceedings of the 32nd AAAI Conference on Artificial Intelligence.",
+        "author": "Shi Baoxu",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_1_128_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3292500.3330935"
+      },
+      {
+        "key": "e_1_2_1_129_1",
+        "unstructured": "Kai Shu Deepak Mahudeswaran Suhang Wang Dongwon Lee and Huan Liu. 2018. FakeNewsNet: A data repository with news content social context and dynamic information for studying fake news on social media. arXiv:1809.01286.  Kai Shu Deepak Mahudeswaran Suhang Wang Dongwon Lee and Huan Liu. 2018. FakeNewsNet: A data repository with news content social context and dynamic information for studying fake news on social media. arXiv:1809.01286."
+      },
+      {
+        "key": "e_1_2_1_130_1",
+        "unstructured": "Kai Shu Deepak Mahudeswaran Suhang Wang and Huan Liu. 2019b. Hierarchical propagation networks for fake news detection: Investigation and exploitation. arXiv:1903.09196.  Kai Shu Deepak Mahudeswaran Suhang Wang and Huan Liu. 2019b. Hierarchical propagation networks for fake news detection: Investigation and exploitation. arXiv:1903.09196."
+      },
+      {
+        "key": "e_1_2_1_131_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3137597.3137600"
+      },
+      {
+        "key": "e_1_2_1_132_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3289600.3290994"
+      },
+      {
+        "key": "e_1_2_1_133_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07421222.2016.1205930"
+      },
+      {
+        "key": "e_1_2_1_134_1",
+        "volume-title": "This analysis shows how viral fake election news stories outperformed real news on Facebook. BuzzFeed News 16",
+        "author": "Silverman Craig",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_1_135_1",
+        "unstructured": "Karen Simonyan and Andrew Zisserman. 2014. Very deep convolutional networks for large-scale image recognition. arXiv:1409.1556.  Karen Simonyan and Andrew Zisserman. 2014. Very deep convolutional networks for large-scale image recognition. arXiv:1409.1556."
+      },
+      {
+        "key": "e_1_2_1_136_1",
+        "volume-title": "Disinformation, Misinformation and Fake News in Social Media: Emerging Research Challenges and Opportunities",
+        "author": "Sitaula Niraj"
+      },
+      {
+        "key": "e_1_2_1_137_1",
+        "volume-title": "Fake news: How a partying Macedonian teen earns thousands publishing lies. NBC News 9",
+        "author": "Smith Alexander",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_1_138_1",
+        "unstructured": "Richard Socher Danqi Chen Christopher D. Manning and Andrew Ng. 2013. Reasoning with neural tensor networks for knowledge base completion. In Advances in Neural Information Processing Systems. 926--934.  Richard Socher Danqi Chen Christopher D. Manning and Andrew Ng. 2013. Reasoning with neural tensor networks for knowledge base completion. In Advances in Neural Information Processing Systems. 926--934."
+      },
+      {
+        "key": "e_1_2_1_139_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2207243.2207252"
+      },
+      {
+        "key": "e_1_2_1_140_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.2015.1105807"
+      },
+      {
+        "key": "e_1_2_1_141_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1242572.1242667"
+      },
+      {
+        "key": "e_1_2_1_142_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298594"
+      },
+      {
+        "key": "e_1_2_1_143_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/21670811.2017.1360143"
+      },
+      {
+        "key": "e_1_2_1_144_1",
+        "volume-title": "FEVER: A large-scale dataset for fact extraction and verification. arXiv:1803.05355.",
+        "author": "Thorne James",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_1_145_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/P18-1024"
+      },
+      {
+        "key": "e_1_2_1_146_1",
+        "volume-title": "Proceedings of the International Conference on Machine Learning. 2071--2080",
+        "author": "Trouillon Th\u00e9o",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_1_147_1",
+        "first-page": "26",
+        "article-title": "Beurteilung der glaubhaftigkeit von aussagen",
+        "volume": "11",
+        "author": "Undeutsch Udo",
+        "year": "1967",
+        "journal-title": "Handbuch der Psychologie"
+      },
+      {
+        "key": "e_1_2_1_148_1",
+        "volume-title": "Proceedings of the 11th International AAAI Conference on Web and Social Media.",
+        "author": "Varol Onur",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_1_149_1",
+        "unstructured": "Ashish Vaswani Noam Shazeer Niki Parmar Jakob Uszkoreit Llion Jones Aidan N. Gomez \u0141ukasz Kaiser and Illia Polosukhin. 2017. Attention is all you need. In Advances in Neural Information Processing Systems. 5998--6008.  Ashish Vaswani Noam Shazeer Niki Parmar Jakob Uszkoreit Llion Jones Aidan N. Gomez \u0141ukasz Kaiser and Illia Polosukhin. 2017. Attention is all you need. In Advances in Neural Information Processing Systems. 5998--6008."
+      },
+      {
+        "key": "e_1_2_1_150_1",
+        "unstructured": "Giulia Vilone and Luca Longo. 2020. Explainable artificial intelligence: A systematic review. arXiv:2006.00093.  Giulia Vilone and Luca Longo. 2020. Explainable artificial intelligence: A systematic review. arXiv:2006.00093."
+      },
+      {
+        "key": "e_1_2_1_151_1",
+        "article-title": "Graph kernels",
+        "author": "Vishwanathan S. Vichy N.",
+        "year": "2010",
+        "journal-title": "Journal of Machine Learning Research 11"
+      },
+      {
+        "key": "e_1_2_1_152_1",
+        "volume-title": "Proceedings of the International Workshop on Fuzzy Logic and Applications. 197--207",
+        "author": "Viviani Marco",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_1_153_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/widm.1209"
+      },
+      {
+        "key": "e_1_2_1_154_1",
+        "unstructured": "Nguyen Vo and Kyumin Lee. 2018. The rise of guardians: Fact-checking URL recommendation to combat fake news. arXiv:1806.07516.  Nguyen Vo and Kyumin Lee. 2018. The rise of guardians: Fact-checking URL recommendation to combat fake news. arXiv:1806.07516."
+      },
+      {
+        "key": "e_1_2_1_155_1",
+        "volume-title": "The spread of true and false news online. Science 359, 6380",
+        "author": "Vosoughi Soroush",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_1_156_1",
+        "volume-title": "\u2018Post-truth",
+        "author": "Wang Amy B.",
+        "year": "2016"
+      },
+      {
+        "key": "e_1_2_1_157_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "William Yang Wang. 2017. \u201cLiar liar pants on fire\u201d: A new benchmark dataset for fake news detection. arXiv:1705.00648.  William Yang Wang. 2017. \u201cLiar liar pants on fire\u201d: A new benchmark dataset for fake news detection. arXiv:1705.00648.",
+        "DOI": "10.18653/v1/P17-2067"
+      },
+      {
+        "key": "e_1_2_1_158_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3219819.3219903"
+      },
+      {
+        "key": "e_1_2_1_159_1",
+        "volume-title": "Proceedings of the 28th AAAI Conference on Artificial Intelligence.",
+        "author": "Wang Zhen",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_1_160_1",
+        "volume-title": "The Jean Piaget Symposium Series. Lawrence Erlbaum Associates, 103--135",
+        "author": "Ward Andrew"
+      },
+      {
+        "key": "e_1_2_1_161_1",
+        "volume-title": "Fake news. It\u2019s complicated. First Draft News 16",
+        "author": "Wardle Claire",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_1_162_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDE.2012.119"
+      },
+      {
+        "key": "e_1_2_1_163_1",
+        "volume-title": "Proceedings of the IEEE 31st International Conference on Data Engineering (ICDE\u201915)",
+        "author": "Wu Ke"
+      },
+      {
+        "key": "e_1_2_1_164_1",
+        "unstructured": "Bishan Yang Wen-Tau Yih Xiaodong He Jianfeng Gao and Li Deng. 2014. Embedding entities and relations for learning and inference in knowledge bases. arXiv:1412.6575.  Bishan Yang Wen-Tau Yih Xiaodong He Jianfeng Gao and Li Deng. 2014. Embedding entities and relations for learning and inference in knowledge bases. arXiv:1412.6575."
+      },
+      {
+        "key": "e_1_2_1_165_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3308558.3314119"
+      },
+      {
+        "key": "e_1_2_1_166_1",
+        "unstructured": "Junting Ye and Steven Skiena. 2019. MediaRank: Computational ranking of online news sources. arXiv:1903.07581.  Junting Ye and Steven Skiena. 2019. MediaRank: Computational ranking of online news sources. arXiv:1903.07581."
+      },
+      {
+        "key": "e_1_2_1_167_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24963/ijcai.2019/750"
+      },
+      {
+        "key": "e_1_2_1_168_1",
+        "volume-title": "Mohammad Ali Abbasi, and Huan Liu",
+        "author": "Zafarani Reza",
+        "year": "2014"
+      },
+      {
+        "key": "e_1_2_1_169_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3292500.3332287"
+      },
+      {
+        "key": "e_1_2_1_170_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07421222.2016.1205907"
+      },
+      {
+        "key": "e_1_2_1_171_1",
+        "volume-title": "Gouza",
+        "author": "Zhang Jiawei",
+        "year": "2018"
+      },
+      {
+        "key": "e_1_2_1_172_1",
+        "volume-title": "Proceedings of the 15th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD\u201909)",
+        "volume": "9",
+        "author": "Zhou Bin",
+        "year": "2009"
+      },
+      {
+        "key": "e_1_2_1_173_1",
+        "unstructured": "Denny Zhou Olivier Bousquet Thomas N. Lal Jason Weston and Bernhard Sch\u00f6lkopf. 2004a. Learning with local and global consistency. In Advances in Neural Information Processing Systems. 321--328.  Denny Zhou Olivier Bousquet Thomas N. Lal Jason Weston and Bernhard Sch\u00f6lkopf. 2004a. Learning with local and global consistency. In Advances in Neural Information Processing Systems. 321--328."
+      },
+      {
+        "key": "e_1_2_1_174_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:GRUP.0000011944.62889.6f"
+      },
+      {
+        "key": "e_1_2_1_175_1",
+        "unstructured": "Xinyi Zhou Atishay Jain Vir V. Phoha and Reza Zafarani. 2019a. Fake news early detection: A theory-driven model. arXiv:1904.11679.  Xinyi Zhou Atishay Jain Vir V. Phoha and Reza Zafarani. 2019a. Fake news early detection: A theory-driven model. arXiv:1904.11679."
+      },
+      {
+        "key": "e_1_2_1_176_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-47436-2_27"
+      },
+      {
+        "key": "e_1_2_1_177_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3373464.3373473"
+      },
+      {
+        "key": "e_1_2_1_178_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3289600.3291382"
+      },
+      {
+        "key": "e_1_2_1_179_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3161603"
+      },
+      {
+        "key": "e_1_2_1_180_1",
+        "volume-title": "Advances in Experimental Social Psychology.",
+        "author": "Zuckerman Miron"
+      }
+    ],
+    "container-title": [
+      "ACM Computing Surveys"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/10.1145/3395046",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/3395046",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2025-06-17T18:02:47Z",
+      "timestamp": 1750183367000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dl.acm.org/doi/10.1145/3395046"
+      }
+    },
+    "subtitle": [
+      "Fundamental Theories, Detection Methods, and Opportunities"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          28
+        ]
+      ]
+    },
+    "references-count": 179,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            30
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1145/3395046"
+    ],
+    "URL": "https://doi.org/10.1145/3395046",
+    "relation": {},
+    "ISSN": [
+      "0360-0300",
+      "1557-7341"
+    ],
+    "issn-type": [
+      {
+        "value": "0360-0300",
+        "type": "print"
+      },
+      {
+        "value": "1557-7341",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          28
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2018-12-01",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2020-04-01",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2020-09-28",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

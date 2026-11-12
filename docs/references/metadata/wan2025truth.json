@@ -1,0 +1,204 @@
+{
+  "entry": {
+    "key": "wan2025truth",
+    "type": "inproceedings",
+    "title": "Truth over Tricks: Measuring and Mitigating Shortcut Learning in Misinformation Detection",
+    "doi": null,
+    "author": "Wan, Herun and Wu, Jiaying and Luo, Minnan and Zeng, Zhi and Su, Zhixiong",
+    "year": "2025"
+  },
+  "url": "https://api.crossref.org/works?query.title=Truth+over+Tricks%3A+Measuring+and+Mitigating+Shortcut+Learning+in+Misinformation+Detection&rows=1",
+  "title_similarity": 1.0,
+  "record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          11,
+          3
+        ]
+      ],
+      "date-time": "2026-11-03T06:22:09Z",
+      "timestamp": 1793686929953,
+      "version": "4.5.1"
+    },
+    "publisher-location": "San Diego, California, USA",
+    "reference-count": 0,
+    "publisher": "Neural Information Processing Systems Foundation, Inc. (NeurIPS)",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.52202/085713-4712",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2026-08-06T14:44:29Z",
+      "timestamp": 1786027469000
+    },
+    "page": "156431-156473",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Truth over Tricks: Measuring and Mitigating Shortcut Learning in Misinformation Detection"
+    ],
+    "prefix": "10.52202",
+    "author": [
+      {
+        "given": "Herun",
+        "family": "Wan",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Xi'an Jiaotong University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiaying",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Minnan",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Xi'an Jiaotong University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhi",
+        "family": "Zeng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Xi'an Jiaotong University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhixiong",
+        "family": "Su",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Xi'an Jiaotong University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "29733",
+    "event": {
+      "name": "Advances in Neural Information Processing Systems 38",
+      "theme": "39th Conference on Neural Information Processing Systems (NeurIPS 2025)",
+      "location": "San Diego, California, USA and Mexico City, Mexico",
+      "acronym": "NeurIPS 2025",
+      "number": "38",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            30
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            7
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "Advances in Neural Information Processing Systems 38"
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          19
+        ]
+      ],
+      "date-time": "2026-10-19T18:43:37Z",
+      "timestamp": 1792435417000
+    },
+    "score": 69.90456,
+    "resource": {
+      "primary": {
+        "URL": "http://www.proceedings.com/085713-4712.html"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.52202/085713-4712",
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  }
+}

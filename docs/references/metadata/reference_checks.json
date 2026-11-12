@@ -1,0 +1,248 @@
+[
+  {
+    "key": "ahmed2017isot",
+    "scope": "Publisher chapter record",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-319-69155-8_9",
+    "note": "Authors, year, volume and pp. 127-138 agree."
+  },
+  {
+    "key": "verma2021welfake",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.1109/tcss.2021.3068519",
+    "note": "Corrected Ivone Amorim; volume 8(4), pp. 881-893 and DOI agree with publisher-deposited record."
+  },
+  {
+    "key": "wang2017liar",
+    "scope": "ACL metadata",
+    "source": "https://aclanthology.org/P17-2067/",
+    "note": "Author, title, venue, pages and DOI agree."
+  },
+  {
+    "key": "shu2020fakenewsnet",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.1089/big.2020.0062",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "mcintire2017fakeorreal",
+    "scope": "Dataset mirror inspected",
+    "source": "https://github.com/joolsa/fake_real_news_dataset",
+    "note": "Mirror link is valid. Historical McIntire attribution/year retained; mirror ownership does not independently establish original authorship. Raw-file byte hash is in the supplied construction audit."
+  },
+  {
+    "key": "shu2017survey",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.1145/3137597.3137600",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "zhou2020survey",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.1145/3395046",
+    "note": "Publisher metadata splits title and subtitle; combined title agrees. Kept article-based page notation rather than mistaking a short metadata title for a mismatch."
+  },
+  {
+    "key": "lazer2018science",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.1126/science.aao2998",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "asr2019big",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.1177/2053951719843310",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "janicka2019cross",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.13053/cys-23-3-3281",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "hoy2022generalisability",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.1109/bigdata55660.2022.10020583",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "bozarth2020toward",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.1609/icwsm.v14i1.7279",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "zhu2022endef",
+    "scope": "Primary content and bibliographic record",
+    "source": "https://arxiv.org/pdf/2204.09484",
+    "note": "Primary full text checked: word/entity drop and mask are training augmentations, rather than the matched deletion comparator used here."
+  },
+  {
+    "key": "verma2026accuracy",
+    "scope": "Primary preprint full text",
+    "source": "https://arxiv.org/pdf/2609.25006",
+    "note": "Title and author confirmed. Relevant metadata/source-tag/deduplication, topic/temporal and LIAR sections checked. PDF header month/date is inconsistent with its arXiv ID; no submission date is asserted in the reference."
+  },
+  {
+    "key": "haroon2026benchmarks",
+    "scope": "Primary preprint v2 full text",
+    "source": "https://arxiv.org/pdf/2607.14131v2",
+    "note": "Expanded multilingual title/author and six-corpus design confirmed; length cap, exact-string overlap check and declared WELFake label mapping checked."
+  },
+  {
+    "key": "delloglio2026comparison",
+    "scope": "Primary content and bibliographic record",
+    "source": "https://arxiv.org/html/2603.25501v1",
+    "note": "Primary full text/metadata checked: 12 approaches, 10 datasets and four evaluation groups; added Information Sciences volume 745 and article 123407."
+  },
+  {
+    "key": "wan2025truth",
+    "scope": "Primary content and bibliographic record",
+    "source": "https://papers.nips.cc/paper_files/paper/2025/hash/ce5b4f79f4752b7f8e983a80ebcd9c7a-Abstract-Conference.html",
+    "note": "Primary proceedings PDF and BibTeX checked. Equal-size random training splits are distinct from document-matched random deletion. Official BibTeX gives pp. 141018-141060, differing from Crossref; publisher BibTeX takes precedence."
+  },
+  {
+    "key": "xiao2023sok",
+    "scope": "Proceedings metadata and primary full text",
+    "source": "https://www.usenix.org/conference/usenixsecurity25/presentation/xiao-madelyne",
+    "note": "Converted to USENIX Security 2025 proceedings citation, pp. 5247-5266. Corrected conflation of original news excerpts and fact-edited versions."
+  },
+  {
+    "key": "thibault2024guide",
+    "scope": "Primary content and bibliographic record",
+    "source": "https://arxiv.org/pdf/2411.05060",
+    "note": "Primary paper and ACM-deposited metadata checked: 75 datasets surveyed, 36 claims plus 9 paragraph datasets assessed; converted to KDD 2025 proceedings citation, pp. 5801-5809."
+  },
+  {
+    "key": "blackledge2021transforming",
+    "scope": "Primary content and bibliographic record",
+    "source": "https://arxiv.org/pdf/2109.09796",
+    "note": "Primary author preprint and publisher-deposited metadata checked: opinion filtering has different effects for models trained on ISOT versus Combined Corpus; added pp. 3960-3968."
+  },
+  {
+    "key": "murayama2021diachronic",
+    "scope": "Primary content and bibliographic record",
+    "source": "https://aclanthology.org/2021.wnut-1.21/",
+    "note": "Primary paper and ACL record checked: four corpora, person-name deletion/masking and Wikidata replacements; converted to W-NUT proceedings citation."
+  },
+  {
+    "key": "geirhos2020shortcut",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.1038/s42256-020-00257-z",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "gururangan2018annotation",
+    "scope": "ACL metadata",
+    "source": "https://aclanthology.org/N18-2017/",
+    "note": "Corrected Samuel R. Bowman; remaining fields agree."
+  },
+  {
+    "key": "mccoy2019right",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.18653/v1/p19-1334",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "poliak2018hypothesis",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.18653/v1/s18-2023",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "lee2022dedup",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.18653/v1/2022.acl-long.577",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "northcutt2021labelerrors",
+    "scope": "Official proceedings abstract",
+    "source": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/f2217062e9a397a1dca429e7d70bc6ca-Abstract-round1.html",
+    "note": "Author list, title and 2021 Datasets and Benchmarks track confirmed. No page range invented."
+  },
+  {
+    "key": "broder1997resemblance",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.1109/sequen.1997.666900",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "pedregosa2011sklearn",
+    "scope": "Publisher metadata",
+    "source": "https://www.jmlr.org/papers/v12/pedregosa11a.html",
+    "note": "Full author list, journal volume 12, year and pp. 2825-2830 agree."
+  },
+  {
+    "key": "sanh2019distilbert",
+    "scope": "Author preprint metadata",
+    "source": "https://arxiv.org/abs/1910.01108",
+    "note": "Authors, title and ID confirmed; first submitted 2019, revised 2020. Added arXiv DOI; retain first-publication year."
+  },
+  {
+    "key": "devlin2019bert",
+    "scope": "ACL metadata",
+    "source": "https://aclanthology.org/N19-1423/",
+    "note": "Authors, title, venue, pages and DOI agree."
+  },
+  {
+    "key": "wolf2020transformers",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.18653/v1/2020.emnlp-demos.6",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "honnibal2020spacy",
+    "scope": "Maintainer citation file",
+    "source": "https://github.com/explosion/spaCy/blob/master/CITATION.cff",
+    "note": "Authors/year/concept DOI agree with maintainer recommendation. Removed unsupported version-specific note; actual environment evidence remains in declarations."
+  },
+  {
+    "key": "holm1979simple",
+    "scope": "Stable publisher/archive identifier; limited metadata access",
+    "source": "https://www.jstor.org/stable/4615733",
+    "note": "Retained established 1979 citation, Scandinavian Journal of Statistics 6(2), 65-70. Added stable URL. Full publisher text/author list was not freshly retrieved; no unsupported DOI added."
+  },
+  {
+    "key": "liu2019roberta",
+    "scope": "Author preprint metadata",
+    "source": "https://arxiv.org/abs/1907.11692",
+    "note": "All ten authors, title, ID and year agree; added arXiv DOI."
+  },
+  {
+    "key": "schuster2020limitations",
+    "scope": "ACL journal metadata and abstract",
+    "source": "https://aclanthology.org/2020.cl-2.8/",
+    "note": "Authors, title, journal and pp. 499-510 agree; added DOI 10.1162/coli_a_00380."
+  },
+  {
+    "key": "niven2019probing",
+    "scope": "ACL metadata and abstract",
+    "source": "https://aclanthology.org/P19-1459/",
+    "note": "Authors, title, venue and pp. 4658-4664 agree; added DOI."
+  },
+  {
+    "key": "torralba2011unbiased",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.1109/cvpr.2011.5995347",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "kaufman2012leakage",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.1145/2382577.2382579",
+    "note": "Verified the 2012 four-author journal article and its DOI. Rejected the similarly titled 2011 conference result returned by a title search."
+  },
+  {
+    "key": "kapoor2023leakage",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.1016/j.patter.2023.100804",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  },
+  {
+    "key": "gorman2019standard",
+    "scope": "Publisher-deposited DOI metadata",
+    "source": "https://doi.org/10.18653/v1/p19-1267",
+    "note": "Identified cited work through exact DOI or a title/author-compatible record; retained matching bibliographic fields."
+  }
+]

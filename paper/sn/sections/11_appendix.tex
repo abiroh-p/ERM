@@ -1,4 +1,28 @@
-\section*{Appendix: Statistical inference and multiple comparisons}\label{sec:appendix}
-We emphasize effect sizes, 95\% $t$-intervals over seeds and seed agreement, because the experimental unit is the seed-level repeated run and the six dataset pairs are not independent. As a sensitivity check, with eight seeds the smallest exact paired sign-flip $p$-value is $2/256\approx0.008$, which cannot survive a Holm correction over the seven factorial terms ($0.05/7\approx0.0071$), and $t$-test $p$-values from seed means (about $10^{-5}$ for the length effect) reflect only stability under resampling within one fixed document universe, not generalization.
+\FloatBarrier
+\appendix
+\section{Document-paired inference and seed results}
+For each seed, cross-dataset AUC contrasts are first computed within each ordered corpus pair and then averaged over the six pairs. The reported mean and 95\% $t$-interval use the resulting eight values. Seeds are the repeated unit; the six transfers within a seed are not independent samples. Exact sign-flip values enumerate the 256 sign assignments; with eight seeds the smallest two-sided value is 0.0078125. Holm correction retains the six planned contrasts per model and outcome, assigning $p=1$ to the two unrun transformer contrasts. This is a descriptive analysis of a fixed document universe, informed by earlier exploration. Failure to reject zero is not evidence of equivalence.
 
-For the six matched-control contrasts (S against $R_S$, E against $R_E$, S+E against $R_{SE}$, L against C0, L+E against L+$R_E$, S+L+E against L+$R_{SE}$) the smallest attainable $p$ is below the Holm threshold for a family of six ($0.05/6\approx0.0083$), so adjustment is possible in principle. For TF-IDF the exact sign-flip $p$-values are 0.0078 for five contrasts and 0.0156 for S+L+E against L+$R_{SE}$, so all six have Holm-adjusted $p=0.047$; for DistilBERT and RoBERTa no contrast survives (smallest adjusted $p=0.094$ in both). Because the family was defined after earlier exploratory results had been seen, these adjusted values are descriptive and are not a confirmatory test.
+\begin{table}[htbp]
+\caption{Document-paired model differences: TF-IDF minus DistilBERT in each pooled AUC contrast (mean, 95\% interval and sign agreement across eight seeds). Exploratory.}\label{tab:paired_model_diff}
+\centering\scriptsize
+\adjustbox{max width=\linewidth}{\input{../tables/tab_paired_model_diff}}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Document-paired TF-IDF: per-seed cross-dataset AUC contrasts, averaging six ordered pairs within each seed. Full precision is supplied in the result archive.}
+\centering\scriptsize
+\adjustbox{max width=\linewidth}{\input{../tables/tab_paired_seeds_tfidf}}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Document-paired DistilBERT: per-seed cross-dataset AUC contrasts, averaging six ordered pairs within each seed. Full precision is supplied in the result archive.}
+\centering\scriptsize
+\adjustbox{max width=\linewidth}{\input{../tables/tab_paired_seeds_distilbert}}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Document-paired RoBERTa: per-seed cross-dataset AUC contrasts, averaging six ordered pairs within each seed. Full precision is supplied in the result archive.}
+\centering\scriptsize
+\adjustbox{max width=\linewidth}{\input{../tables/tab_paired_seeds_roberta}}
+\end{table}
