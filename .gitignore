@@ -12,6 +12,10 @@ __pycache__/
 
 # Runtime caches
 cache/
+.pytest_cache/
+
+# Local history cleanup backups and scratch files
+/history-publish-*/
 
 # Large generated artifacts kept locally, not in Git
 analysis_set_and_spans_cache.zip
@@ -24,6 +28,10 @@ shard*.csv
 
 # dataset text is not redistributed (see README, Data)
 data/raw/
+# Local provenance reproduction outputs contain article text; summaries live in docs/reports.
+data/provenance_reproduction_*/
+data/provenance_test_tmp*/
+data/processed/analysis_set.csv
 results/audit/smoke/cleaned_all.parquet
 results/audit/*/label_check_*.txt
 results/audit/*/*_with_text.csv

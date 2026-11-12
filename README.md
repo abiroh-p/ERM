@@ -50,14 +50,31 @@ The datasets are **not redistributed** here. Download them yourself and cite the
 | McIntire "Fake or Real News" | GitHub mirror `joolsa/fake_real_news_dataset` (6,335 articles) | `fake_or_real_news.csv` |
 | WELFake | Kaggle: `studymart/welfake-dataset-for-fake-news` | `WELFake_Dataset.csv` |
 
-The audit scripts read these four files from the current working directory (`load_all(base_dir=".")`). Build the analysis set once the audit has been run:
+The audit scripts read these four files from the current working directory (`load_all(base_dir=".")`); the loader also accepts the repository's `data/raw/{ISOT,McIntire,WELFake}/` layout. Build the analysis set once the audit has been run:
 
 ```bash
 python src/audit/audit_01_05.py            # audit steps 01-05, writes reports
 python src/audit/build_analysis_set.py     # writes analysis_set.csv (ISOT, McIntire, WELFake residual)
 ```
 
-Expected analysis-set size: 61,197 documents (ISOT 20,923 real / 17,107 fake, McIntire 2,964 / 3,041, WELFake residual 10,427 / 6,735). Move the output to `data/processed/analysis_set.csv`. The label direction of WELFake (0 = real, 1 = fake) was verified empirically; see the paper's audit section.
+The frozen experiment input has 61,197 documents (ISOT 20,923 real / 17,107 fake, McIntire 2,964 / 3,041, WELFake residual 10,427 / 6,735). These are observed input counts, not construction targets. The historical primary audit dry run retained 17,161 WELFake rows (10,427 real / 6,734 fake). Its broader exact-match policy removed `WELFake-44862`, a fake-labelled lightly normalized body match to `ISOT-15508`; the builder's artifact-stripped hash is missing for both bodies and retains that WELFake row. The builder preserves the recorded experiment construction and refuses to overwrite an existing output. See [the current provenance report](docs/reports/dataset_provenance_20261112.md). The label mapping is 0 = real, 1 = fake; these remain dataset labels, not independent article-veracity assessments.
+
+Audit an existing analysis input without changing it or training models (Python standard library only):
+
+```bash
+python src/audit/provenance_audit.py --analysis-csv data/processed/analysis_set.csv --output analysis_input_audit.zip
+```
+
+The ZIP contains only `audit.json`, `SUMMARY.md` and `metadata.json`: hashes, counts, missing/invalid-field and identifier checks, cluster summaries, and configuration hashes. It contains no articles. The command streams CSV records and hashes the file incrementally. It compares known freeze records and recognized analysis-hash fields in experiment configs; pass `--record path/to/validation.json` for additional records or `--expected-sha256 <recorded hash>`. An unavailable experiment record is not treated as a verified validation. Exit code 1 means a data check or recorded input/cluster comparison failed; a difference from the explicitly historical dry-run claim is reported separately. Existing ZIPs are never overwritten.
+
+To reconstruct from accessible source CSVs, use a new, ignored output directory and compare it with the exact experiment input:
+
+```bash
+python src/audit/build_analysis_set.py data/provenance_reproduction_new/analysis_set.csv --base-dir data/raw
+python src/audit/construction_evidence.py --analysis-csv data/processed/analysis_set.csv --source-dir data/raw --reproduced-csv data/provenance_reproduction_new/analysis_set.csv --output construction_evidence.zip
+```
+
+Reconstruction uses NumPy and pandas; inspecting the historical cleaned Parquet cache also requires pyarrow. The old audit configuration records NumPy 2.3.2 and pandas 2.3.3. Current source hashes cannot prove original source-snapshot identity because the historical audit did not record raw-source hashes. Byte identity, count agreement and reproduction are distinct checks. Neither counts nor hashes independently verify overlap or article veracity. No dataset upload or Git commit is needed.
 
 ## Reproducing the experiments
 

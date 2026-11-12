@@ -6,7 +6,7 @@ Table~\ref{tab:data} summarizes the cleaning. ISOT lost 5,762 exact duplicates (
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.86\textwidth]{fig_overlap.pdf}
-\caption{Construction of the WELFake residual. Every cleaned ISOT and McIntire document has a normalized exact-text match in WELFake; ISOT and McIntire share almost no documents. Overlapping WELFake documents (exact, prefix or near-duplicate matches) are removed to leave the residual used as the third dataset.}
+\caption{Construction of the WELFake residual. Every cleaned ISOT and McIntire document has a normalized exact-text match in WELFake; ISOT and McIntire share almost no documents. WELFake documents flagged by the builder's stripped-body exact, prefix or primary near-duplicate rules are removed to leave the residual used as the third dataset. One stripped-empty exact match survives this policy, as described in the methods.}
 \label{fig:overlap}
 \end{figure}
 

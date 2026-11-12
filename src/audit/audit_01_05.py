@@ -75,8 +75,12 @@ def standardize(dataset, title, text, is_fake):
 def load_all(base_dir="."):
     """Load the inspected files using their observed schemas and label mappings."""
     base_dir = pathlib.Path(base_dir)
-    fake = pd.read_csv(base_dir / "Fake.csv")
-    real = pd.read_csv(base_dir / "True.csv")
+    def source(name, corpus):
+        flat = base_dir / name
+        return flat if flat.exists() else base_dir / corpus / name
+
+    fake = pd.read_csv(source("Fake.csv", "ISOT"))
+    real = pd.read_csv(source("True.csv", "ISOT"))
     isot = standardize(
         "ISOT",
         pd.concat([fake["title"], real["title"]], ignore_index=True),
@@ -84,13 +88,13 @@ def load_all(base_dir="."):
         [1] * len(fake) + [0] * len(real),
     )
 
-    mc = pd.read_csv(base_dir / "fake_or_real_news.csv")
+    mc = pd.read_csv(source("fake_or_real_news.csv", "McIntire"))
     mcintire = standardize(
         "McIntire", mc["title"], mc["text"],
         mc["label"].map({"FAKE": 1, "REAL": 0}),
     )
 
-    wel = pd.read_csv(base_dir / "WELFake_Dataset.csv")
+    wel = pd.read_csv(source("WELFake_Dataset.csv", "WELFake"))
     welfake = standardize(
         "WELFake", wel["title"], wel["text"],
         wel["label"].map({0: 0, 1: 1}),
