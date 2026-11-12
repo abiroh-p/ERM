@@ -91,4 +91,4 @@ Each transformer stage distributes independent fits over two GPUs. Keep new run 
 
 ## Citation and licensing
 
-`CITATION.cff` identifies this research repository. The manuscript remains unpublished; update citation metadata when a public paper identifier exists. A code license has not yet been selected by the authors; no license grant is invented by this cleanup. Source datasets retain their own terms.
+`CITATION.cff` identifies this research repository. The manuscript remains unpublished; update citation metadata when a public paper identifier exists. Original ERM code and its associated technical documentation are licensed under the [MIT License](LICENSE). The manuscript, research/result archives, publisher template files and other third-party materials are outside this code-license grant; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Source datasets retain their own terms.

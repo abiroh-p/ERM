@@ -1,0 +1,12 @@
+{
+  "base_commit": "29609a0b4290f417a22e0b7f7d829b2e59639d0c",
+  "license": "MIT",
+  "scope": "Original ERM code and associated technical documentation",
+  "approved_contributions_applied": true,
+  "funding_statement_explicit": true,
+  "third_party_template_bytes_unchanged": true,
+  "experiment_code_results_and_frozen_evidence_unchanged": true,
+  "pdf_pages": 30,
+  "pdf_compilation": "PASS",
+  "visual_review": "All pages rendered; declaration pages inspected at higher resolution. No code changes; the 31-test cleanup result remains applicable."
+}
