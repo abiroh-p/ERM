@@ -31,6 +31,9 @@ The supplied audit/selections are already frozen. To verify/reuse selections:
 python scripts/external_celebrity.py select --zip $celebrityZip
 python scripts/external_celebrity.py ner --zip $celebrityZip
 python scripts/external_celebrity.py plan --zip $celebrityZip --model tfidf
+python scripts/external_celebrity.py run --zip $celebrityZip --model tfidf --max-jobs 1
+# The pilot is the first job of the frozen grid; do not tune on its Celebrity score.
+# Continue the same output directory to complete the remaining jobs:
 python scripts/external_celebrity.py run --zip $celebrityZip --model tfidf
 python scripts/external_celebrity.py check --zip $celebrityZip --model tfidf
 python scripts/external_celebrity.py analyze --zip $celebrityZip --model tfidf
@@ -128,6 +131,13 @@ New-Item -ItemType Directory -Path runs -Force | Out-Null
 python -m pytest tests/test_external_celebrity.py -q -p no:cacheprovider --basetemp runs/celebrity_tests_fresh
 python scripts/package_external_celebrity.py
 ```
+
+The packaging command requires the full ERM Git checkout; it is not needed to
+execute the standalone package. Production NER creation now enforces the exact
+historical source-cache hash above, and planning checks that NER provenance
+records that cache. Missing/wrong caches are rejected before scoring. The
+`--max-jobs N` option limits new fits per worker for an operational pilot without
+changing the frozen grid, comparisons or existing completed records.
 
 Use a fresh test directory for each invocation. See
 [`VALIDATION.md`](VALIDATION.md) for the actual completed checks. Full repository

@@ -143,6 +143,7 @@ def test_synthetic_tfidf_end_to_end_resume_integrity_and_analysis(tmp_path, monk
     a = synthetic_setup(tmp_path)
     original = P.validate_cache
     monkeypatch.setattr(P, "validate_cache", lambda cache, u: original(cache, u, allow_regex=True))
+    monkeypatch.setattr(R, "validate_ner_record", lambda record: None)  # synthetic fixtures only
     R.plan(a)
     R.run(a)
     _, out, _, status = R.collect(a)
@@ -175,6 +176,36 @@ def test_synthetic_tfidf_end_to_end_resume_integrity_and_analysis(tmp_path, monk
     P.atomic_json(path, record)
     with pytest.raises(ValueError, match="checksum"):
         R.collect(a)
+
+
+def test_historical_cache_hash_and_provenance_are_required(tmp_path):
+    wrong = tmp_path/"wrong-cache.pkl"
+    wrong.write_bytes(b"replacement cache")
+    with pytest.raises(ValueError, match="hash mismatch"):
+        R.validate_source_cache(wrong)
+    with pytest.raises(ValueError, match="original paired-study"):
+        R.validate_ner_record(dict(method="spacy:en_core_web_sm", source_cache_sha256="wrong"))
+    with pytest.raises(ValueError, match="original paired-study"):
+        R.validate_ner_record(dict(method="regex", source_cache_sha256=R.EXPECTED_SOURCE_CACHE_SHA256))
+    R.validate_ner_record(dict(method="spacy:en_core_web_sm", source_cache_sha256=R.EXPECTED_SOURCE_CACHE_SHA256))
+
+
+def test_one_job_pilot_resumes_without_changing_plan(tmp_path, monkeypatch):
+    a = synthetic_setup(tmp_path)
+    original = P.validate_cache
+    monkeypatch.setattr(P, "validate_cache", lambda cache, u: original(cache, u, allow_regex=True))
+    monkeypatch.setattr(R, "validate_ner_record", lambda record: None)  # synthetic fixtures only
+    a.rank, a.world_size, a.max_jobs = 0, 1, 1
+    R.plan(a)
+    planned = (pathlib.Path(a.output)/"tfidf"/"jobs.json").read_bytes()
+    R.run(a)
+    _, out, _, status = R.collect(a)
+    assert status["completed"] == 1 and not status["complete"]
+    first = (out/"jobs/job_0000.json").read_bytes()
+    R.run(a)
+    assert R.collect(a)[3]["completed"] == 2
+    assert (out/"jobs/job_0000.json").read_bytes() == first
+    assert (out/"jobs.json").read_bytes() == planned
 
 
 def test_incomplete_cross_audit_and_changed_manifest_block_evaluation(tmp_path):

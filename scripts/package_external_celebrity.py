@@ -48,10 +48,16 @@ def new_diff(name):
 def build(out):
     out = pathlib.Path(out)
     out.mkdir(parents=True, exist_ok=True)
+    checkout = subprocess.run(["git", "rev-parse", "--show-toplevel"], cwd=ROOT, capture_output=True, text=True)
+    if checkout.returncode or pathlib.Path(checkout.stdout.strip()).resolve() != ROOT.resolve():
+        raise SystemExit("Rebuilding a repository patch requires the full ERM Git checkout. The standalone ZIP can run experiments directly; no packaging step is needed.")
     added = files()
-    patch_text = subprocess.run(["git", "diff", "--no-ext-diff", "HEAD", "--", *MODIFIED], cwd=ROOT,
+    tracked = set(subprocess.run(["git", "ls-files"], cwd=ROOT, check=True,
+                                 capture_output=True, text=True).stdout.splitlines())
+    patch_text = subprocess.run(["git", "diff", "--no-ext-diff", "HEAD", "--", *MODIFIED,
+                                 *[name for name in added if name in tracked]], cwd=ROOT,
                                 check=True, capture_output=True).stdout.decode("utf-8")
-    patch_text += "".join(new_diff(n) for n in added)
+    patch_text += "".join(new_diff(n) for n in added if n not in tracked)
     patch = out/"external_celebrity_v1.patch"
     patch.write_bytes(patch_text.encode("utf-8"))
     included = sorted(set(added + MODIFIED + DEPENDENCIES))

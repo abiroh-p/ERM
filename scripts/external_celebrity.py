@@ -22,6 +22,17 @@ import exp_transformer as T
 import paired_sampling as P
 import celebrity_audit as A
 X = T.X
+EXPECTED_SOURCE_CACHE_SHA256 = "f16342d4339666ac924f42b61eb42282d70ed16f5128a3bc4ba2ef1f13ac80bc"
+
+
+def validate_source_cache(path):
+    if P.file_hash(path) != EXPECTED_SOURCE_CACHE_SHA256:
+        raise ValueError("historical source NER cache hash mismatch; use the original paired-study cache")
+
+
+def validate_ner_record(record):
+    if record.get("method") != "spacy:en_core_web_sm" or record.get("source_cache_sha256") != EXPECTED_SOURCE_CACHE_SHA256:
+        raise ValueError("NER provenance must bind the original paired-study source cache and spaCy method")
 
 
 def freeze(path, value):
@@ -135,6 +146,7 @@ def checked_selections(a):
 
 def ner(a):
     c, target, index = checked_selections(a)
+    validate_source_cache(a.spans_cache)
     u, _ = source_universe(a)
     with open(a.spans_cache, "rb") as f:
         cache = pickle.load(f)  # trusted local repository cache only
@@ -172,6 +184,7 @@ def jobs(c):
 
 def signature(a):
     c, target, index = checked_selections(a)
+    validate_ner_record(json.loads((pathlib.Path(a.prepared)/"ner_provenance.json").read_text()))
     files = ["scripts/external_celebrity.py", "src/audit/celebrity_audit.py", "src/experiments/exp_tfidf.py",
              "src/experiments/paired_sampling.py", "src/experiments/exp_transformer.py", "docs/EXTERNAL_CELEBRITY_PROTOCOL_v1.md"]
     libs = ["numpy", "pandas", "scikit-learn", "scipy"]
@@ -224,6 +237,9 @@ def load_run(a):
 
 def run(a):
     c, target, index, out, sig, grid = load_run(a)
+    max_jobs = getattr(a, "max_jobs", None)
+    if max_jobs is not None and max_jobs < 1:
+        raise ValueError("max-jobs must be positive")
     if a.world_size < 1 or not 0 <= a.rank < a.world_size:
         raise ValueError("rank must be in [0, world-size)")
     if a.model != "tfidf":
@@ -242,6 +258,7 @@ def run(a):
         raise ValueError("span contents differ from NER provenance")
     dest = out/"jobs"
     dest.mkdir(exist_ok=True)
+    completed_now = 0
     for job in grid[a.rank::a.world_size]:
         path = dest/f"job_{job['index']:04d}.json"
         if path.exists():
@@ -288,8 +305,12 @@ def run(a):
             validate_result(record, job, sig, target, index)
             P.atomic_json(path, record)
             print(f"completed {job}; {record['elapsed_seconds']:.1f}s", flush=True)
+            completed_now += 1
         finally:
             lock.unlink(missing_ok=True)
+        if max_jobs is not None and completed_now >= max_jobs:
+            print(f"Stopped after {completed_now} new fits; rerun without --max-jobs to finish the frozen grid", flush=True)
+            break
 
 
 def collect(a):
@@ -348,6 +369,7 @@ def main():
     p.add_argument("--model", choices=["tfidf", "distilbert", "roberta"], default="tfidf")
     p.add_argument("--rank", type=int, default=0)
     p.add_argument("--world-size", type=int, default=1)
+    p.add_argument("--max-jobs", type=int, help="Run at most this many new fits per worker, then stop; plan and completed jobs are unchanged")
     a = p.parse_args()
     if a.stage == "check":
         _, _, _, status = collect(a)
