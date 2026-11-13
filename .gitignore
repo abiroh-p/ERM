@@ -56,3 +56,6 @@ __MACOSX/
 /data/provenance_reproduction*/
 /data/processed/
 *.pkl
+
+# Celebrity extension packages remain local; reproducible builder is tracked.
+/deliverables/external_celebrity_v1/

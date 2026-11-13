@@ -1,0 +1,13 @@
+{
+  "protocol": "celebrity-external-v1",
+  "config_sha256": "efa386fe66fff7ce07f4e9639e67c93a5e4a597adf11948d5f08ccd6349a648e",
+  "analysis_sha256": "29e96d7b7fe60a94a2652c704f2bd4be9b5bb7e45f540eabeb19320276788ab5",
+  "zip_sha256": "649dd52b0378b0f95a68afd4e55cfe8e3c70a6bd9d647e10194ebb69fb562f77",
+  "audit_files": {
+    "audit_summary.json": "04d3689b571687981b76098c80bd23c871e4962c69f5bdb184597666b3305b40",
+    "inventory.csv": "0c0c29fd6869d49550b2ee5edcb515bc5843026f2483e8ae6ef96556771a4512",
+    "eligibility.csv": "25a27c052c8038dd601ad7aa51b63f499777993bfbe86c532296b2d58f4991a9",
+    "internal_candidates.csv": "a755f114ac66a2595fd1d8e03cbadcc032604b17b70810fdaa15e38d24670804",
+    "cross_candidates.csv": "a162c6f12c0479115de671d353d2e2b79766bb15a1b5d326d3c8227164e7153f"
+  }
+}

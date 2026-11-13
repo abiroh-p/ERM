@@ -1,0 +1,215 @@
+article_id,kind,count,matched_terms
+celebrity-dbffed31edd0f87754dd,fact_check,1,fabricated
+celebrity-45513ff4528a1a4b2286,publisher,1,national enquirer
+celebrity-9c47a64fc468c3308756,publisher,1,hollywoodlife
+celebrity-d33b9dd27104ab1a8c74,publisher,1,us weekly
+celebrity-103e25705ad76aa00583,publisher,1,hollywoodlife
+celebrity-ef671bba14fa1506bdc3,publisher,2,e! news;hollywoodlife
+celebrity-07a53686e6714321e6fd,publisher,3,hollywoodlife
+celebrity-512c3d30131c95ccc2a1,publisher,1,tmz
+celebrity-2bec8e322bd0fd077007,publisher,1,radaronline
+celebrity-ff17332d43cb91f8a37f,publisher,1,radaronline
+celebrity-207753dc44fbed0827a5,publisher,2,national enquirer;radar online
+celebrity-638de5d352f2dc78c4bd,publisher,2,us weekly
+celebrity-d33a6e7bb88479ba57ba,fact_check,2,fabricated;no truth
+celebrity-e13a2c84dc00c91f946b,publisher,1,hollywoodlife
+celebrity-0b1e455dd0469f7c4b7d,fact_check,2,gossip cop;no truth
+celebrity-0b1e455dd0469f7c4b7d,publisher,1,gossip cop
+celebrity-424d03a26378f871de6f,publisher,1,tmz
+celebrity-ab69bed9bed360df72d8,publisher,1,hollywoodlife
+celebrity-8b8ebf72ed17ae3962c5,publisher,1,hollywood life
+celebrity-c48dc20e917c01ce8c4c,fact_check,1,not true
+celebrity-c48dc20e917c01ce8c4c,publisher,1,vogue
+celebrity-7f14435bc7f9ce1132e1,publisher,1,radaronline
+celebrity-d4daa29788007ac02088,publisher,2,us weekly
+celebrity-b3176c4c745f8bd48a5b,fact_check,1,fabricated
+celebrity-b3176c4c745f8bd48a5b,publisher,1,tmz
+celebrity-ace71076b4c2db7a70e9,publisher,3,hollywoodlife;vogue
+celebrity-875e1c809ea78877b97c,publisher,1,radaronline
+celebrity-70c05f20cba0722bf45d,publisher,2,e! news;people magazine
+celebrity-f272ffe78b271a3ab4fc,publisher,1,radaronline
+celebrity-8eb3a6fdc93c85538723,publisher,2,hollywoodlife
+celebrity-96e56062ee3e31e78188,fact_check,3,gossip cop
+celebrity-96e56062ee3e31e78188,publisher,3,gossip cop
+celebrity-40b7706cf71d3c67f580,publisher,1,us weekly
+celebrity-e6f76acbb8c9a359b93e,publisher,1,radar online
+celebrity-a011c9260695e607e948,publisher,3,radaronline
+celebrity-c0f673a2e7ab9ae2a3da,publisher,1,people magazine
+celebrity-9492578344c5617bf695,publisher,1,radaronline
+celebrity-0257455e6ae862f93b20,publisher,1,radaronline
+celebrity-89f795c76142b7debdfa,publisher,1,radar online
+celebrity-14f99bccb79174be49d4,publisher,9,radar online;vogue
+celebrity-867572e5b1dc665fad7d,publisher,6,vogue
+celebrity-28a1e98adfb3a8187a5d,publisher,2,tmz;us weekly
+celebrity-e819180604e463d29f4f,publisher,1,national enquirer
+celebrity-ffac23fc4abb84e73436,publisher,1,hollywoodlife
+celebrity-2cbf22a160f230eab965,boilerplate,2,read more
+celebrity-e39b191612e3acec0409,publisher,2,national enquirer;radaronline
+celebrity-2fcbf144ce4e6049f976,publisher,2,national enquirer
+celebrity-64d4005954b89d2b7ade,publisher,1,radaronline
+celebrity-001fab48ae1f61bdaf04,publisher,1,radaronline
+celebrity-46c061344e694adaa781,publisher,2,hollywoodlife
+celebrity-de4ea3210407221db47a,publisher,2,hollywood life
+celebrity-10142e7b74b77decc036,publisher,1,radaronline
+celebrity-141572562f20c962c9b4,fact_check,1,debunked
+celebrity-16fd9c9ad5b8c3b6233f,publisher,1,national enquirer
+celebrity-6b6254b90c76a13bd4ab,publisher,1,hollywoodlife
+celebrity-bd26d9febcc15fa50fa3,publisher,1,us weekly
+celebrity-f89427d35f73d80c73f5,publisher,1,radaronline
+celebrity-263aee7ab6b656048ed1,publisher,1,radaronline
+celebrity-27aae07b4a168847845c,publisher,1,radaronline
+celebrity-684644a4e72eb3f5cae1,publisher,1,radaronline
+celebrity-c5ba4d66c64adfca53d8,publisher,1,hollywoodlife
+celebrity-dcf7295d5b299aa31735,publisher,1,national enquirer
+celebrity-3c059f0073ba1110c8fe,publisher,2,hollywoodlife
+celebrity-e2430f8be4bce12f3fd0,publisher,1,national enquirer
+celebrity-32fb6ab30d0e8dffa0e2,publisher,1,hollywood life
+celebrity-d1121cec31107c931e91,publisher,1,national enquirer
+celebrity-379fd8702d0c52f2a197,publisher,1,radaronline
+celebrity-38485848885eaedb236a,publisher,2,us weekly
+celebrity-f3ece3dd67366479c0a8,fact_check,4,gossip cop;untrue
+celebrity-f3ece3dd67366479c0a8,publisher,3,gossip cop
+celebrity-a1ef4a29cefc4130f55e,publisher,2,radaronline;us weekly
+celebrity-7269a4627e1d18405c53,publisher,3,vogue
+celebrity-d68bea03a5adfc86b6f7,publisher,3,hollywoodlife
+celebrity-3538b5a3d2b18c54be7b,publisher,1,national enquirer
+celebrity-22221de4df656407f9d2,publisher,2,hollywoodlife;vogue
+celebrity-8c8abe26ac6e85e731ce,publisher,1,hollywood life
+celebrity-56800317a0bdaf641c37,fact_check,1,not true
+celebrity-a821f6282bad36f4116f,publisher,1,national enquirer
+celebrity-98311874fc6687432216,fact_check,1,gossip cop
+celebrity-98311874fc6687432216,publisher,1,gossip cop
+celebrity-1a3d479293c996b1c4b4,publisher,1,national enquirer
+celebrity-9210179027519fde61cb,fact_check,1,debunked
+celebrity-07fb84c298f223c05952,publisher,1,hollywoodlife
+celebrity-2ee313ea2dc9ddbcc2d9,publisher,1,hollywoodlife
+celebrity-95ffee5e3ded67ef5614,publisher,1,hollywoodlife
+celebrity-95ffee5e3ded67ef5614,boilerplate,1,click here
+celebrity-b34879c0623a23108b27,publisher,2,radaronline
+celebrity-c14a9d06e9086bd09a62,publisher,1,radar online
+celebrity-a1e8640154161059d75d,publisher,1,e! news
+celebrity-5ba95e344f7a10c52b83,publisher,2,radaronline
+celebrity-8a6443a2cf6910b652c6,publisher,1,hollywood life
+celebrity-322a73b6ad3c471d567e,publisher,1,radar online
+celebrity-1c358495662e9a11ed06,publisher,1,national enquirer
+celebrity-c07a677165510b62ccae,publisher,1,tmz
+celebrity-88144a4ee5afd021093a,publisher,1,hollywoodlife
+celebrity-836086e4957e0395aede,fact_check,5,debunked;gossip cop
+celebrity-836086e4957e0395aede,publisher,4,gossip cop
+celebrity-895be3a62316f7362396,publisher,2,tmz;us weekly
+celebrity-a2ebf9b10200e768da6e,publisher,1,national enquirer
+celebrity-eaed6543e69c9ab14546,publisher,1,national enquirer
+celebrity-647bb7e0772a95dae0da,publisher,1,hollywood life
+celebrity-ba6f8c51c9828248972f,publisher,1,hollywoodlife
+celebrity-889221ec2e954972d034,publisher,1,radaronline
+celebrity-bd27e6a6d27e80fc3dbb,publisher,1,radaronline
+celebrity-83c9673eb040cd2ec4a9,fact_check,4,debunking;gossip cop;no truth
+celebrity-83c9673eb040cd2ec4a9,publisher,3,gossip cop;national enquirer
+celebrity-1edaef70f4bf219f734d,publisher,1,radaronline
+celebrity-b8de9af269c780ae15b5,publisher,2,hollywoodlife
+celebrity-9830802cf84d1d8b32a4,fact_check,1,not true
+celebrity-9830802cf84d1d8b32a4,publisher,2,e! news
+celebrity-bcace080a670c58b2b16,fact_check,2,debunked;gossip cop
+celebrity-bcace080a670c58b2b16,publisher,1,gossip cop
+celebrity-ee9458d99f08c414df26,fact_check,3,gossip cop;not true
+celebrity-ee9458d99f08c414df26,publisher,2,gossip cop
+celebrity-c4356f8599798dee1cc8,publisher,1,vogue
+celebrity-fa86e13665c2b41c2559,fact_check,2,gossip cop;not true
+celebrity-fa86e13665c2b41c2559,publisher,1,gossip cop
+celebrity-c597d86c63e31717cf39,publisher,1,radaronline
+celebrity-9a23e71a67be31dd0c4a,publisher,1,radaronline
+celebrity-cdb22417d34195bada38,publisher,1,national enquirer
+celebrity-38d682403a3eb7a9a248,fact_check,1,fabricate
+celebrity-38d682403a3eb7a9a248,publisher,2,radar online
+celebrity-18ee7b8aad576ceb6f12,publisher,1,radaronline
+celebrity-40825bd4ff4757df6347,publisher,1,us weekly
+celebrity-0e24eae6ba8ca28307fa,fact_check,1,false claim
+celebrity-a6a81bff86f0d8963860,publisher,2,national enquirer;vogue
+celebrity-ec36c7cd7543a9be1ea0,fact_check,5,debunked;debunking;gossip cop;not true
+celebrity-ec36c7cd7543a9be1ea0,publisher,1,gossip cop
+celebrity-fa60c6026827e09af9b1,fact_check,4,false rumors;gossip cop;not true
+celebrity-fa60c6026827e09af9b1,publisher,1,gossip cop
+celebrity-fa60c6026827e09af9b1,boilerplate,1,click here
+celebrity-7a85187fe99581c00cf4,fact_check,1,gossip cop
+celebrity-7a85187fe99581c00cf4,publisher,1,gossip cop
+celebrity-4a9f0866027c311684b5,publisher,1,tmz
+celebrity-7e26d0e61bb30c5b7066,fact_check,1,not true
+celebrity-f9654c9b2af8bfef0e3c,publisher,1,e! news
+celebrity-b86d551cd026eb3a5dbf,publisher,1,tmz
+celebrity-1ce38df45c92c16c8151,publisher,1,tmz
+celebrity-d4c861cec964473197e2,publisher,1,us weekly
+celebrity-c6c25957b761891d1652,publisher,2,us weekly
+celebrity-eec3251d41b6e3a14eb1,fact_check,1,not true
+celebrity-e288c8b4259838c374f0,fact_check,4,debunked;fabricating;false reports;gossip cop
+celebrity-e288c8b4259838c374f0,publisher,2,gossip cop;hollywood life
+celebrity-ed9d9beb3e2a36808cf1,publisher,1,tmz
+celebrity-72d83334cb15056b9f66,publisher,1,tmz
+celebrity-ba615cb57450be7330ba,publisher,2,radar online;us weekly
+celebrity-790f9abdfb482a10358d,publisher,2,e! news;tmz
+celebrity-19873a97da14e81ec29e,publisher,1,tmz
+celebrity-a2ed09317e2106e2b1a0,publisher,4,radaronline
+celebrity-876022c5d348195715d5,publisher,1,us weekly
+celebrity-b8c42b336fdcd3a3eacb,fact_check,1,not true
+celebrity-b8c42b336fdcd3a3eacb,boilerplate,1,read more
+celebrity-138c8f17ffcbac351969,fact_check,2,not true
+celebrity-138c8f17ffcbac351969,publisher,5,rolling stone
+celebrity-138c8f17ffcbac351969,historical_1974,2,1974
+celebrity-d41d78693fe6ffab0dfa,publisher,14,vogue
+celebrity-32075affa61b22b44e67,publisher,3,vogue
+celebrity-74b682052bcab41cb88b,publisher,1,e! news
+celebrity-03c38aad88a242246a3e,publisher,1,hollywood life
+celebrity-453584efcb3505256ac4,boilerplate,1,subscribe
+celebrity-cddbec938f808300d879,publisher,1,vogue
+celebrity-82a85f24f14b7c00c428,publisher,2,tmz
+celebrity-27777bc5be223b6b7300,publisher,1,e! news
+celebrity-9cd4c749173698b99076,fact_check,1,debunked
+celebrity-cb01522c6c1da4c23743,publisher,1,e! news
+celebrity-f9a365c9fbc34d818c5d,publisher,3,us weekly
+celebrity-8f972e73ba29765b2526,publisher,1,hollywood life
+celebrity-4b010e66e704141a04e2,publisher,3,e! news;vogue
+celebrity-581379696bd89a923783,publisher,1,tmz
+celebrity-7ae0a08c910b7a767969,publisher,3,tmz;us weekly;vogue
+celebrity-f6e1a240933f5eb00878,publisher,2,radar online
+celebrity-987a22d224c5caae088a,publisher,1,us weekly
+celebrity-987a22d224c5caae088a,boilerplate,1,subscribe
+celebrity-fe1387af2bf8491d16c5,fact_check,5,debunk;fabricating;gossip cop
+celebrity-fe1387af2bf8491d16c5,publisher,5,gossip cop;hollywoodlife;radaronline
+celebrity-cd97ae7cf98d476996b4,publisher,1,us weekly
+celebrity-db11872ef360e072a447,publisher,1,rolling stone
+celebrity-8bc84eb0fb101e2e98f9,publisher,1,e! news
+celebrity-0b385cebd53ad5b1f91b,publisher,3,e! news;tmz
+celebrity-30e85bdcb75356cd147d,publisher,2,vogue
+celebrity-c1690d1a6916b1b2bd5f,boilerplate,1,click here
+celebrity-1000e2262bd4649f9155,fact_check,1,not true
+celebrity-440eb4cebd8091f174f0,publisher,1,people magazine
+celebrity-072cc7add65d3130a215,publisher,1,tmz
+celebrity-9927a91a8a1f7c5e72f0,publisher,1,us weekly
+celebrity-a8ea82bf33585523a54b,fact_check,1,untrue
+celebrity-3121f745d1a8fe5bec82,publisher,1,e! news
+celebrity-8d04ee2ee5bc197bfc41,publisher,1,us weekly
+celebrity-a751ba9f76d5efb5fa1e,publisher,2,us weekly
+celebrity-544863283489dcda7594,publisher,1,us weekly
+celebrity-7e4c4183d9d6b44208d1,publisher,2,e! news;us weekly
+celebrity-1336ae4c0b09949d9649,publisher,1,e! news
+celebrity-4d6750cae086a27e61ef,boilerplate,1,advertisement
+celebrity-1c56df39eedcf2e87f9e,publisher,1,us weekly
+celebrity-e887ed259d0afc7a4ba1,fact_check,1,not true
+celebrity-e887ed259d0afc7a4ba1,publisher,4,e! news;us weekly
+celebrity-e887ed259d0afc7a4ba1,boilerplate,1,advertisement
+celebrity-b0f0da637b2e50a5b4e4,fact_check,1,debunked
+celebrity-b0f0da637b2e50a5b4e4,publisher,1,vogue
+celebrity-63126207f9d164108bf3,publisher,1,us weekly
+celebrity-1969edb9b92cb65c6fdc,boilerplate,1,share this
+celebrity-97216adb5bcb87bb23c2,publisher,1,us weekly
+celebrity-3dc7904184c460c72003,publisher,1,e! news
+celebrity-5f8c7280071806cfeb02,publisher,2,e! news
+celebrity-729ae7f0f5abcf632201,publisher,1,us weekly
+celebrity-a19a3cdf8795b2362dfd,fact_check,2,not true
+celebrity-a19a3cdf8795b2362dfd,publisher,1,tmz
+celebrity-481ccb2abc16b9daf361,publisher,1,us weekly
+celebrity-789d80b6ebf1576ac436,fact_check,1,not true
+celebrity-789d80b6ebf1576ac436,publisher,2,us weekly
+celebrity-89fc916e57b50a395c70,publisher,1,e! news
+celebrity-d5707926347e12c27d2b,publisher,1,e! news
+celebrity-c3e1ddd5485fbb9c3c15,fact_check,2,false rumors;gossip cop
+celebrity-c3e1ddd5485fbb9c3c15,publisher,2,gossip cop;radaronline

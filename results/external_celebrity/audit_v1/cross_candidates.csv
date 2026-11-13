@@ -1,0 +1,10 @@
+article_id,other_id,other_dataset,label,other_label,field,method,jaccard,containment,cross_label,manual_status
+celebrity-63c963b78d409e25e251,ISOT-12805,ISOT,0,1,body,prefix300,1.0,1.0,True,unreviewed_candidate
+celebrity-63c963b78d409e25e251,ISOT-12805,ISOT,0,1,body,primary_full,0.2028301886792453,0.9373297002724795,True,unreviewed_candidate
+celebrity-63c963b78d409e25e251,ISOT-12805,ISOT,0,1,body,primary_head100,0.8640776699029126,0.9270833333333334,True,unreviewed_candidate
+celebrity-63c963b78d409e25e251,ISOT-12805,ISOT,0,1,body,sensitivity_full,0.2089642640823743,0.9530386740331491,True,unreviewed_candidate
+celebrity-63c963b78d409e25e251,ISOT-12805,ISOT,0,1,body,sensitivity_head100,0.8666666666666667,0.9285714285714286,True,unreviewed_candidate
+celebrity-63c963b78d409e25e251,ISOT-12805,ISOT,0,1,title_body,sensitivity_head100,0.6065573770491803,0.7551020408163265,True,unreviewed_candidate
+celebrity-b6157d1755fbc810cc0c,WELFake-58856,WELFake_residual,1,1,body,primary_full,0.4863013698630137,0.902542372881356,False,unreviewed_candidate
+celebrity-b6157d1755fbc810cc0c,WELFake-58856,WELFake_residual,1,1,body,sensitivity_full,0.5344418052256532,0.9453781512605042,False,unreviewed_candidate
+celebrity-b6157d1755fbc810cc0c,WELFake-58856,WELFake_residual,1,1,title_body,sensitivity_full,0.5370370370370371,0.9392712550607287,False,unreviewed_candidate

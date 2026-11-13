@@ -1,0 +1,17 @@
+{
+  "protocol": "celebrity-external-v1",
+  "zip_sha256": "649dd52b0378b0f95a68afd4e55cfe8e3c70a6bd9d647e10194ebb69fb562f77",
+  "analysis_sha256": "29e96d7b7fe60a94a2652c704f2bd4be9b5bb7e45f540eabeb19320276788ab5",
+  "sources": ["ISOT", "McIntire", "WELFake_residual"],
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7],
+  "conditions": ["C0", "E", "R_E", "SE", "R_SE", "L", "LE", "L_RE", "SLE", "L_RSE"],
+  "compatibility_subset": ["C0", "E", "R_E", "L", "LE", "L_RE", "SLE", "L_RSE"],
+  "primary_contrasts": [["E", "R_E"], ["SE", "R_SE"]],
+  "secondary_contrasts": [["LE", "L_RE"], ["SLE", "L_RSE"]],
+  "target_selection_seed": 20261112,
+  "target_length_bins": 10,
+  "long_article_words": 3000,
+  "near": {"primary_k": 5, "primary_jaccard": 0.8, "sensitivity_k": 3, "sensitivity_jaccard": 0.5, "containment": 0.9, "containment_min_shingles": 50, "head_words": 100, "prefix_chars": 300},
+  "transformer": {"max_len": 256, "epochs": 2, "bs": 16, "lr": 0.00003},
+  "exclusion_policy": "Conservatively exclude all detected exact, prefix, primary or sensitivity near-overlap candidates with any frozen source article; close over provisional numeric story groups and internal duplicate components. Quarantine decoding/missing/under-20-word articles with their components. No automatic exclusion for publisher, fact-check language or long articles. Candidate exclusions do not imply manual confirmation."
+}

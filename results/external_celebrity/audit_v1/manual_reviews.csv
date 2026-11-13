@@ -1,0 +1,3 @@
+article_id,other_id,status,scope,note
+celebrity-63c963b78d409e25e251,ISOT-12805,confirmed_shared_content,manual_text_comparison,"Matching opening and multiple shared passages; source is a shorter adapted copy. Celebrity label 0 versus ISOT label 1 is an unresolved label conflict, not a relabelling decision."
+celebrity-b6157d1755fbc810cc0c,WELFake-58856,confirmed_shared_content,manual_text_comparison,"Same RuPaul allegation and many shared passages with additions/deletions; both supplied labels 1. Not a byte-identical duplicate."

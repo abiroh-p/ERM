@@ -47,6 +47,11 @@ A complete TeX Live installation with `pdflatex` and `bibtex` is required. The s
 
 ## Data and construction provenance
 
+Celebrity is prepared as a separate held-out external-validation extension;
+see [`results/external_celebrity/README.md`](results/external_celebrity/README.md)
+for its audit, frozen protocol, preparation and execution commands. No external
+scores are included in the original three-corpus findings above.
+
 Article text and the large analysis CSV/NER cache are not redistributed here. Obtain ISOT (`Fake.csv`, `True.csv`), the 6,335-row McIntire mirror (`fake_or_real_news.csv`) and WELFake (`WELFake_Dataset.csv`) from the sources cited in the manuscript. Put them in flat or corpus-specific folders under `data/raw/`.
 
 | Corpus | Real (0) | Fake (1) | Total |

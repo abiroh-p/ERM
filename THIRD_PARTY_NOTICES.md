@@ -8,6 +8,17 @@ The root `LICENSE` applies to the original ERM software and its associated techn
 
 The MIT code license does not assign a new license to the research manuscript, paper assets, result/data archives or third-party materials. Source datasets, model weights, software dependencies and any other third-party content retain their own terms. This repository does not redistribute the original news articles, analysis CSV or NER cache.
 
+## Celebrity external-validation input
+
+The separately supplied `fakeNewsDatasets.zip` is third-party data. Its Celebrity
+subtree is used locally; article text is excluded from the extension package.
+The supplied top-level README is preserved byte-for-byte under
+`results/external_celebrity/audit_v1/SUPPLIED_README.txt`, including its original
+encoding defects. It requests citation of Pérez-Rosas, Kleinberg, Lefevre and
+Mihalcea, *Automatic Detection of Fake News*, COLING 2018. It supplies no explicit
+license grant for redistribution of article text; this repository's MIT code
+license does not grant rights to those articles or to that README.
+
 ## Springer Nature template files
 
 The following files are supplied unchanged from the publisher template:

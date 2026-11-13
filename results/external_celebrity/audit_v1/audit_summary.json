@@ -1,0 +1,62 @@
+{
+  "protocol": "celebrity-external-v1",
+  "zip_sha256": "649dd52b0378b0f95a68afd4e55cfe8e3c70a6bd9d647e10194ebb69fb562f77",
+  "analysis_sha256": "29e96d7b7fe60a94a2652c704f2bd4be9b5bb7e45f540eabeb19320276788ab5",
+  "config_sha256": "efa386fe66fff7ce07f4e9639e67c93a5e4a597adf11948d5f08ccd6349a648e",
+  "cross_corpus_complete": true,
+  "source_rows": {
+    "ISOT": 38030,
+    "McIntire": 6005,
+    "WELFake_residual": 17162
+  },
+  "before": {
+    "fake": 250,
+    "legitimate": 250
+  },
+  "after": {
+    "fake": 248,
+    "legitimate": 248
+  },
+  "excluded": 4,
+  "utf8_errors": 0,
+  "empty": 0,
+  "under_20_words": 0,
+  "missing_body": 1,
+  "missing_title": 0,
+  "word_lengths": {
+    "count": 500.0,
+    "mean": 424.102,
+    "std": 768.6688540655337,
+    "min": 28.0,
+    "25%": 213.25,
+    "50%": 315.5,
+    "75%": 431.0,
+    "max": 14777.0
+  },
+  "long_articles": [
+    "celebrity-138c8f17ffcbac351969",
+    "celebrity-88cb2a17bd74b25ea3fc",
+    "celebrity-c1690d1a6916b1b2bd5f",
+    "celebrity-e887ed259d0afc7a4ba1"
+  ],
+  "exact_full_pairs": 0,
+  "full_5shingle_primary_pairs": 0,
+  "internal_evidence": 0,
+  "cross_evidence": 9,
+  "cross_articles": 2,
+  "internal_cross_label_pairs": 0,
+  "language_flags": {
+    "fact_check": 36,
+    "publisher": 167,
+    "boilerplate": 10,
+    "historical_1974": 1
+  },
+  "provisional_story_groups": 250,
+  "manually_confirmed_overlap": 0,
+  "limitations": [
+    "Numeric pairs are provisional, not semantic verification.",
+    "Lexical screens cannot establish independence or label correctness.",
+    "1974 interview precludes a temporal holdout claim.",
+    "Source title/body split follows builder's first newline; raw source fields not substituted."
+  ]
+}
