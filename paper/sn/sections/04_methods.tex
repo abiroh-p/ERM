@@ -1,6 +1,6 @@
 \section{Methodology}
 \subsection{Datasets}\label{sec:data}
-We use three English full-text news corpora: ISOT~\cite{ahmed2017isot} (real articles from Reuters, fake from sites flagged by fact-checkers; 2016--2017), the McIntire ``Fake or Real News'' set~\cite{mcintire2017fakeorreal}, and WELFake~\cite{verma2021welfake}, a collection merged from several sources. Each document is represented as title plus body. ISOT's \texttt{subject} and \texttt{date} fields are never used. LIAR~\cite{wang2017liar} and FakeNewsNet~\cite{shu2020fakenewsnet} were considered but excluded (short claims; crawling required).
+The principal gap analysis uses three English full-text news corpora: ISOT~\cite{ahmed2017isot} (real articles from Reuters, fake from sites flagged by fact-checkers; 2016--2017), the McIntire ``Fake or Real News'' set~\cite{mcintire2017fakeorreal}, and WELFake~\cite{verma2021welfake}, a collection merged from several sources. Each document is represented as title plus body. ISOT's \texttt{subject} and \texttt{date} fields are never used. LIAR~\cite{wang2017liar} and FakeNewsNet~\cite{shu2020fakenewsnet} were considered but excluded (short claims; crawling required).
 
 \subsection{Audit and cleaning}
 \emph{Normalization.} Two passes: lowercase, punctuation and whitespace collapse; and additionally removal of URLs, handles, a leading ``CITY (Reuters) --'' dateline, agency tags and the word ``Reuters'', so that the same story cleaned differently still matches (used for matching only).

@@ -9,3 +9,15 @@
 # Unmodified publisher assets use their original line endings and spacing.
 paper/sn/sn-jnl.cls binary
 paper/sn/sn-mathphys-num.bst binary
+
+# Frozen Celebrity audit bindings refer to exact archived bytes, including CRLF.
+results/external_celebrity/audit_v1/audit_summary.json binary
+results/external_celebrity/audit_v1/inventory.csv binary
+results/external_celebrity/audit_v1/eligibility.csv binary
+results/external_celebrity/audit_v1/internal_candidates.csv binary
+results/external_celebrity/audit_v1/cross_candidates.csv binary
+configs/external_celebrity_v1.json -text
+results/external_celebrity/prepared_v1/inputs.json -text
+src/experiments/exp_tfidf.py text eol=lf
+src/experiments/exp_transformer.py text eol=lf
+src/experiments/paired_sampling.py text eol=lf

@@ -1,0 +1,29 @@
+\FloatBarrier
+\section{Celebrity external-validation details}\label{sec:external_appendix}
+The following tables concern Celebrity only and are not pooled with the three-corpus transfers. Baseline AUC uses the fixed 496-article primary target. Secondary contrasts use the separate 428-article length-matched target and target labels. Parenthesized SD describes variability across eight training/random-deletion seeds; it is not a confidence interval. All per-seed contrasts are differences in cross-dataset AUC under the frozen external protocol. Source and target identities are paired within each comparison. Full-precision metrics, all job records, target selections and provenance accompany Online Resource 2.
+
+\begin{table}[htbp]
+\caption{Celebrity baseline (C0) cross-dataset AUC: mean (sample SD) across eight seeds on the 496-article target.}\label{tab:celebrity_baselines}
+\centering\footnotesize\adjustbox{max width=\linewidth}{\input{../tables/tab_celebrity_baselines}}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Celebrity secondary diagnostics on the 428-article length-matched target: mean AUC difference (sample SD) across eight seeds. Positive favors masking over the matched length-plus-random-deletion control. No comparison with the primary target is implied.}\label{tab:celebrity_secondary}
+\centering\footnotesize\adjustbox{max width=\linewidth}{\input{../tables/tab_celebrity_secondary}}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Celebrity TF-IDF per-seed AUC contrasts by training source. First two contrasts: primary (496 articles); last two: secondary (428 articles). Residual: WELFake residual.}
+\centering\scriptsize\adjustbox{max width=\linewidth}{\input{../tables/tab_celebrity_seeds_tfidf}}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Celebrity DistilBERT per-seed AUC contrasts by training source. First two contrasts: primary (496 articles); last two: secondary (428 articles).}
+\centering\scriptsize\adjustbox{max width=\linewidth}{\input{../tables/tab_celebrity_seeds_distilbert}}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Celebrity RoBERTa per-seed AUC contrasts by training source. First two contrasts: primary (496 articles); last two: secondary (428 articles). No article-level sampling intervals are estimated.}
+\centering\scriptsize\adjustbox{max width=\linewidth}{\input{../tables/tab_celebrity_seeds_roberta}}
+\end{table}
+\FloatBarrier

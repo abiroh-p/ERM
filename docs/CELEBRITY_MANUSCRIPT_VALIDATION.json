@@ -1,0 +1,22 @@
+{
+  "base_commit": "f96905cba35e8526a00bf046555af98461da87de",
+  "manuscript_pages": 38,
+  "abstract_words": 218,
+  "original_result_table_figure_files_byte_identical": 72,
+  "external_fits": 720,
+  "external_contrasts": 288,
+  "external_mean_sd_rows": 36,
+  "external_seed_table_cells": 288,
+  "source_condition_summaries": 90,
+  "no_undefined_citations_or_references": true,
+  "no_overfull_boxes": true,
+  "all_new_table_values_checked": true,
+  "corrupted_fit_rejected": true,
+  "esm2_extracted_rebuild_identical": true,
+  "tests_log": "40 passed, 1 warning in 74.98s (0:01:14)",
+  "flat_source_extracted_compile_text_identical": true,
+  "all_pdf_fonts_embedded": true,
+  "all_38_pages_visually_reviewed": true,
+  "repo_patch_applies_to_base": "f96905cba35e8526a00bf046555af98461da87de",
+  "repo_patch_changed_files_byte_identical": 44
+}

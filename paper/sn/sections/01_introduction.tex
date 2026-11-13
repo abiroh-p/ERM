@@ -10,7 +10,7 @@ We make four contributions.
 \item \textbf{Findings for a linear model.} In the paired validation, 26.2\% of the TF-IDF cross-dataset AUC gap is removed by the three interventions, almost entirely through length and entity cues; archived exploratory results suggest transferable web-boilerplate signal; entity masking beats its size-matched random control, also after length matching; and the effects differ strongly by dataset pair.
 \item \textbf{A model-dependence result.} In document-paired validation, entity masking performs worse than matched random deletion for DistilBERT, while neither transformer has an established positive pooled S+L+E effect beyond its length-matched random control. Responses vary across models and dataset pairs; a large raw gap reduction does not establish a cue-specific benefit.
 \end{enumerate}
-All claims are limited to three English news corpora from 2016--2017 and three models (a linear lexical model and two fine-tuned transformers).
+The principal gap analysis concerns three English news corpora dominated by 2016--2017 politics and three models (a linear lexical model and two fine-tuned transformers). A separate, audited Celebrity target tests external transfer without becoming a fourth training corpus (Section~\ref{sec:external}). Its source-dependent effects qualify the scope of the original findings.
 
 \subsection{Objectives}
 O1 establishes the audited analysis corpora. O2 addresses the first research question, O3 the second, and O4 the third.
@@ -18,7 +18,7 @@ O1 establishes the audited analysis corpora. O2 addresses the first research que
 \item[O1] Audit three public corpora for overlap, duplication and label direction, and construct a defensible set of datasets.
 \item[O2] Quantify, for a TF-IDF logistic-regression detector, how much of the cross-dataset gap is removed by source-marker masking, length matching and entity masking, alone and combined.
 \item[O3] Compare source-marker and entity masking, alone and combined with length matching, against deletion of an equal number of random words; compare length matching alone against unconstrained sampling.
-\item[O4] Report how the effects vary across ordered dataset pairs, and whether they carry over to fine-tuned transformers (DistilBERT and RoBERTa).
+\item[O4] Report how the effects vary across ordered dataset pairs, and whether they carry over to fine-tuned transformers (DistilBERT and RoBERTa), with a separate held-out Celebrity evaluation of source-specific transfer.
 \end{enumerate}
 
 

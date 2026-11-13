@@ -97,3 +97,16 @@ Each transformer stage distributes independent fits over two GPUs. Keep new run 
 ## Citation and licensing
 
 `CITATION.cff` identifies this research repository. The manuscript remains unpublished; update citation metadata when a public paper identifier exists. Original ERM code and its associated technical documentation are licensed under the [MIT License](LICENSE). The manuscript, research/result archives, publisher template files and other third-party materials are outside this code-license grant; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Source datasets retain their own terms.
+
+## Completed Celebrity external validation
+
+The separate held-out extension completed **720 fits (240 per model)** on 496 fixed primary target articles and 428 secondary length-matched articles. Primary entity-minus-random means vary by training source; the original three-corpus pooled results above remain unchanged. See the manuscript's separate external-validation section and `results/external_celebrity/completed_v1/`.
+
+Recompute all external summaries on CPU, without article text, cached spans or GPUs:
+
+```bash
+python scripts/rebuild_external_celebrity_results.py
+python scripts/generate_external_celebrity_tables.py
+```
+
+The immutable source is `results/external_celebrity/accounts/ERM_Celebrity_Results.zip`. It includes all 720 fit records, code/configuration provenance and target/source selections; it excludes article text and caches. Per-article predicted scores were not exported, so this rebuild checks saved-metric aggregation rather than independently recalculating metrics from predictions. Original training, labels and exhaustive absence of overlap are not independently certified. The Celebrity extension uses its own primary/secondary comparisons and is not pooled with the original six transfers.

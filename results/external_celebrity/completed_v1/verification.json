@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "fits_per_model": {
+    "tfidf": 240,
+    "distilbert": 240,
+    "roberta": 240
+  },
+  "fits": 720,
+  "contrasts": 288,
+  "summary_rows": 36,
+  "source_condition_summaries": 90,
+  "input_sha256": "d6685b951f49d0f386adbb6a5921912c8155b55d00ea398e2d8b825bdcb04779",
+  "target_sizes": {
+    "primary": 496,
+    "secondary": 428
+  },
+  "limits": "Recomputes saved-output aggregation, not training, raw-source overlap, NER extraction or metrics from prediction scores. No new inferential tests or source pooling."
+}
